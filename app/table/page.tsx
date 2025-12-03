@@ -35,105 +35,92 @@ const statusOptionsWithSelected = [
 
 export default function TasksPage() {
   return (
-    <SidebarProvider
-      style={
-        {
-          "--sidebar-width": "calc(var(--spacing) * 72)",
-          "--header-height": "calc(var(--spacing) * 12)",
-        } as React.CSSProperties
-      }
-    >
-      <AppSidebar variant="inset" />
-      <SidebarInset>
-        <SiteHeader />
-        <div className="flex flex-1 flex-col">
-          <div className="flex flex-col gap-4 p-4 md:gap-6 md:p-6">
+    <div className="flex flex-1 flex-col">
+      <div className="flex flex-col gap-4 p-4 md:gap-6 md:p-6">
 
-            <div className="flex flex-col gap-16 bg-gray-100 p-16">
-              <div className="flex flex-col gap-4">
-                <h3 className="text-xl font-bold text-gray-900">
-                  Advanced Filter Dropdown
-                </h3>
-                <div className="bg-popover text-popover-foreground rounded-md border p-4 shadow-md">
-                  <AdvancedFilter state="default" />
-                </div>
-              </div>
-              <div className="flex flex-col gap-4">
-                <h3 className="text-xl font-bold text-gray-900">
-                  When dragging into a group: show ring-ring ring-2
-                </h3>
-                <div className="bg-popover text-popover-foreground rounded-md border p-4 shadow-md">
-                  <AdvancedFilter state="drag" />
-                </div>
-              </div>
+        <div className="flex flex-col gap-16 bg-gray-100 p-16">
+          <div className="flex flex-col gap-4">
+            <h3 className="text-xl font-bold text-gray-900">
+              Advanced Filter Dropdown
+            </h3>
+            <div className="bg-popover text-popover-foreground rounded-md border p-4 shadow-md w-fit">
+              <AdvancedFilter state="default" />
             </div>
-
-            <div className="flex flex-col gap-20 bg-gray-100 p-16">
-              <div className="flex flex-col gap-4">
-                <h3 className="text-xl font-bold text-gray-900">
-                  Filter not set
-                </h3>
-                <div className="flex flex-col gap-2 bg-background p-4">
-                  <div className="flex items-center gap-2">
-                    <AddFilterButton />
-                  </div>
-                  <DataTable data={sampleData} />
-                </div>
-              </div>
-
-              <div className="flex flex-col gap-4">
-                <h3 className="text-xl font-bold text-gray-900">
-                  Filter added &gt; Status
-                </h3>
-                <div className="flex flex-col gap-2 bg-background p-4">
-                  <div className="flex items-center gap-2">
-                    <SimpleFilter options={statusOptions} />
-                    <AddFilterButton />
-                    <Button className="self-end ml-auto text-muted-foreground" size="sm" variant="ghost">
-                      Reset
-                    </Button>
-                  </div>
-                  <DataTable data={sampleData} />
-                </div>
-              </div>
-
-              <div className="flex flex-col gap-4">
-                <h3 className="text-xl font-bold text-gray-900">
-                  Filter added &gt; Status, Priority, and some filters selected for Status
-                </h3>
-                <div className="flex flex-col gap-2 bg-background p-4">
-                  <div className="flex items-center gap-2">
-                    <SimpleFilter options={statusOptionsWithSelected} />
-                    <SimpleFilter options={statusOptions} label="Priority" />
-                    <AddFilterButton />
-                    <Button className="self-end ml-auto text-muted-foreground" size="sm" variant="ghost">
-                      Reset
-                    </Button>
-                  </div>
-                  <DataTable data={sampleData} />
-                </div>
-              </div>
-
-              <div className="flex flex-col gap-4">
-                <h3 className="text-xl font-bold text-gray-900">
-                  Advanced Filter Button with dropdown
-                </h3>
-                <div className="flex flex-col gap-2 bg-background p-4">
-                  <div className="flex items-center gap-2">
-                    <AdvancedFilterButton />
-                    <AddFilterButton />
-                    <Button className="self-end ml-auto text-muted-foreground" size="sm" variant="ghost">
-                      Reset
-                    </Button>
-                  </div>
-                  <DataTable data={sampleData} />
-                </div>
-              </div>
+          </div>
+          <div className="flex flex-col gap-4">
+            <h3 className="text-xl font-bold text-gray-900">
+              When dragging into a group: show ring-ring ring-2
+            </h3>
+            <div className="bg-popover text-popover-foreground rounded-md border p-4 shadow-md w-fit">
+              <AdvancedFilter state="drag" />
             </div>
-
           </div>
         </div>
-      </SidebarInset>
-    </SidebarProvider>
+
+        <div className="flex flex-col gap-20 bg-gray-100 p-16">
+          <div className="flex flex-col gap-4">
+            <h3 className="text-xl font-bold text-gray-900">
+              Filter not set
+            </h3>
+            <div className="flex flex-col gap-2 bg-background p-4">
+              <div className="flex items-center gap-2">
+                <AddFilterButton />
+              </div>
+              <DataTable data={sampleData} />
+            </div>
+          </div>
+
+          <div className="flex flex-col gap-4">
+            <h3 className="text-xl font-bold text-gray-900">
+              Filter added &gt; Status
+            </h3>
+            <div className="flex flex-col gap-2 bg-background p-4">
+              <div className="flex items-center gap-2">
+                <SimpleFilter options={statusOptions} />
+                <AddFilterButton />
+                <Button className="self-end ml-auto text-muted-foreground" size="sm" variant="ghost">
+                  Reset
+                </Button>
+              </div>
+              <DataTable data={sampleData} />
+            </div>
+          </div>
+
+          <div className="flex flex-col gap-4">
+            <h3 className="text-xl font-bold text-gray-900">
+              Filter added &gt; Status, Priority, and some filters selected for Status
+            </h3>
+            <div className="flex flex-col gap-2 bg-background p-4">
+              <div className="flex items-center gap-2">
+                <SimpleFilter options={statusOptionsWithSelected} />
+                <SimpleFilter options={statusOptions} label="Priority" />
+                <AddFilterButton />
+                <Button className="self-end ml-auto text-muted-foreground" size="sm" variant="ghost">
+                  Reset
+                </Button>
+              </div>
+              <DataTable data={sampleData} />
+            </div>
+          </div>
+
+          <div className="flex flex-col gap-4">
+            <h3 className="text-xl font-bold text-gray-900">
+              Advanced Filter Button with dropdown
+            </h3>
+            <div className="flex flex-col gap-2 bg-background p-4">
+              <div className="flex items-center gap-2">
+                <AdvancedFilterButton />
+                <AddFilterButton />
+                <Button className="self-end ml-auto text-muted-foreground" size="sm" variant="ghost">
+                  Reset
+                </Button>
+              </div>
+              <DataTable data={sampleData} />
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
   )
 }
