@@ -29,17 +29,18 @@ import { DataTablePagination } from "./data-table-pagination"
 import { DataTableToolbar } from "./data-table-toolbar"
 
 import { columns as tasksColumns } from "./columns"
+import { Task } from "./schema"
 import tasksData from "@/components/tasks-table/tasks.json"
 
-interface DataTableProps<TData, TValue> {
-  columns?: ColumnDef<TData, TValue>[]
-  data?: TData[]
+interface DataTableProps {
+  columns?: ColumnDef<Task, unknown>[]
+  data?: Task[]
 }
 
-export function DataTable<TData, TValue>({
+export function DataTable({
   columns = tasksColumns,
-  data = tasksData,
-}: DataTableProps<TData, TValue>) {
+  data = tasksData as Task[],
+}: DataTableProps) {
   const [rowSelection, setRowSelection] = React.useState({})
   const [columnVisibility, setColumnVisibility] =
     React.useState<VisibilityState>({})
