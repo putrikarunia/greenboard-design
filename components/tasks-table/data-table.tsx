@@ -28,14 +28,17 @@ import {
 import { DataTablePagination } from "./data-table-pagination"
 import { DataTableToolbar } from "./data-table-toolbar"
 
+import { columns as tasksColumns } from "./columns"
+import tasksData from "@/components/tasks-table/tasks.json"
+
 interface DataTableProps<TData, TValue> {
-  columns: ColumnDef<TData, TValue>[]
-  data: TData[]
+  columns?: ColumnDef<TData, TValue>[]
+  data?: TData[]
 }
 
 export function DataTable<TData, TValue>({
-  columns,
-  data,
+  columns = tasksColumns,
+  data = tasksData,
 }: DataTableProps<TData, TValue>) {
   const [rowSelection, setRowSelection] = React.useState({})
   const [columnVisibility, setColumnVisibility] =
@@ -74,7 +77,6 @@ export function DataTable<TData, TValue>({
 
   return (
     <div className="flex flex-col gap-4">
-      <DataTableToolbar table={table} />
       <div className="overflow-hidden rounded-md border">
         <Table>
           <TableHeader>

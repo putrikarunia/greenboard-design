@@ -1,0 +1,1001 @@
+{
+  "id": "canvas-1",
+  "name": "Canvas 1",
+  "elements": [
+    {
+      "id": "html-iXZle9ILb62PaKa4D1KZU",
+      "type": "html",
+      "tag": "div",
+      "styles": {
+        "background": "#f3f4f6",
+        "display": "flex",
+        "flexDirection": "column",
+        "padding": "64px"
+      },
+      "canvasPosition": {
+        "x": 108.23897004845104,
+        "y": -219.20564313855039
+      },
+      "children": [
+        {
+          "id": "html-RGFnnFJ-V7qceYo1-vWjq",
+          "type": "html",
+          "tag": "div",
+          "styles": {
+            "background": "#f3f4f6",
+            "display": "flex",
+            "flexDirection": "column"
+          },
+          "canvasPosition": {
+            "x": 138.60140590200444,
+            "y": -207.99345768374167
+          },
+          "children": [
+            {
+              "id": "html-XABYDoou2ZNpJbe4pWZEJ",
+              "type": "html",
+              "tag": "h3",
+              "styles": {
+                "fontSize": "20px",
+                "fontWeight": "bold",
+                "color": "#111827",
+                "margin": "0"
+              },
+              "canvasPosition": {
+                "x": 120,
+                "y": 120
+              },
+              "children": [
+                {
+                  "id": "text-PurwyLJMWp2s8ienhPmJV",
+                  "type": "text",
+                  "tag": "span",
+                  "text": "Advanced Filter Dropdown"
+                }
+              ]
+            },
+            {
+              "id": "html-ojGOjbCbKSUD7WB7-OlC8",
+              "type": "html",
+              "tag": "div",
+              "styles": {
+                "background": "#f3f4f6",
+                "display": "flex",
+                "flexDirection": "column",
+                "padding": "16px",
+                "backgroundColor": ""
+              },
+              "canvasPosition": {
+                "x": 100,
+                "y": 100
+              },
+              "children": [
+                {
+                  "id": "component-wb3O47Jf6J82UKMSCfequ",
+                  "type": "component",
+                  "componentName": "AdvancedFilter",
+                  "props": {
+                    "state": "default"
+                  },
+                  "styles": {
+                    "width": "fit-content",
+                    "height": "fit-content"
+                  },
+                  "canvasPosition": {
+                    "x": 117.3580545774648,
+                    "y": 253.80171654929578
+                  },
+                  "children": []
+                }
+              ],
+              "props": {
+                "className": "bg-popover text-popover-foreground rounded-md border p-4 shadow-md outline-hidden"
+              }
+            }
+          ],
+          "props": {
+            "className": "gap-4"
+          }
+        },
+        {
+          "id": "html-Lh3O0d9rSbtTQ9AXJuBlW",
+          "type": "html",
+          "tag": "div",
+          "styles": {
+            "background": "#f3f4f6",
+            "display": "flex",
+            "flexDirection": "column"
+          },
+          "canvasPosition": {
+            "x": 100,
+            "y": 100
+          },
+          "children": [
+            {
+              "id": "html-4Tvk7Gmm6t4XU_iKSHh8S",
+              "type": "html",
+              "tag": "h3",
+              "styles": {
+                "fontSize": "20px",
+                "fontWeight": "bold",
+                "color": "#111827",
+                "margin": "0"
+              },
+              "canvasPosition": {
+                "x": 100,
+                "y": 100
+              },
+              "children": [
+                {
+                  "id": "text-3nif4Y8p8WQhqYfMUwMRG",
+                  "type": "text",
+                  "tag": "span",
+                  "text": "When dragging into a group: show ring-ring ring-2"
+                }
+              ]
+            },
+            {
+              "id": "html-Ac3onFQ4fQK15j7bZCTQn",
+              "type": "html",
+              "tag": "div",
+              "styles": {
+                "background": "#f3f4f6",
+                "display": "flex",
+                "flexDirection": "column",
+                "padding": "16px",
+                "backgroundColor": ""
+              },
+              "canvasPosition": {
+                "x": 99.57342954159593,
+                "y": 307.38062393887947
+              },
+              "children": [
+                {
+                  "id": "component-66QIdUSwBqBIxqfwbHF8B",
+                  "type": "component",
+                  "componentName": "AdvancedFilter",
+                  "props": {
+                    "state": "drag"
+                  },
+                  "styles": {
+                    "width": "fit-content",
+                    "height": "fit-content"
+                  },
+                  "canvasPosition": {
+                    "x": -272.126843696944,
+                    "y": 96.33372241086587
+                  },
+                  "children": []
+                }
+              ],
+              "props": {
+                "className": "bg-popover text-popover-foreground rounded-md border p-4 shadow-md outline-hidden"
+              }
+            }
+          ],
+          "props": {
+            "className": "gap-4"
+          }
+        }
+      ],
+      "props": {
+        "className": "gap-16"
+      }
+    },
+    {
+      "id": "html-jtT2saH3CU9_dl1BBaATY",
+      "type": "html",
+      "tag": "div",
+      "styles": {
+        "background": "#f3f4f6",
+        "display": "flex",
+        "flexDirection": "column",
+        "padding": "64px"
+      },
+      "canvasPosition": {
+        "x": 1051.3249268035026,
+        "y": -204.77163912520578
+      },
+      "children": [
+        {
+          "id": "html-5tWoQFYKrcdf4usqJbcQg",
+          "type": "html",
+          "tag": "div",
+          "styles": {
+            "background": "#f3f4f6",
+            "display": "flex",
+            "flexDirection": "column"
+          },
+          "canvasPosition": {
+            "x": 100,
+            "y": 100
+          },
+          "children": [
+            {
+              "id": "html-qW908fLThFm7r4-tToX2D",
+              "type": "html",
+              "tag": "h3",
+              "styles": {
+                "fontSize": "20px",
+                "fontWeight": "bold",
+                "color": "#111827",
+                "margin": "0"
+              },
+              "canvasPosition": {
+                "x": 120,
+                "y": 120
+              },
+              "children": [
+                {
+                  "id": "text-s9iVB33E1O1M2a4RaWCDB",
+                  "type": "text",
+                  "tag": "span",
+                  "text": "Filter not set"
+                }
+              ]
+            },
+            {
+              "id": "html-5k_U8qXVFBEUjrQfBZRad",
+              "type": "html",
+              "tag": "div",
+              "styles": {
+                "background": "#f3f4f6",
+                "display": "flex",
+                "flexDirection": "column",
+                "padding": "16px",
+                "backgroundColor": ""
+              },
+              "canvasPosition": {
+                "x": 101.96200431913027,
+                "y": 656.6758269362164
+              },
+              "children": [
+                {
+                  "id": "html-ySnbRpqCoZUdGvVku3Dpk",
+                  "type": "html",
+                  "tag": "div",
+                  "styles": {
+                    "background": "#f3f4f6",
+                    "display": "flex",
+                    "backgroundColor": "",
+                    "padding": ""
+                  },
+                  "canvasPosition": {
+                    "x": 146.40631283694188,
+                    "y": 686.1133585224555
+                  },
+                  "children": [
+                    {
+                      "id": "component-eoKOd5fNBL3InbzCfeSpv",
+                      "type": "component",
+                      "componentName": "AddFilterButton",
+                      "props": {},
+                      "styles": {
+                        "width": "fit-content",
+                        "height": "fit-content"
+                      },
+                      "canvasPosition": {
+                        "x": 253.84457503567722,
+                        "y": 754.2281220268985
+                      },
+                      "children": []
+                    }
+                  ],
+                  "props": {
+                    "className": "flex items-center gap-2 p-0"
+                  }
+                },
+                {
+                  "id": "component-fyL11pH1LLaeU8DeoCF1O",
+                  "type": "component",
+                  "componentName": "DataTable",
+                  "props": {
+                    "data": [
+                      {
+                        "id": "TASK-8782",
+                        "title": "You can't compress the program without quantifying the open-source SSD pixel!",
+                        "status": "in progress",
+                        "label": "documentation",
+                        "priority": "medium"
+                      },
+                      {
+                        "id": "TASK-7878",
+                        "title": "Try to calculate the EXE feed, maybe it will index the multi-byte pixel!",
+                        "status": "backlog",
+                        "label": "documentation",
+                        "priority": "medium"
+                      },
+                      {
+                        "id": "TASK-7839",
+                        "title": "We need to bypass the neural TCP card!",
+                        "status": "todo",
+                        "label": "bug",
+                        "priority": "high"
+                      }
+                    ]
+                  },
+                  "styles": {
+                    "width": "fit-content",
+                    "height": "fit-content"
+                  },
+                  "children": [],
+                  "canvasPosition": {
+                    "x": -174.5390625,
+                    "y": 101.0390625
+                  }
+                }
+              ],
+              "props": {
+                "className": "bg-background gap-2"
+              }
+            }
+          ],
+          "props": {
+            "className": "gap-4"
+          }
+        },
+        {
+          "id": "html-0Qm1Vn9kYaCulcvkx1lkh",
+          "type": "html",
+          "tag": "div",
+          "styles": {
+            "background": "#f3f4f6",
+            "display": "flex",
+            "flexDirection": "column"
+          },
+          "canvasPosition": {
+            "x": 120,
+            "y": 120
+          },
+          "children": [
+            {
+              "id": "html-EP2VlB8C9V8xGzZWy284e",
+              "type": "html",
+              "tag": "h3",
+              "styles": {
+                "fontSize": "20px",
+                "fontWeight": "bold",
+                "color": "#111827",
+                "margin": "0"
+              },
+              "canvasPosition": {
+                "x": 140,
+                "y": 140
+              },
+              "children": [
+                {
+                  "id": "text-zZnqtMr8QrobYUBgol3AX",
+                  "type": "text",
+                  "tag": "span",
+                  "text": "Filter added > Status"
+                }
+              ]
+            },
+            {
+              "id": "html-N8-ELcqnoiT-V9ZUw1qf0",
+              "type": "html",
+              "tag": "div",
+              "styles": {
+                "background": "#f3f4f6",
+                "display": "flex",
+                "flexDirection": "column",
+                "padding": "16px",
+                "backgroundColor": ""
+              },
+              "canvasPosition": {
+                "x": 103.4421034445104,
+                "y": 995.3381574660657
+              },
+              "children": [
+                {
+                  "id": "html-eIhRoH2-CZy8PTpcd2jW8",
+                  "type": "html",
+                  "tag": "div",
+                  "styles": {
+                    "background": "#f3f4f6",
+                    "display": "flex",
+                    "backgroundColor": "",
+                    "padding": ""
+                  },
+                  "canvasPosition": {
+                    "x": 166.40631283694188,
+                    "y": 706.1133585224555
+                  },
+                  "children": [
+                    {
+                      "id": "component-d9ECEkSz-1j65kqG19PEn",
+                      "type": "component",
+                      "componentName": "SimpleFilter",
+                      "props": {
+                        "options": [
+                          {
+                            "label": "Backlog",
+                            "value": "backlog",
+                            "count": 12,
+                            "selected": false
+                          },
+                          {
+                            "label": "Todo",
+                            "value": "todo",
+                            "count": 8,
+                            "selected": false
+                          },
+                          {
+                            "label": "In Progress",
+                            "value": "in-progress",
+                            "count": 5,
+                            "selected": false
+                          },
+                          {
+                            "label": "Done",
+                            "value": "done",
+                            "count": 24,
+                            "selected": false
+                          },
+                          {
+                            "label": "Cancelled",
+                            "value": "cancelled",
+                            "count": 3,
+                            "selected": false
+                          }
+                        ]
+                      },
+                      "styles": {
+                        "width": "fit-content",
+                        "height": "fit-content"
+                      },
+                      "canvasPosition": {
+                        "x": -37.37349612614694,
+                        "y": 1042.6045264503327
+                      },
+                      "children": []
+                    },
+                    {
+                      "id": "component-PaJSx82kFMj6ywiRZmqgL",
+                      "type": "component",
+                      "componentName": "AddFilterButton",
+                      "props": {},
+                      "styles": {
+                        "width": "fit-content",
+                        "height": "fit-content"
+                      },
+                      "canvasPosition": {
+                        "x": 273.8445750356772,
+                        "y": 774.2281220268985
+                      },
+                      "children": []
+                    },
+                    {
+                      "id": "component-7HyNKGrqtPawLNaVmVL6L",
+                      "type": "component",
+                      "componentName": "Button",
+                      "props": {
+                        "className": "self-end ml-auto text-muted-foreground",
+                        "size": "sm",
+                        "variant": "ghost"
+                      },
+                      "styles": {},
+                      "children": [
+                        {
+                          "id": "text-fxZvjwcF-BGzLgvCNQMw1",
+                          "type": "text",
+                          "tag": "span",
+                          "text": "Reset",
+                          "styles": {},
+                          "canvasPosition": {
+                            "x": 100,
+                            "y": 100
+                          }
+                        }
+                      ],
+                      "canvasPosition": {
+                        "x": 100,
+                        "y": 100
+                      }
+                    }
+                  ],
+                  "props": {
+                    "className": "flex items-center gap-2 p-0"
+                  }
+                },
+                {
+                  "id": "component-jCsQd3d5Ur-2GdgB-6-hD",
+                  "type": "component",
+                  "componentName": "DataTable",
+                  "props": {
+                    "data": [
+                      {
+                        "id": "TASK-8782",
+                        "title": "You can't compress the program without quantifying the open-source SSD pixel!",
+                        "status": "in progress",
+                        "label": "documentation",
+                        "priority": "medium"
+                      },
+                      {
+                        "id": "TASK-7878",
+                        "title": "Try to calculate the EXE feed, maybe it will index the multi-byte pixel!",
+                        "status": "backlog",
+                        "label": "documentation",
+                        "priority": "medium"
+                      },
+                      {
+                        "id": "TASK-7839",
+                        "title": "We need to bypass the neural TCP card!",
+                        "status": "todo",
+                        "label": "bug",
+                        "priority": "high"
+                      }
+                    ]
+                  },
+                  "styles": {
+                    "width": "fit-content",
+                    "height": "fit-content"
+                  },
+                  "children": [],
+                  "canvasPosition": {
+                    "x": -154.5390625,
+                    "y": 121.0390625
+                  }
+                }
+              ],
+              "props": {
+                "className": "bg-background gap-2"
+              }
+            }
+          ],
+          "props": {
+            "className": "gap-4"
+          }
+        },
+        {
+          "id": "html-q-V5tbkOJ_k0KL4VwyOHZ",
+          "type": "html",
+          "tag": "div",
+          "styles": {
+            "background": "#f3f4f6",
+            "display": "flex",
+            "flexDirection": "column"
+          },
+          "canvasPosition": {
+            "x": 140,
+            "y": 140
+          },
+          "children": [
+            {
+              "id": "html-kGRXJ4hbAIfxYZR42tofb",
+              "type": "html",
+              "tag": "h3",
+              "styles": {
+                "fontSize": "20px",
+                "fontWeight": "bold",
+                "color": "#111827",
+                "margin": "0"
+              },
+              "canvasPosition": {
+                "x": 160,
+                "y": 160
+              },
+              "children": [
+                {
+                  "id": "text-PBmHmeXqkn4UBXE0gcRht",
+                  "type": "text",
+                  "tag": "span",
+                  "text": "Filter added > Status, Priority, and some filters selectedfor Status"
+                }
+              ]
+            },
+            {
+              "id": "html-gNZHMUVk90X8a14GDpXem",
+              "type": "html",
+              "tag": "div",
+              "styles": {
+                "background": "#f3f4f6",
+                "display": "flex",
+                "flexDirection": "column",
+                "padding": "16px",
+                "backgroundColor": ""
+              },
+              "canvasPosition": {
+                "x": 101.21188793179321,
+                "y": 1370.1441257940385
+              },
+              "children": [
+                {
+                  "id": "html-9C6tXEmWurvKbSirnyznw",
+                  "type": "html",
+                  "tag": "div",
+                  "styles": {
+                    "background": "#f3f4f6",
+                    "display": "flex",
+                    "backgroundColor": "",
+                    "padding": ""
+                  },
+                  "canvasPosition": {
+                    "x": 186.40631283694188,
+                    "y": 726.1133585224555
+                  },
+                  "children": [
+                    {
+                      "id": "component-CbmIf3AQdt7ISk_wAbHIL",
+                      "type": "component",
+                      "componentName": "SimpleFilter",
+                      "props": {
+                        "options": [
+                          {
+                            "label": "Backlog",
+                            "value": "backlog",
+                            "count": 12,
+                            "selected": false
+                          },
+                          {
+                            "label": "Todo",
+                            "value": "todo",
+                            "count": 8,
+                            "selected": true
+                          },
+                          {
+                            "label": "In Progress",
+                            "value": "in-progress",
+                            "count": 5,
+                            "selected": false
+                          },
+                          {
+                            "label": "Done",
+                            "value": "done",
+                            "count": 24,
+                            "selected": true
+                          },
+                          {
+                            "label": "Cancelled",
+                            "value": "cancelled",
+                            "count": 3,
+                            "selected": false
+                          }
+                        ]
+                      },
+                      "styles": {
+                        "width": "fit-content",
+                        "height": "fit-content"
+                      },
+                      "canvasPosition": {
+                        "x": -17.37349612614694,
+                        "y": 1062.6045264503327
+                      },
+                      "children": []
+                    },
+                    {
+                      "id": "component-iZ08anLidrpHSuwno5c7K",
+                      "type": "component",
+                      "componentName": "SimpleFilter",
+                      "props": {
+                        "options": [
+                          {
+                            "label": "Backlog",
+                            "value": "backlog",
+                            "count": 12,
+                            "selected": false
+                          },
+                          {
+                            "label": "Todo",
+                            "value": "todo",
+                            "count": 8,
+                            "selected": false
+                          },
+                          {
+                            "label": "In Progress",
+                            "value": "in-progress",
+                            "count": 5,
+                            "selected": false
+                          },
+                          {
+                            "label": "Done",
+                            "value": "done",
+                            "count": 24,
+                            "selected": false
+                          },
+                          {
+                            "label": "Cancelled",
+                            "value": "cancelled",
+                            "count": 3,
+                            "selected": false
+                          }
+                        ],
+                        "label": "Priority"
+                      },
+                      "styles": {
+                        "width": "fit-content",
+                        "height": "fit-content"
+                      },
+                      "canvasPosition": {
+                        "x": -17.37349612614694,
+                        "y": 1062.6045264503327
+                      },
+                      "children": []
+                    },
+                    {
+                      "id": "component-BeMv0jidq29p7nrpNlQa9",
+                      "type": "component",
+                      "componentName": "AddFilterButton",
+                      "props": {},
+                      "styles": {
+                        "width": "fit-content",
+                        "height": "fit-content"
+                      },
+                      "canvasPosition": {
+                        "x": 293.8445750356772,
+                        "y": 794.2281220268985
+                      },
+                      "children": []
+                    },
+                    {
+                      "id": "component-EUVy0wghjFVfmN3wE5Edc",
+                      "type": "component",
+                      "componentName": "Button",
+                      "props": {
+                        "className": "self-end ml-auto text-muted-foreground",
+                        "size": "sm",
+                        "variant": "ghost"
+                      },
+                      "styles": {},
+                      "children": [
+                        {
+                          "id": "text-Q5zgqFlPFooq7HkqTFnsB",
+                          "type": "text",
+                          "tag": "span",
+                          "text": "Reset",
+                          "styles": {},
+                          "canvasPosition": {
+                            "x": 100,
+                            "y": 100
+                          }
+                        }
+                      ],
+                      "canvasPosition": {
+                        "x": 120,
+                        "y": 120
+                      }
+                    }
+                  ],
+                  "props": {
+                    "className": "flex items-center gap-2 p-0"
+                  }
+                },
+                {
+                  "id": "component-Z3LBhiKHyO-5-2TCZQBw2",
+                  "type": "component",
+                  "componentName": "DataTable",
+                  "props": {
+                    "data": [
+                      {
+                        "id": "TASK-8782",
+                        "title": "You can't compress the program without quantifying the open-source SSD pixel!",
+                        "status": "in progress",
+                        "label": "documentation",
+                        "priority": "medium"
+                      },
+                      {
+                        "id": "TASK-7878",
+                        "title": "Try to calculate the EXE feed, maybe it will index the multi-byte pixel!",
+                        "status": "backlog",
+                        "label": "documentation",
+                        "priority": "medium"
+                      },
+                      {
+                        "id": "TASK-7839",
+                        "title": "We need to bypass the neural TCP card!",
+                        "status": "todo",
+                        "label": "bug",
+                        "priority": "high"
+                      }
+                    ]
+                  },
+                  "styles": {
+                    "width": "fit-content",
+                    "height": "fit-content"
+                  },
+                  "children": [],
+                  "canvasPosition": {
+                    "x": -134.5390625,
+                    "y": 141.0390625
+                  }
+                }
+              ],
+              "props": {
+                "className": "bg-background gap-2"
+              }
+            }
+          ],
+          "props": {
+            "className": "gap-4"
+          }
+        },
+        {
+          "id": "html-PnmLSpSSWGWGNVjuidhhN",
+          "type": "html",
+          "tag": "div",
+          "styles": {
+            "background": "#f3f4f6",
+            "display": "flex",
+            "flexDirection": "column"
+          },
+          "canvasPosition": {
+            "x": 160,
+            "y": 160
+          },
+          "children": [
+            {
+              "id": "html-lRV6GPMM1JZhMYoZgci_Q",
+              "type": "html",
+              "tag": "h3",
+              "styles": {
+                "fontSize": "20px",
+                "fontWeight": "bold",
+                "color": "#111827",
+                "margin": "0"
+              },
+              "canvasPosition": {
+                "x": 180,
+                "y": 180
+              },
+              "children": [
+                {
+                  "id": "text-PrYpfGZ6ymL9E-C5aStc9",
+                  "type": "text",
+                  "tag": "span",
+                  "text": "Filter added > Status, Priority, and some filters selected for Status"
+                }
+              ]
+            },
+            {
+              "id": "html-LsC9iYWhwl87PhF7eFbGb",
+              "type": "html",
+              "tag": "div",
+              "styles": {
+                "background": "#f3f4f6",
+                "display": "flex",
+                "flexDirection": "column",
+                "padding": "16px",
+                "backgroundColor": ""
+              },
+              "canvasPosition": {
+                "x": 101.79224507465035,
+                "y": 1733.2244829368956
+              },
+              "children": [
+                {
+                  "id": "html-bPZUHokcbpLzGE6z647fs",
+                  "type": "html",
+                  "tag": "div",
+                  "styles": {
+                    "background": "#f3f4f6",
+                    "display": "flex",
+                    "backgroundColor": "",
+                    "padding": ""
+                  },
+                  "canvasPosition": {
+                    "x": 206.40631283694188,
+                    "y": 746.1133585224555
+                  },
+                  "children": [
+                    {
+                      "id": "component-Q_apSGqCorvahPnq2QKXi",
+                      "type": "component",
+                      "componentName": "AdvancedFilterButton",
+                      "props": {},
+                      "styles": {
+                        "width": "fit-content",
+                        "height": "fit-content"
+                      },
+                      "children": [],
+                      "canvasPosition": {
+                        "x": 100,
+                        "y": 100
+                      }
+                    },
+                    {
+                      "id": "component-6GOqxuCzz-ehPNGkadh1x",
+                      "type": "component",
+                      "componentName": "AddFilterButton",
+                      "props": {},
+                      "styles": {
+                        "width": "fit-content",
+                        "height": "fit-content"
+                      },
+                      "canvasPosition": {
+                        "x": 313.8445750356772,
+                        "y": 814.2281220268985
+                      },
+                      "children": []
+                    },
+                    {
+                      "id": "component-VmbxkT_RJgXDmOA4rF1N2",
+                      "type": "component",
+                      "componentName": "Button",
+                      "props": {
+                        "className": "self-end ml-auto text-muted-foreground",
+                        "size": "sm",
+                        "variant": "ghost"
+                      },
+                      "styles": {},
+                      "children": [
+                        {
+                          "id": "text-YnAP676iknHHrPpSMmkga",
+                          "type": "text",
+                          "tag": "span",
+                          "text": "Reset",
+                          "styles": {},
+                          "canvasPosition": {
+                            "x": 100,
+                            "y": 100
+                          }
+                        }
+                      ],
+                      "canvasPosition": {
+                        "x": 140,
+                        "y": 140
+                      }
+                    }
+                  ],
+                  "props": {
+                    "className": "flex items-center gap-2 p-0"
+                  }
+                },
+                {
+                  "id": "component-bbmJ5hjUawNKLb09J9tZX",
+                  "type": "component",
+                  "componentName": "DataTable",
+                  "props": {
+                    "data": [
+                      {
+                        "id": "TASK-8782",
+                        "title": "You can't compress the program without quantifying the open-source SSD pixel!",
+                        "status": "in progress",
+                        "label": "documentation",
+                        "priority": "medium"
+                      },
+                      {
+                        "id": "TASK-7878",
+                        "title": "Try to calculate the EXE feed, maybe it will index the multi-byte pixel!",
+                        "status": "backlog",
+                        "label": "documentation",
+                        "priority": "medium"
+                      },
+                      {
+                        "id": "TASK-7839",
+                        "title": "We need to bypass the neural TCP card!",
+                        "status": "todo",
+                        "label": "bug",
+                        "priority": "high"
+                      }
+                    ]
+                  },
+                  "styles": {
+                    "width": "fit-content",
+                    "height": "fit-content"
+                  },
+                  "children": [],
+                  "canvasPosition": {
+                    "x": -114.5390625,
+                    "y": 161.0390625
+                  }
+                }
+              ],
+              "props": {
+                "className": "bg-background gap-2"
+              }
+            }
+          ],
+          "props": {
+            "className": "gap-4"
+          }
+        }
+      ],
+      "props": {
+        "className": "gap-20"
+      }
+    }
+  ],
+  "createdAt": "2025-11-28T11:47:17.836Z",
+  "updatedAt": "2025-12-03T15:58:58.056Z",
+  "zoom": 0.315
+}
