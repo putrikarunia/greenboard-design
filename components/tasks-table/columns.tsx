@@ -76,13 +76,22 @@ export const columns: ColumnDef<Task>[] = [
         return null
       }
 
+      const variantMap: Record<string, string> = {
+        "backlog": "outline-gray",
+        "todo": "outline-purple",
+        "in progress": "outline-orange",
+        "done": "outline-green",
+        "canceled": "outline-gray",
+      }
+
       return (
-        <div className="flex w-[100px] items-center gap-2">
-          {status.icon && (
-            <status.icon className="text-muted-foreground size-4" />
-          )}
-          <span>{status.label}</span>
-        </div>
+        <Badge
+          type="pill"
+          variant={variantMap[status.value] as any}
+        >
+          {status.icon && <status.icon className="size-4" />}
+          {status.label}
+        </Badge>
       )
     },
     filterFn: (row, id, value) => {
@@ -103,13 +112,20 @@ export const columns: ColumnDef<Task>[] = [
         return null
       }
 
+      const variantMap: Record<string, string> = {
+        "low": "outline-gray",
+        "medium": "outline-orange",
+        "high": "outline-red",
+      }
+
       return (
-        <div className="flex items-center gap-2">
-          {priority.icon && (
-            <priority.icon className="text-muted-foreground size-4" />
-          )}
-          <span>{priority.label}</span>
-        </div>
+        <Badge
+          type="pill"
+          variant={variantMap[priority.value] as any}
+        >
+          {priority.icon && <priority.icon className="size-4" />}
+          {priority.label}
+        </Badge>
       )
     },
     filterFn: (row, id, value) => {

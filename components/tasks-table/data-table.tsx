@@ -27,6 +27,7 @@ import {
 
 import { DataTablePagination } from "./data-table-pagination"
 import { DataTableToolbar } from "./data-table-toolbar"
+import { DataTableViewOptions } from "./data-table-view-options"
 
 import { columns as tasksColumns } from "./columns"
 import { Task } from "./schema"
@@ -35,6 +36,7 @@ import tasksData from "@/components/tasks-table/tasks.json"
 interface DataTableProps {
   columns?: ColumnDef<Task, unknown>[]
   data?: Task[]
+  showViewOptions?: boolean
 }
 
 export function DataTable({

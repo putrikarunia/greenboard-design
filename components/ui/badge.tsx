@@ -5,7 +5,7 @@ import { cva, type VariantProps } from "class-variance-authority"
 import { cn } from "@/lib/utils"
 
 const badgeVariants = cva(
-  "inline-flex items-center justify-center rounded-full border px-2 py-0.5 text-xs font-medium w-fit whitespace-nowrap shrink-0 [&>svg]:size-3 gap-1 [&>svg]:pointer-events-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive transition-[color,box-shadow] overflow-hidden",
+  "inline-flex items-center justify-center border font-medium w-fit whitespace-nowrap shrink-0 gap-1 tracking-[-0.02em] [&>svg]:pointer-events-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive transition-[color,box-shadow] overflow-hidden",
   {
     variants: {
       variant: {
@@ -16,11 +16,41 @@ const badgeVariants = cva(
         destructive:
           "border-transparent bg-destructive text-white [a&]:hover:bg-destructive/90 focus-visible:ring-destructive/20 dark:focus-visible:ring-destructive/40 dark:bg-destructive/60",
         outline:
-          "text-foreground [a&]:hover:bg-accent [a&]:hover:text-accent-foreground",
+          "bg-background text-foreground border-border [a&]:hover:bg-accent [a&]:hover:text-accent-foreground",
+        purple:
+          "border-transparent bg-[var(--tag-bg-purple)] text-[var(--tag-text-purple)] [a&]:hover:bg-[var(--tag-bg-purple)]/90",
+        gray:
+          "border-transparent bg-[var(--tag-bg-gray)] text-[var(--tag-text-gray)] [a&]:hover:bg-[var(--tag-bg-gray)]/90",
+        red:
+          "border-transparent bg-[var(--tag-bg-red)] text-[var(--tag-text-red)] [a&]:hover:bg-[var(--tag-bg-red)]/90",
+        green:
+          "border-transparent bg-[var(--tag-bg-green)] text-[var(--tag-text-green)] [a&]:hover:bg-[var(--tag-bg-green)]/90",
+        orange:
+          "border-transparent bg-[var(--tag-bg-orange)] text-[var(--tag-text-orange)] [a&]:hover:bg-[var(--tag-bg-orange)]/90",
+        "outline-purple":
+          "bg-background border-border text-[var(--tag-text-purple)] [a&]:hover:bg-[var(--tag-bg-purple)]",
+        "outline-gray":
+          "bg-background border-border text-[var(--tag-text-gray)] [a&]:hover:bg-[var(--tag-bg-gray)]",
+        "outline-red":
+          "bg-background border-border text-[var(--tag-text-red)] [a&]:hover:bg-[var(--tag-bg-red)]",
+        "outline-green":
+          "bg-background border-border text-[var(--tag-text-green)] [a&]:hover:bg-[var(--tag-bg-green)]",
+        "outline-orange":
+          "bg-background border-border text-[var(--tag-text-orange)] [a&]:hover:bg-[var(--tag-bg-orange)]",
+      },
+      type: {
+        tag: "rounded-[4px]",
+        pill: "rounded-full",
+      },
+      size: {
+        default: "px-2 py-1 text-xs [&>svg]:size-4",
+        sm: "px-2 py-1 text-[10px] leading-none [&>svg]:size-3",
       },
     },
     defaultVariants: {
       variant: "default",
+      type: "pill",
+      size: "default",
     },
   }
 )
@@ -28,6 +58,8 @@ const badgeVariants = cva(
 function Badge({
   className,
   variant,
+  type,
+  size,
   asChild = false,
   ...props
 }: React.ComponentProps<"span"> &
@@ -37,7 +69,7 @@ function Badge({
   return (
     <Comp
       data-slot="badge"
-      className={cn(badgeVariants({ variant }), className)}
+      className={cn(badgeVariants({ variant, type, size }), className)}
       {...props}
     />
   )
