@@ -50,7 +50,8 @@ export function SimpleFilter({
                   <Badge
                     variant="secondary"
                     key={option.value}
-                    className="rounded-sm px-1 font-normal"
+                    size="sm"
+                    type={"tag"}
                   >
                     {option.label}
                   </Badge>
