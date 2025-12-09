@@ -12,6 +12,7 @@ import { DataTable } from "@/components/tasks-table"
 import { SimpleFilter } from "@/components/tasks-table/SimpleFilter/SimpleFilter"
 import { AddFilterButton } from "@/components/tasks-table/AddFilter/AddFilterButton"
 import { ActionToolbar } from "@/components/tasks-table/RowAction/ActionToolbar"
+import { SortRow } from "@/.lunagraph/components"
 
 
 const sampleData = [

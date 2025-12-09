@@ -2,11 +2,12 @@
 
 import { usePathname } from "next/navigation"
 import Link from "next/link"
-import { Tag, Filter, Download, LayoutDashboard } from "lucide-react"
+import { Tag, Filter, Download, LayoutDashboard, ArrowUpDown } from "lucide-react"
 
 const navItems = [
   { href: "/table/badges", label: "Badges", icon: Tag },
   { href: "/table/filters", label: "Filters", icon: Filter },
+  { href: "/table/sort", label: "Sort", icon: ArrowUpDown },
   { href: "/table/multi-select", label: "Multi Select", icon: LayoutDashboard },
   { href: "/table/export", label: "Export", icon: Download },
 ]
