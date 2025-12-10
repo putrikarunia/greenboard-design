@@ -11,9 +11,6 @@ import { Breadcrumb, BreadcrumbList, BreadcrumbItem, BreadcrumbSeparator } from 
 import { DataTable } from "@/components/tasks-table"
 import { SimpleFilter } from "@/components/tasks-table/SimpleFilter/SimpleFilter"
 import { AddFilterButton } from "@/components/tasks-table/AddFilter/AddFilterButton"
-import { ActionToolbar } from "@/components/tasks-table/RowAction/ActionToolbar"
-import { SortRow } from "@/.lunagraph/components"
-
 
 const sampleData = [
   { id: "TASK-8782", title: "You can't compress the program without quantifying the open-source SSD pixel!", status: "in progress", label: "documentation", priority: "medium" },
