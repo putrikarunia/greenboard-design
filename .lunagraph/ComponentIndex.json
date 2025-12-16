@@ -52,7 +52,7 @@
     "exportName": "NavDocuments",
     "props": {
       "items": {
-        "type": "{ name: string; url: string; icon: import(\"/Users/putri/code/greenboard-design/node_modules/.pnpm/@tabler+icons-react@3.35.0_react@19.2.0/node_modules/@tabler/icons-react/dist/tabler-icons-react\").Icon; }[]",
+        "type": "{ name: string; url: string; icon: import(\"/Users/putri/code/greenboard-design/node_modules/.pnpm/@tabler+icons-react@3.36.0_react@19.2.0/node_modules/@tabler/icons-react/dist/tabler-icons-react\").Icon; }[]",
         "required": true
       }
     }
@@ -62,7 +62,7 @@
     "exportName": "NavMain",
     "props": {
       "items": {
-        "type": "{ title: string; url: string; icon?: import(\"/Users/putri/code/greenboard-design/node_modules/.pnpm/@tabler+icons-react@3.35.0_react@19.2.0/node_modules/@tabler/icons-react/dist/tabler-icons-react\").Icon | undefined; }[]",
+        "type": "{ title: string; url: string; icon?: import(\"/Users/putri/code/greenboard-design/node_modules/.pnpm/@tabler+icons-react@3.36.0_react@19.2.0/node_modules/@tabler/icons-react/dist/tabler-icons-react\").Icon | undefined; }[]",
         "required": true
       }
     }
@@ -72,7 +72,7 @@
     "exportName": "NavSecondary",
     "props": {
       "items": {
-        "type": "{ title: string; url: string; icon: import(\"/Users/putri/code/greenboard-design/node_modules/.pnpm/@tabler+icons-react@3.35.0_react@19.2.0/node_modules/@tabler/icons-react/dist/tabler-icons-react\").Icon; }[]",
+        "type": "{ title: string; url: string; icon: import(\"/Users/putri/code/greenboard-design/node_modules/.pnpm/@tabler+icons-react@3.36.0_react@19.2.0/node_modules/@tabler/icons-react/dist/tabler-icons-react\").Icon; }[]",
         "required": true
       },
       "style": {
@@ -5700,11 +5700,49 @@
         "required": false
       },
       "questions": {
-        "type": "Question[] | undefined",
+        "type": "{ text: string; answer: \"yes\" | \"no\"; }[] | undefined",
         "required": false
       },
       "matchType": {
         "type": "\"exact\" | \"close\" | \"partial\" | undefined",
+        "required": false
+      }
+    }
+  },
+  "QuestionItemToggle": {
+    "path": ".lunagraph/canvases/canvas-1/components/QuestionItemToggle.tsx",
+    "exportName": "default",
+    "props": {
+      "question": {
+        "type": "string | undefined",
+        "required": false
+      },
+      "similarity": {
+        "type": "SimilarityMatch | undefined",
+        "required": false
+      },
+      "isAllowed": {
+        "type": "boolean | undefined",
+        "required": false
+      },
+      "isEditMode": {
+        "type": "boolean | undefined",
+        "required": false
+      },
+      "isShowToggle": {
+        "type": "boolean | undefined",
+        "required": false
+      },
+      "onEditModeChange": {
+        "type": "((isEditMode: boolean) => void) | undefined",
+        "required": false
+      },
+      "onQuestionChange": {
+        "type": "((question: string) => void) | undefined",
+        "required": false
+      },
+      "onSimilarityChange": {
+        "type": "((similarity: SimilarityMatch) => void) | undefined",
         "required": false
       }
     }
