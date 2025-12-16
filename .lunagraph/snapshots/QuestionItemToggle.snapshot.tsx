@@ -68,7 +68,7 @@ export default function QuestionItemToggleSnapshot({
     const __el = (
       <div className="flex flex-col gap-2">
         <div className="flex flex-row gap-2 items-start">
-          <Card className="w-[600px] py-6 px-0 shadow-none hover:shadow-sm">
+          <Card className="w-full min-w-[600px] py-6 px-0 shadow-none hover:shadow-sm">
             <CardContent className="h-fit flex flex-col gap-6">
               <div className="flex flex-col gap-1.5">
                 <Label className="w-fit h-fit">Question</Label>

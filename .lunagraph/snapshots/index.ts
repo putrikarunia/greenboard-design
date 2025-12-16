@@ -5,7 +5,7 @@ import type { ComponentType } from 'react'
 import QuestionItemToggleSnapshot from './QuestionItemToggle.snapshot'
 
 // Version timestamp - changes on each update to trigger hot reload
-export const snapshotsVersion = 1765855679452
+export const snapshotsVersion = 1765859980748
 
 // Export all snapshots
 export { QuestionItemToggleSnapshot }
