@@ -18,25 +18,25 @@ const badgeVariants = cva(
         outline:
           "bg-background text-foreground border-border [a&]:hover:bg-accent [a&]:hover:text-accent-foreground",
         purple:
-          "border-transparent bg-[var(--tag-bg-purple)] text-[var(--tag-text-purple)] [a&]:hover:bg-[var(--tag-bg-purple)]/90",
+          "border-transparent bg-tag-bg-purple text-tag-text-purple [a&]:hover:bg-tag-bg-purple/90",
         gray:
-          "border-transparent bg-[var(--tag-bg-gray)] text-[var(--tag-text-gray)] [a&]:hover:bg-[var(--tag-bg-gray)]/90",
+          "border-transparent bg-tag-bg-gray text-tag-text-gray [a&]:hover:bg-tag-bg-gray/90",
         red:
-          "border-transparent bg-[var(--tag-bg-red)] text-[var(--tag-text-red)] [a&]:hover:bg-[var(--tag-bg-red)]/90",
+          "border-transparent bg-tag-bg-red text-tag-text-red [a&]:hover:bg-tag-bg-red/90",
         green:
-          "border-transparent bg-[var(--tag-bg-green)] text-[var(--tag-text-green)] [a&]:hover:bg-[var(--tag-bg-green)]/90",
+          "border-transparent bg-tag-bg-green text-tag-text-green [a&]:hover:bg-tag-bg-green/90",
         orange:
-          "border-transparent bg-[var(--tag-bg-orange)] text-[var(--tag-text-orange)] [a&]:hover:bg-[var(--tag-bg-orange)]/90",
+          "border-transparent bg-tag-bg-orange text-tag-text-orange [a&]:hover:bg-tag-bg-orange/90",
         "outline-purple":
-          "bg-background border-border text-[var(--tag-text-purple)] [a&]:hover:bg-[var(--tag-bg-purple)]",
+          "bg-background border-border text-tag-text-purple [a&]:hover:bg-tag-bg-purple",
         "outline-gray":
-          "bg-background border-border text-[var(--tag-text-gray)] [a&]:hover:bg-[var(--tag-bg-gray)]",
+          "bg-background border-border text-tag-text-gray [a&]:hover:bg-tag-bg-gray",
         "outline-red":
-          "bg-background border-border text-[var(--tag-text-red)] [a&]:hover:bg-[var(--tag-bg-red)]",
+          "bg-background border-border text-tag-text-red [a&]:hover:bg-tag-bg-red",
         "outline-green":
-          "bg-background border-border text-[var(--tag-text-green)] [a&]:hover:bg-[var(--tag-bg-green)]",
+          "bg-background border-border text-tag-text-green [a&]:hover:bg-tag-bg-green",
         "outline-orange":
-          "bg-background border-border text-[var(--tag-text-orange)] [a&]:hover:bg-[var(--tag-bg-orange)]",
+          "bg-background border-border text-tag-text-orange [a&]:hover:bg-tag-bg-orange",
       },
       type: {
         tag: "rounded-[4px]",

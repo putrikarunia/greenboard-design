@@ -1,0 +1,5746 @@
+{
+  "AppSidebar": {
+    "path": "components/app-sidebar.tsx",
+    "exportName": "AppSidebar",
+    "props": {
+      "side": {
+        "type": "\"left\" | \"right\" | undefined",
+        "required": false
+      },
+      "variant": {
+        "type": "\"sidebar\" | \"floating\" | \"inset\" | undefined",
+        "required": false
+      },
+      "collapsible": {
+        "type": "\"offcanvas\" | \"icon\" | \"none\" | undefined",
+        "required": false
+      },
+      "style": {
+        "type": "React.CSSProperties | undefined",
+        "required": false
+      },
+      "children": {
+        "type": "React.ReactNode",
+        "required": false
+      }
+    }
+  },
+  "ChartAreaInteractive": {
+    "path": "components/chart-area-interactive.tsx",
+    "exportName": "ChartAreaInteractive"
+  },
+  "DataTable": {
+    "path": "components/tasks-table/data-table.tsx",
+    "exportName": "DataTable",
+    "props": {
+      "columns": {
+        "type": "import(\"/Users/putri/code/greenboard-design/node_modules/.pnpm/@tanstack+table-core@8.21.3/node_modules/@tanstack/table-core/build/lib/types\").ColumnDef<{ id: string; title: string; status: string; label: string; priority: string; }, unknown>[] | undefined",
+        "required": false
+      },
+      "data": {
+        "type": "{ id: string; title: string; status: string; label: string; priority: string; }[] | undefined",
+        "required": false
+      },
+      "showViewOptions": {
+        "type": "boolean | undefined",
+        "required": false
+      }
+    }
+  },
+  "NavDocuments": {
+    "path": "components/nav-documents.tsx",
+    "exportName": "NavDocuments",
+    "props": {
+      "items": {
+        "type": "{ name: string; url: string; icon: import(\"/Users/putri/code/greenboard-design/node_modules/.pnpm/@tabler+icons-react@3.35.0_react@19.2.0/node_modules/@tabler/icons-react/dist/tabler-icons-react\").Icon; }[]",
+        "required": true
+      }
+    }
+  },
+  "NavMain": {
+    "path": "components/nav-main.tsx",
+    "exportName": "NavMain",
+    "props": {
+      "items": {
+        "type": "{ title: string; url: string; icon?: import(\"/Users/putri/code/greenboard-design/node_modules/.pnpm/@tabler+icons-react@3.35.0_react@19.2.0/node_modules/@tabler/icons-react/dist/tabler-icons-react\").Icon | undefined; }[]",
+        "required": true
+      }
+    }
+  },
+  "NavSecondary": {
+    "path": "components/nav-secondary.tsx",
+    "exportName": "NavSecondary",
+    "props": {
+      "items": {
+        "type": "{ title: string; url: string; icon: import(\"/Users/putri/code/greenboard-design/node_modules/.pnpm/@tabler+icons-react@3.35.0_react@19.2.0/node_modules/@tabler/icons-react/dist/tabler-icons-react\").Icon; }[]",
+        "required": true
+      },
+      "style": {
+        "type": "React.CSSProperties | undefined",
+        "required": false
+      },
+      "children": {
+        "type": "React.ReactNode",
+        "required": false
+      }
+    }
+  },
+  "NavUser": {
+    "path": "components/nav-user.tsx",
+    "exportName": "NavUser",
+    "props": {
+      "user": {
+        "type": "{ name: string; email: string; avatar: string; }",
+        "required": true
+      }
+    }
+  },
+  "SectionCards": {
+    "path": "components/section-cards.tsx",
+    "exportName": "SectionCards"
+  },
+  "SiteHeader": {
+    "path": "components/site-header.tsx",
+    "exportName": "SiteHeader"
+  },
+  "DataTableColumnHeader": {
+    "path": "components/tasks-table/data-table-column-header.tsx",
+    "exportName": "DataTableColumnHeader",
+    "props": {
+      "column": {
+        "type": "import(\"/Users/putri/code/greenboard-design/node_modules/.pnpm/@tanstack+table-core@8.21.3/node_modules/@tanstack/table-core/build/lib/types\").Column<TData, TValue>",
+        "required": true
+      },
+      "title": {
+        "type": "string",
+        "required": true
+      },
+      "defaultChecked": {
+        "type": "boolean | undefined",
+        "required": false
+      },
+      "defaultValue": {
+        "type": "string | number | readonly string[] | undefined",
+        "required": false
+      },
+      "suppressContentEditableWarning": {
+        "type": "boolean | undefined",
+        "required": false
+      },
+      "suppressHydrationWarning": {
+        "type": "boolean | undefined",
+        "required": false
+      },
+      "accessKey": {
+        "type": "string | undefined",
+        "required": false
+      },
+      "autoCapitalize": {
+        "type": "\"none\" | \"off\" | \"on\" | \"sentences\" | \"words\" | \"characters\" | (string & {}) | undefined",
+        "required": false
+      },
+      "autoFocus": {
+        "type": "boolean | undefined",
+        "required": false
+      },
+      "className": {
+        "type": "string | undefined",
+        "required": false
+      },
+      "contentEditable": {
+        "type": "Booleanish | \"inherit\" | \"plaintext-only\" | undefined",
+        "required": false
+      },
+      "contextMenu": {
+        "type": "string | undefined",
+        "required": false
+      },
+      "dir": {
+        "type": "string | undefined",
+        "required": false
+      },
+      "draggable": {
+        "type": "Booleanish | undefined",
+        "required": false
+      },
+      "enterKeyHint": {
+        "type": "\"search\" | \"enter\" | \"done\" | \"go\" | \"next\" | \"previous\" | \"send\" | undefined",
+        "required": false
+      },
+      "hidden": {
+        "type": "boolean | undefined",
+        "required": false
+      },
+      "id": {
+        "type": "string | undefined",
+        "required": false
+      },
+      "lang": {
+        "type": "string | undefined",
+        "required": false
+      },
+      "nonce": {
+        "type": "string | undefined",
+        "required": false
+      },
+      "slot": {
+        "type": "string | undefined",
+        "required": false
+      },
+      "spellCheck": {
+        "type": "Booleanish | undefined",
+        "required": false
+      },
+      "style": {
+        "type": "React.CSSProperties | undefined",
+        "required": false
+      },
+      "tabIndex": {
+        "type": "number | undefined",
+        "required": false
+      },
+      "translate": {
+        "type": "\"yes\" | \"no\" | undefined",
+        "required": false
+      },
+      "radioGroup": {
+        "type": "string | undefined",
+        "required": false
+      },
+      "role": {
+        "type": "React.AriaRole | undefined",
+        "required": false
+      },
+      "about": {
+        "type": "string | undefined",
+        "required": false
+      },
+      "content": {
+        "type": "string | undefined",
+        "required": false
+      },
+      "datatype": {
+        "type": "string | undefined",
+        "required": false
+      },
+      "inlist": {
+        "type": "any",
+        "required": false
+      },
+      "prefix": {
+        "type": "string | undefined",
+        "required": false
+      },
+      "property": {
+        "type": "string | undefined",
+        "required": false
+      },
+      "rel": {
+        "type": "string | undefined",
+        "required": false
+      },
+      "resource": {
+        "type": "string | undefined",
+        "required": false
+      },
+      "rev": {
+        "type": "string | undefined",
+        "required": false
+      },
+      "typeof": {
+        "type": "string | undefined",
+        "required": false
+      },
+      "vocab": {
+        "type": "string | undefined",
+        "required": false
+      },
+      "autoCorrect": {
+        "type": "string | undefined",
+        "required": false
+      },
+      "autoSave": {
+        "type": "string | undefined",
+        "required": false
+      },
+      "color": {
+        "type": "string | undefined",
+        "required": false
+      },
+      "itemProp": {
+        "type": "string | undefined",
+        "required": false
+      },
+      "itemScope": {
+        "type": "boolean | undefined",
+        "required": false
+      },
+      "itemType": {
+        "type": "string | undefined",
+        "required": false
+      },
+      "itemID": {
+        "type": "string | undefined",
+        "required": false
+      },
+      "itemRef": {
+        "type": "string | undefined",
+        "required": false
+      },
+      "results": {
+        "type": "number | undefined",
+        "required": false
+      },
+      "security": {
+        "type": "string | undefined",
+        "required": false
+      },
+      "unselectable": {
+        "type": "\"off\" | \"on\" | undefined",
+        "required": false
+      },
+      "popover": {
+        "type": "\"\" | \"auto\" | \"manual\" | \"hint\" | undefined",
+        "required": false
+      },
+      "popoverTargetAction": {
+        "type": "\"toggle\" | \"show\" | \"hide\" | undefined",
+        "required": false
+      },
+      "popoverTarget": {
+        "type": "string | undefined",
+        "required": false
+      },
+      "inert": {
+        "type": "boolean | undefined",
+        "required": false
+      },
+      "inputMode": {
+        "type": "\"search\" | \"text\" | \"none\" | \"tel\" | \"url\" | \"email\" | \"numeric\" | \"decimal\" | undefined",
+        "required": false
+      },
+      "is": {
+        "type": "string | undefined",
+        "required": false
+      },
+      "exportparts": {
+        "type": "string | undefined",
+        "required": false
+      },
+      "part": {
+        "type": "string | undefined",
+        "required": false
+      },
+      "aria-activedescendant": {
+        "type": "string | undefined",
+        "required": false
+      },
+      "aria-atomic": {
+        "type": "Booleanish | undefined",
+        "required": false
+      },
+      "aria-autocomplete": {
+        "type": "\"none\" | \"list\" | \"inline\" | \"both\" | undefined",
+        "required": false
+      },
+      "aria-braillelabel": {
+        "type": "string | undefined",
+        "required": false
+      },
+      "aria-brailleroledescription": {
+        "type": "string | undefined",
+        "required": false
+      },
+      "aria-busy": {
+        "type": "Booleanish | undefined",
+        "required": false
+      },
+      "aria-checked": {
+        "type": "boolean | \"true\" | \"false\" | \"mixed\" | undefined",
+        "required": false
+      },
+      "aria-colcount": {
+        "type": "number | undefined",
+        "required": false
+      },
+      "aria-colindex": {
+        "type": "number | undefined",
+        "required": false
+      },
+      "aria-colindextext": {
+        "type": "string | undefined",
+        "required": false
+      },
+      "aria-colspan": {
+        "type": "number | undefined",
+        "required": false
+      },
+      "aria-controls": {
+        "type": "string | undefined",
+        "required": false
+      },
+      "aria-current": {
+        "type": "boolean | \"time\" | \"true\" | \"false\" | \"page\" | \"step\" | \"location\" | \"date\" | undefined",
+        "required": false
+      },
+      "aria-describedby": {
+        "type": "string | undefined",
+        "required": false
+      },
+      "aria-description": {
+        "type": "string | undefined",
+        "required": false
+      },
+      "aria-details": {
+        "type": "string | undefined",
+        "required": false
+      },
+      "aria-disabled": {
+        "type": "Booleanish | undefined",
+        "required": false
+      },
+      "aria-dropeffect": {
+        "type": "\"link\" | \"none\" | \"copy\" | \"execute\" | \"move\" | \"popup\" | undefined",
+        "required": false
+      },
+      "aria-errormessage": {
+        "type": "string | undefined",
+        "required": false
+      },
+      "aria-expanded": {
+        "type": "Booleanish | undefined",
+        "required": false
+      },
+      "aria-flowto": {
+        "type": "string | undefined",
+        "required": false
+      },
+      "aria-grabbed": {
+        "type": "Booleanish | undefined",
+        "required": false
+      },
+      "aria-haspopup": {
+        "type": "boolean | \"dialog\" | \"menu\" | \"true\" | \"false\" | \"grid\" | \"listbox\" | \"tree\" | undefined",
+        "required": false
+      },
+      "aria-hidden": {
+        "type": "Booleanish | undefined",
+        "required": false
+      },
+      "aria-invalid": {
+        "type": "boolean | \"true\" | \"false\" | \"grammar\" | \"spelling\" | undefined",
+        "required": false
+      },
+      "aria-keyshortcuts": {
+        "type": "string | undefined",
+        "required": false
+      },
+      "aria-label": {
+        "type": "string | undefined",
+        "required": false
+      },
+      "aria-labelledby": {
+        "type": "string | undefined",
+        "required": false
+      },
+      "aria-level": {
+        "type": "number | undefined",
+        "required": false
+      },
+      "aria-live": {
+        "type": "\"off\" | \"assertive\" | \"polite\" | undefined",
+        "required": false
+      },
+      "aria-modal": {
+        "type": "Booleanish | undefined",
+        "required": false
+      },
+      "aria-multiline": {
+        "type": "Booleanish | undefined",
+        "required": false
+      },
+      "aria-multiselectable": {
+        "type": "Booleanish | undefined",
+        "required": false
+      },
+      "aria-orientation": {
+        "type": "\"horizontal\" | \"vertical\" | undefined",
+        "required": false
+      },
+      "aria-owns": {
+        "type": "string | undefined",
+        "required": false
+      },
+      "aria-placeholder": {
+        "type": "string | undefined",
+        "required": false
+      },
+      "aria-posinset": {
+        "type": "number | undefined",
+        "required": false
+      },
+      "aria-pressed": {
+        "type": "boolean | \"true\" | \"false\" | \"mixed\" | undefined",
+        "required": false
+      },
+      "aria-readonly": {
+        "type": "Booleanish | undefined",
+        "required": false
+      },
+      "aria-relevant": {
+        "type": "\"text\" | \"additions\" | \"additions removals\" | \"additions text\" | \"all\" | \"removals\" | \"removals additions\" | \"removals text\" | \"text additions\" | \"text removals\" | undefined",
+        "required": false
+      },
+      "aria-required": {
+        "type": "Booleanish | undefined",
+        "required": false
+      },
+      "aria-roledescription": {
+        "type": "string | undefined",
+        "required": false
+      },
+      "aria-rowcount": {
+        "type": "number | undefined",
+        "required": false
+      },
+      "aria-rowindex": {
+        "type": "number | undefined",
+        "required": false
+      },
+      "aria-rowindextext": {
+        "type": "string | undefined",
+        "required": false
+      },
+      "aria-rowspan": {
+        "type": "number | undefined",
+        "required": false
+      },
+      "aria-selected": {
+        "type": "Booleanish | undefined",
+        "required": false
+      },
+      "aria-setsize": {
+        "type": "number | undefined",
+        "required": false
+      },
+      "aria-sort": {
+        "type": "\"none\" | \"ascending\" | \"descending\" | \"other\" | undefined",
+        "required": false
+      },
+      "aria-valuemax": {
+        "type": "number | undefined",
+        "required": false
+      },
+      "aria-valuemin": {
+        "type": "number | undefined",
+        "required": false
+      },
+      "aria-valuenow": {
+        "type": "number | undefined",
+        "required": false
+      },
+      "aria-valuetext": {
+        "type": "string | undefined",
+        "required": false
+      },
+      "children": {
+        "type": "React.ReactNode",
+        "required": false
+      },
+      "dangerouslySetInnerHTML": {
+        "type": "{ __html: string | TrustedHTML; } | undefined",
+        "required": false
+      },
+      "onCopy": {
+        "type": "React.ClipboardEventHandler<HTMLDivElement> | undefined",
+        "required": false
+      },
+      "onCopyCapture": {
+        "type": "React.ClipboardEventHandler<HTMLDivElement> | undefined",
+        "required": false
+      },
+      "onCut": {
+        "type": "React.ClipboardEventHandler<HTMLDivElement> | undefined",
+        "required": false
+      },
+      "onCutCapture": {
+        "type": "React.ClipboardEventHandler<HTMLDivElement> | undefined",
+        "required": false
+      },
+      "onPaste": {
+        "type": "React.ClipboardEventHandler<HTMLDivElement> | undefined",
+        "required": false
+      },
+      "onPasteCapture": {
+        "type": "React.ClipboardEventHandler<HTMLDivElement> | undefined",
+        "required": false
+      },
+      "onCompositionEnd": {
+        "type": "React.CompositionEventHandler<HTMLDivElement> | undefined",
+        "required": false
+      },
+      "onCompositionEndCapture": {
+        "type": "React.CompositionEventHandler<HTMLDivElement> | undefined",
+        "required": false
+      },
+      "onCompositionStart": {
+        "type": "React.CompositionEventHandler<HTMLDivElement> | undefined",
+        "required": false
+      },
+      "onCompositionStartCapture": {
+        "type": "React.CompositionEventHandler<HTMLDivElement> | undefined",
+        "required": false
+      },
+      "onCompositionUpdate": {
+        "type": "React.CompositionEventHandler<HTMLDivElement> | undefined",
+        "required": false
+      },
+      "onCompositionUpdateCapture": {
+        "type": "React.CompositionEventHandler<HTMLDivElement> | undefined",
+        "required": false
+      },
+      "onFocus": {
+        "type": "React.FocusEventHandler<HTMLDivElement> | undefined",
+        "required": false
+      },
+      "onFocusCapture": {
+        "type": "React.FocusEventHandler<HTMLDivElement> | undefined",
+        "required": false
+      },
+      "onBlur": {
+        "type": "React.FocusEventHandler<HTMLDivElement> | undefined",
+        "required": false
+      },
+      "onBlurCapture": {
+        "type": "React.FocusEventHandler<HTMLDivElement> | undefined",
+        "required": false
+      },
+      "onChange": {
+        "type": "React.FormEventHandler<HTMLDivElement> | undefined",
+        "required": false
+      },
+      "onChangeCapture": {
+        "type": "React.FormEventHandler<HTMLDivElement> | undefined",
+        "required": false
+      },
+      "onBeforeInput": {
+        "type": "React.InputEventHandler<HTMLDivElement> | undefined",
+        "required": false
+      },
+      "onBeforeInputCapture": {
+        "type": "React.FormEventHandler<HTMLDivElement> | undefined",
+        "required": false
+      },
+      "onInput": {
+        "type": "React.FormEventHandler<HTMLDivElement> | undefined",
+        "required": false
+      },
+      "onInputCapture": {
+        "type": "React.FormEventHandler<HTMLDivElement> | undefined",
+        "required": false
+      },
+      "onReset": {
+        "type": "React.FormEventHandler<HTMLDivElement> | undefined",
+        "required": false
+      },
+      "onResetCapture": {
+        "type": "React.FormEventHandler<HTMLDivElement> | undefined",
+        "required": false
+      },
+      "onSubmit": {
+        "type": "React.FormEventHandler<HTMLDivElement> | undefined",
+        "required": false
+      },
+      "onSubmitCapture": {
+        "type": "React.FormEventHandler<HTMLDivElement> | undefined",
+        "required": false
+      },
+      "onInvalid": {
+        "type": "React.FormEventHandler<HTMLDivElement> | undefined",
+        "required": false
+      },
+      "onInvalidCapture": {
+        "type": "React.FormEventHandler<HTMLDivElement> | undefined",
+        "required": false
+      },
+      "onLoad": {
+        "type": "React.ReactEventHandler<HTMLDivElement> | undefined",
+        "required": false
+      },
+      "onLoadCapture": {
+        "type": "React.ReactEventHandler<HTMLDivElement> | undefined",
+        "required": false
+      },
+      "onError": {
+        "type": "React.ReactEventHandler<HTMLDivElement> | undefined",
+        "required": false
+      },
+      "onErrorCapture": {
+        "type": "React.ReactEventHandler<HTMLDivElement> | undefined",
+        "required": false
+      },
+      "onKeyDown": {
+        "type": "React.KeyboardEventHandler<HTMLDivElement> | undefined",
+        "required": false
+      },
+      "onKeyDownCapture": {
+        "type": "React.KeyboardEventHandler<HTMLDivElement> | undefined",
+        "required": false
+      },
+      "onKeyPress": {
+        "type": "React.KeyboardEventHandler<HTMLDivElement> | undefined",
+        "required": false
+      },
+      "onKeyPressCapture": {
+        "type": "React.KeyboardEventHandler<HTMLDivElement> | undefined",
+        "required": false
+      },
+      "onKeyUp": {
+        "type": "React.KeyboardEventHandler<HTMLDivElement> | undefined",
+        "required": false
+      },
+      "onKeyUpCapture": {
+        "type": "React.KeyboardEventHandler<HTMLDivElement> | undefined",
+        "required": false
+      },
+      "onAbort": {
+        "type": "React.ReactEventHandler<HTMLDivElement> | undefined",
+        "required": false
+      },
+      "onAbortCapture": {
+        "type": "React.ReactEventHandler<HTMLDivElement> | undefined",
+        "required": false
+      },
+      "onCanPlay": {
+        "type": "React.ReactEventHandler<HTMLDivElement> | undefined",
+        "required": false
+      },
+      "onCanPlayCapture": {
+        "type": "React.ReactEventHandler<HTMLDivElement> | undefined",
+        "required": false
+      },
+      "onCanPlayThrough": {
+        "type": "React.ReactEventHandler<HTMLDivElement> | undefined",
+        "required": false
+      },
+      "onCanPlayThroughCapture": {
+        "type": "React.ReactEventHandler<HTMLDivElement> | undefined",
+        "required": false
+      },
+      "onDurationChange": {
+        "type": "React.ReactEventHandler<HTMLDivElement> | undefined",
+        "required": false
+      },
+      "onDurationChangeCapture": {
+        "type": "React.ReactEventHandler<HTMLDivElement> | undefined",
+        "required": false
+      },
+      "onEmptied": {
+        "type": "React.ReactEventHandler<HTMLDivElement> | undefined",
+        "required": false
+      },
+      "onEmptiedCapture": {
+        "type": "React.ReactEventHandler<HTMLDivElement> | undefined",
+        "required": false
+      },
+      "onEncrypted": {
+        "type": "React.ReactEventHandler<HTMLDivElement> | undefined",
+        "required": false
+      },
+      "onEncryptedCapture": {
+        "type": "React.ReactEventHandler<HTMLDivElement> | undefined",
+        "required": false
+      },
+      "onEnded": {
+        "type": "React.ReactEventHandler<HTMLDivElement> | undefined",
+        "required": false
+      },
+      "onEndedCapture": {
+        "type": "React.ReactEventHandler<HTMLDivElement> | undefined",
+        "required": false
+      },
+      "onLoadedData": {
+        "type": "React.ReactEventHandler<HTMLDivElement> | undefined",
+        "required": false
+      },
+      "onLoadedDataCapture": {
+        "type": "React.ReactEventHandler<HTMLDivElement> | undefined",
+        "required": false
+      },
+      "onLoadedMetadata": {
+        "type": "React.ReactEventHandler<HTMLDivElement> | undefined",
+        "required": false
+      },
+      "onLoadedMetadataCapture": {
+        "type": "React.ReactEventHandler<HTMLDivElement> | undefined",
+        "required": false
+      },
+      "onLoadStart": {
+        "type": "React.ReactEventHandler<HTMLDivElement> | undefined",
+        "required": false
+      },
+      "onLoadStartCapture": {
+        "type": "React.ReactEventHandler<HTMLDivElement> | undefined",
+        "required": false
+      },
+      "onPause": {
+        "type": "React.ReactEventHandler<HTMLDivElement> | undefined",
+        "required": false
+      },
+      "onPauseCapture": {
+        "type": "React.ReactEventHandler<HTMLDivElement> | undefined",
+        "required": false
+      },
+      "onPlay": {
+        "type": "React.ReactEventHandler<HTMLDivElement> | undefined",
+        "required": false
+      },
+      "onPlayCapture": {
+        "type": "React.ReactEventHandler<HTMLDivElement> | undefined",
+        "required": false
+      },
+      "onPlaying": {
+        "type": "React.ReactEventHandler<HTMLDivElement> | undefined",
+        "required": false
+      },
+      "onPlayingCapture": {
+        "type": "React.ReactEventHandler<HTMLDivElement> | undefined",
+        "required": false
+      },
+      "onProgress": {
+        "type": "React.ReactEventHandler<HTMLDivElement> | undefined",
+        "required": false
+      },
+      "onProgressCapture": {
+        "type": "React.ReactEventHandler<HTMLDivElement> | undefined",
+        "required": false
+      },
+      "onRateChange": {
+        "type": "React.ReactEventHandler<HTMLDivElement> | undefined",
+        "required": false
+      },
+      "onRateChangeCapture": {
+        "type": "React.ReactEventHandler<HTMLDivElement> | undefined",
+        "required": false
+      },
+      "onSeeked": {
+        "type": "React.ReactEventHandler<HTMLDivElement> | undefined",
+        "required": false
+      },
+      "onSeekedCapture": {
+        "type": "React.ReactEventHandler<HTMLDivElement> | undefined",
+        "required": false
+      },
+      "onSeeking": {
+        "type": "React.ReactEventHandler<HTMLDivElement> | undefined",
+        "required": false
+      },
+      "onSeekingCapture": {
+        "type": "React.ReactEventHandler<HTMLDivElement> | undefined",
+        "required": false
+      },
+      "onStalled": {
+        "type": "React.ReactEventHandler<HTMLDivElement> | undefined",
+        "required": false
+      },
+      "onStalledCapture": {
+        "type": "React.ReactEventHandler<HTMLDivElement> | undefined",
+        "required": false
+      },
+      "onSuspend": {
+        "type": "React.ReactEventHandler<HTMLDivElement> | undefined",
+        "required": false
+      },
+      "onSuspendCapture": {
+        "type": "React.ReactEventHandler<HTMLDivElement> | undefined",
+        "required": false
+      },
+      "onTimeUpdate": {
+        "type": "React.ReactEventHandler<HTMLDivElement> | undefined",
+        "required": false
+      },
+      "onTimeUpdateCapture": {
+        "type": "React.ReactEventHandler<HTMLDivElement> | undefined",
+        "required": false
+      },
+      "onVolumeChange": {
+        "type": "React.ReactEventHandler<HTMLDivElement> | undefined",
+        "required": false
+      },
+      "onVolumeChangeCapture": {
+        "type": "React.ReactEventHandler<HTMLDivElement> | undefined",
+        "required": false
+      },
+      "onWaiting": {
+        "type": "React.ReactEventHandler<HTMLDivElement> | undefined",
+        "required": false
+      },
+      "onWaitingCapture": {
+        "type": "React.ReactEventHandler<HTMLDivElement> | undefined",
+        "required": false
+      },
+      "onAuxClick": {
+        "type": "React.MouseEventHandler<HTMLDivElement> | undefined",
+        "required": false
+      },
+      "onAuxClickCapture": {
+        "type": "React.MouseEventHandler<HTMLDivElement> | undefined",
+        "required": false
+      },
+      "onClick": {
+        "type": "React.MouseEventHandler<HTMLDivElement> | undefined",
+        "required": false
+      },
+      "onClickCapture": {
+        "type": "React.MouseEventHandler<HTMLDivElement> | undefined",
+        "required": false
+      },
+      "onContextMenu": {
+        "type": "React.MouseEventHandler<HTMLDivElement> | undefined",
+        "required": false
+      },
+      "onContextMenuCapture": {
+        "type": "React.MouseEventHandler<HTMLDivElement> | undefined",
+        "required": false
+      },
+      "onDoubleClick": {
+        "type": "React.MouseEventHandler<HTMLDivElement> | undefined",
+        "required": false
+      },
+      "onDoubleClickCapture": {
+        "type": "React.MouseEventHandler<HTMLDivElement> | undefined",
+        "required": false
+      },
+      "onDrag": {
+        "type": "React.DragEventHandler<HTMLDivElement> | undefined",
+        "required": false
+      },
+      "onDragCapture": {
+        "type": "React.DragEventHandler<HTMLDivElement> | undefined",
+        "required": false
+      },
+      "onDragEnd": {
+        "type": "React.DragEventHandler<HTMLDivElement> | undefined",
+        "required": false
+      },
+      "onDragEndCapture": {
+        "type": "React.DragEventHandler<HTMLDivElement> | undefined",
+        "required": false
+      },
+      "onDragEnter": {
+        "type": "React.DragEventHandler<HTMLDivElement> | undefined",
+        "required": false
+      },
+      "onDragEnterCapture": {
+        "type": "React.DragEventHandler<HTMLDivElement> | undefined",
+        "required": false
+      },
+      "onDragExit": {
+        "type": "React.DragEventHandler<HTMLDivElement> | undefined",
+        "required": false
+      },
+      "onDragExitCapture": {
+        "type": "React.DragEventHandler<HTMLDivElement> | undefined",
+        "required": false
+      },
+      "onDragLeave": {
+        "type": "React.DragEventHandler<HTMLDivElement> | undefined",
+        "required": false
+      },
+      "onDragLeaveCapture": {
+        "type": "React.DragEventHandler<HTMLDivElement> | undefined",
+        "required": false
+      },
+      "onDragOver": {
+        "type": "React.DragEventHandler<HTMLDivElement> | undefined",
+        "required": false
+      },
+      "onDragOverCapture": {
+        "type": "React.DragEventHandler<HTMLDivElement> | undefined",
+        "required": false
+      },
+      "onDragStart": {
+        "type": "React.DragEventHandler<HTMLDivElement> | undefined",
+        "required": false
+      },
+      "onDragStartCapture": {
+        "type": "React.DragEventHandler<HTMLDivElement> | undefined",
+        "required": false
+      },
+      "onDrop": {
+        "type": "React.DragEventHandler<HTMLDivElement> | undefined",
+        "required": false
+      },
+      "onDropCapture": {
+        "type": "React.DragEventHandler<HTMLDivElement> | undefined",
+        "required": false
+      },
+      "onMouseDown": {
+        "type": "React.MouseEventHandler<HTMLDivElement> | undefined",
+        "required": false
+      },
+      "onMouseDownCapture": {
+        "type": "React.MouseEventHandler<HTMLDivElement> | undefined",
+        "required": false
+      },
+      "onMouseEnter": {
+        "type": "React.MouseEventHandler<HTMLDivElement> | undefined",
+        "required": false
+      },
+      "onMouseLeave": {
+        "type": "React.MouseEventHandler<HTMLDivElement> | undefined",
+        "required": false
+      },
+      "onMouseMove": {
+        "type": "React.MouseEventHandler<HTMLDivElement> | undefined",
+        "required": false
+      },
+      "onMouseMoveCapture": {
+        "type": "React.MouseEventHandler<HTMLDivElement> | undefined",
+        "required": false
+      },
+      "onMouseOut": {
+        "type": "React.MouseEventHandler<HTMLDivElement> | undefined",
+        "required": false
+      },
+      "onMouseOutCapture": {
+        "type": "React.MouseEventHandler<HTMLDivElement> | undefined",
+        "required": false
+      },
+      "onMouseOver": {
+        "type": "React.MouseEventHandler<HTMLDivElement> | undefined",
+        "required": false
+      },
+      "onMouseOverCapture": {
+        "type": "React.MouseEventHandler<HTMLDivElement> | undefined",
+        "required": false
+      },
+      "onMouseUp": {
+        "type": "React.MouseEventHandler<HTMLDivElement> | undefined",
+        "required": false
+      },
+      "onMouseUpCapture": {
+        "type": "React.MouseEventHandler<HTMLDivElement> | undefined",
+        "required": false
+      },
+      "onSelect": {
+        "type": "React.ReactEventHandler<HTMLDivElement> | undefined",
+        "required": false
+      },
+      "onSelectCapture": {
+        "type": "React.ReactEventHandler<HTMLDivElement> | undefined",
+        "required": false
+      },
+      "onTouchCancel": {
+        "type": "React.TouchEventHandler<HTMLDivElement> | undefined",
+        "required": false
+      },
+      "onTouchCancelCapture": {
+        "type": "React.TouchEventHandler<HTMLDivElement> | undefined",
+        "required": false
+      },
+      "onTouchEnd": {
+        "type": "React.TouchEventHandler<HTMLDivElement> | undefined",
+        "required": false
+      },
+      "onTouchEndCapture": {
+        "type": "React.TouchEventHandler<HTMLDivElement> | undefined",
+        "required": false
+      },
+      "onTouchMove": {
+        "type": "React.TouchEventHandler<HTMLDivElement> | undefined",
+        "required": false
+      },
+      "onTouchMoveCapture": {
+        "type": "React.TouchEventHandler<HTMLDivElement> | undefined",
+        "required": false
+      },
+      "onTouchStart": {
+        "type": "React.TouchEventHandler<HTMLDivElement> | undefined",
+        "required": false
+      },
+      "onTouchStartCapture": {
+        "type": "React.TouchEventHandler<HTMLDivElement> | undefined",
+        "required": false
+      },
+      "onPointerDown": {
+        "type": "React.PointerEventHandler<HTMLDivElement> | undefined",
+        "required": false
+      },
+      "onPointerDownCapture": {
+        "type": "React.PointerEventHandler<HTMLDivElement> | undefined",
+        "required": false
+      },
+      "onPointerMove": {
+        "type": "React.PointerEventHandler<HTMLDivElement> | undefined",
+        "required": false
+      },
+      "onPointerMoveCapture": {
+        "type": "React.PointerEventHandler<HTMLDivElement> | undefined",
+        "required": false
+      },
+      "onPointerUp": {
+        "type": "React.PointerEventHandler<HTMLDivElement> | undefined",
+        "required": false
+      },
+      "onPointerUpCapture": {
+        "type": "React.PointerEventHandler<HTMLDivElement> | undefined",
+        "required": false
+      },
+      "onPointerCancel": {
+        "type": "React.PointerEventHandler<HTMLDivElement> | undefined",
+        "required": false
+      },
+      "onPointerCancelCapture": {
+        "type": "React.PointerEventHandler<HTMLDivElement> | undefined",
+        "required": false
+      },
+      "onPointerEnter": {
+        "type": "React.PointerEventHandler<HTMLDivElement> | undefined",
+        "required": false
+      },
+      "onPointerLeave": {
+        "type": "React.PointerEventHandler<HTMLDivElement> | undefined",
+        "required": false
+      },
+      "onPointerOver": {
+        "type": "React.PointerEventHandler<HTMLDivElement> | undefined",
+        "required": false
+      },
+      "onPointerOverCapture": {
+        "type": "React.PointerEventHandler<HTMLDivElement> | undefined",
+        "required": false
+      },
+      "onPointerOut": {
+        "type": "React.PointerEventHandler<HTMLDivElement> | undefined",
+        "required": false
+      },
+      "onPointerOutCapture": {
+        "type": "React.PointerEventHandler<HTMLDivElement> | undefined",
+        "required": false
+      },
+      "onGotPointerCapture": {
+        "type": "React.PointerEventHandler<HTMLDivElement> | undefined",
+        "required": false
+      },
+      "onGotPointerCaptureCapture": {
+        "type": "React.PointerEventHandler<HTMLDivElement> | undefined",
+        "required": false
+      },
+      "onLostPointerCapture": {
+        "type": "React.PointerEventHandler<HTMLDivElement> | undefined",
+        "required": false
+      },
+      "onLostPointerCaptureCapture": {
+        "type": "React.PointerEventHandler<HTMLDivElement> | undefined",
+        "required": false
+      },
+      "onScroll": {
+        "type": "React.UIEventHandler<HTMLDivElement> | undefined",
+        "required": false
+      },
+      "onScrollCapture": {
+        "type": "React.UIEventHandler<HTMLDivElement> | undefined",
+        "required": false
+      },
+      "onScrollEnd": {
+        "type": "React.UIEventHandler<HTMLDivElement> | undefined",
+        "required": false
+      },
+      "onScrollEndCapture": {
+        "type": "React.UIEventHandler<HTMLDivElement> | undefined",
+        "required": false
+      },
+      "onWheel": {
+        "type": "React.WheelEventHandler<HTMLDivElement> | undefined",
+        "required": false
+      },
+      "onWheelCapture": {
+        "type": "React.WheelEventHandler<HTMLDivElement> | undefined",
+        "required": false
+      },
+      "onAnimationStart": {
+        "type": "React.AnimationEventHandler<HTMLDivElement> | undefined",
+        "required": false
+      },
+      "onAnimationStartCapture": {
+        "type": "React.AnimationEventHandler<HTMLDivElement> | undefined",
+        "required": false
+      },
+      "onAnimationEnd": {
+        "type": "React.AnimationEventHandler<HTMLDivElement> | undefined",
+        "required": false
+      },
+      "onAnimationEndCapture": {
+        "type": "React.AnimationEventHandler<HTMLDivElement> | undefined",
+        "required": false
+      },
+      "onAnimationIteration": {
+        "type": "React.AnimationEventHandler<HTMLDivElement> | undefined",
+        "required": false
+      },
+      "onAnimationIterationCapture": {
+        "type": "React.AnimationEventHandler<HTMLDivElement> | undefined",
+        "required": false
+      },
+      "onToggle": {
+        "type": "React.ToggleEventHandler<HTMLDivElement> | undefined",
+        "required": false
+      },
+      "onBeforeToggle": {
+        "type": "React.ToggleEventHandler<HTMLDivElement> | undefined",
+        "required": false
+      },
+      "onTransitionCancel": {
+        "type": "React.TransitionEventHandler<HTMLDivElement> | undefined",
+        "required": false
+      },
+      "onTransitionCancelCapture": {
+        "type": "React.TransitionEventHandler<HTMLDivElement> | undefined",
+        "required": false
+      },
+      "onTransitionEnd": {
+        "type": "React.TransitionEventHandler<HTMLDivElement> | undefined",
+        "required": false
+      },
+      "onTransitionEndCapture": {
+        "type": "React.TransitionEventHandler<HTMLDivElement> | undefined",
+        "required": false
+      },
+      "onTransitionRun": {
+        "type": "React.TransitionEventHandler<HTMLDivElement> | undefined",
+        "required": false
+      },
+      "onTransitionRunCapture": {
+        "type": "React.TransitionEventHandler<HTMLDivElement> | undefined",
+        "required": false
+      },
+      "onTransitionStart": {
+        "type": "React.TransitionEventHandler<HTMLDivElement> | undefined",
+        "required": false
+      },
+      "onTransitionStartCapture": {
+        "type": "React.TransitionEventHandler<HTMLDivElement> | undefined",
+        "required": false
+      }
+    }
+  },
+  "DataTableFacetedFilter": {
+    "path": "components/tasks-table/data-table-faceted-filter.tsx",
+    "exportName": "DataTableFacetedFilter",
+    "props": {
+      "column": {
+        "type": "import(\"/Users/putri/code/greenboard-design/node_modules/.pnpm/@tanstack+table-core@8.21.3/node_modules/@tanstack/table-core/build/lib/types\").Column<TData, TValue> | undefined",
+        "required": false
+      },
+      "title": {
+        "type": "string | undefined",
+        "required": false
+      },
+      "options": {
+        "type": "{ label: string; value: string; icon?: React.ComponentType<{ className?: string | undefined; }> | undefined; }[]",
+        "required": true
+      }
+    }
+  },
+  "DataTablePagination": {
+    "path": "components/tasks-table/data-table-pagination.tsx",
+    "exportName": "DataTablePagination",
+    "props": {
+      "table": {
+        "type": "import(\"/Users/putri/code/greenboard-design/node_modules/.pnpm/@tanstack+table-core@8.21.3/node_modules/@tanstack/table-core/build/lib/types\").Table<TData>",
+        "required": true
+      }
+    }
+  },
+  "DataTableRowActions": {
+    "path": "components/tasks-table/data-table-row-actions.tsx",
+    "exportName": "DataTableRowActions",
+    "props": {
+      "row": {
+        "type": "import(\"/Users/putri/code/greenboard-design/node_modules/.pnpm/@tanstack+table-core@8.21.3/node_modules/@tanstack/table-core/build/lib/types\").Row<TData>",
+        "required": true
+      }
+    }
+  },
+  "DataTableToolbar": {
+    "path": "components/tasks-table/data-table-toolbar.tsx",
+    "exportName": "DataTableToolbar",
+    "props": {
+      "table": {
+        "type": "import(\"/Users/putri/code/greenboard-design/node_modules/.pnpm/@tanstack+table-core@8.21.3/node_modules/@tanstack/table-core/build/lib/types\").Table<TData>",
+        "required": true
+      }
+    }
+  },
+  "DataTableViewOptions": {
+    "path": "components/tasks-table/data-table-view-options.tsx",
+    "exportName": "DataTableViewOptions",
+    "props": {
+      "table": {
+        "type": "import(\"/Users/putri/code/greenboard-design/node_modules/.pnpm/@tanstack+table-core@8.21.3/node_modules/@tanstack/table-core/build/lib/types\").Table<TData>",
+        "required": true
+      }
+    }
+  },
+  "Accordion": {
+    "path": "components/ui/accordion.tsx",
+    "exportName": "Accordion",
+    "props": {
+      "type": {
+        "type": "\"single\" | \"multiple\"",
+        "required": true
+      },
+      "value": {
+        "type": "string | string[] | undefined",
+        "required": false
+      },
+      "defaultValue": {
+        "type": "string | string[] | undefined",
+        "required": false
+      },
+      "onValueChange": {
+        "type": "((value: string) => void) | ((value: string[]) => void) | undefined",
+        "required": false
+      },
+      "disabled": {
+        "type": "boolean | undefined",
+        "required": false
+      },
+      "orientation": {
+        "type": "\"horizontal\" | \"vertical\" | undefined",
+        "required": false
+      },
+      "dir": {
+        "type": "Direction | undefined",
+        "required": false
+      },
+      "asChild": {
+        "type": "boolean | undefined",
+        "required": false
+      },
+      "style": {
+        "type": "React.CSSProperties | undefined",
+        "required": false
+      },
+      "children": {
+        "type": "React.ReactNode",
+        "required": false
+      }
+    }
+  },
+  "AccordionItem": {
+    "path": "components/ui/accordion.tsx",
+    "exportName": "AccordionItem",
+    "props": {
+      "disabled": {
+        "type": "boolean | undefined",
+        "required": false
+      },
+      "value": {
+        "type": "string",
+        "required": true
+      },
+      "asChild": {
+        "type": "boolean | undefined",
+        "required": false
+      },
+      "style": {
+        "type": "React.CSSProperties | undefined",
+        "required": false
+      },
+      "children": {
+        "type": "React.ReactNode",
+        "required": false
+      }
+    }
+  },
+  "AccordionTrigger": {
+    "path": "components/ui/accordion.tsx",
+    "exportName": "AccordionTrigger",
+    "props": {
+      "children": {
+        "type": "React.ReactNode",
+        "required": false
+      },
+      "asChild": {
+        "type": "boolean | undefined",
+        "required": false
+      },
+      "style": {
+        "type": "React.CSSProperties | undefined",
+        "required": false
+      }
+    }
+  },
+  "AccordionContent": {
+    "path": "components/ui/accordion.tsx",
+    "exportName": "AccordionContent",
+    "props": {
+      "children": {
+        "type": "React.ReactNode",
+        "required": false
+      },
+      "asChild": {
+        "type": "boolean | undefined",
+        "required": false
+      },
+      "forceMount": {
+        "type": "true | undefined",
+        "required": false
+      },
+      "style": {
+        "type": "React.CSSProperties | undefined",
+        "required": false
+      }
+    }
+  },
+  "Avatar": {
+    "path": "components/ui/avatar.tsx",
+    "exportName": "Avatar",
+    "props": {
+      "asChild": {
+        "type": "boolean | undefined",
+        "required": false
+      },
+      "style": {
+        "type": "React.CSSProperties | undefined",
+        "required": false
+      },
+      "children": {
+        "type": "React.ReactNode",
+        "required": false
+      }
+    }
+  },
+  "AvatarImage": {
+    "path": "components/ui/avatar.tsx",
+    "exportName": "AvatarImage",
+    "props": {
+      "onLoadingStatusChange": {
+        "type": "((status: ImageLoadingStatus) => void) | undefined",
+        "required": false
+      },
+      "asChild": {
+        "type": "boolean | undefined",
+        "required": false
+      },
+      "fetchPriority": {
+        "type": "\"auto\" | \"high\" | \"low\" | undefined",
+        "required": false
+      },
+      "style": {
+        "type": "React.CSSProperties | undefined",
+        "required": false
+      },
+      "children": {
+        "type": "React.ReactNode",
+        "required": false
+      }
+    }
+  },
+  "AvatarFallback": {
+    "path": "components/ui/avatar.tsx",
+    "exportName": "AvatarFallback",
+    "props": {
+      "delayMs": {
+        "type": "number | undefined",
+        "required": false
+      },
+      "asChild": {
+        "type": "boolean | undefined",
+        "required": false
+      },
+      "style": {
+        "type": "React.CSSProperties | undefined",
+        "required": false
+      },
+      "children": {
+        "type": "React.ReactNode",
+        "required": false
+      }
+    }
+  },
+  "Badge": {
+    "path": "components/ui/badge.tsx",
+    "exportName": "Badge",
+    "props": {
+      "style": {
+        "type": "React.CSSProperties | undefined",
+        "required": false
+      },
+      "children": {
+        "type": "React.ReactNode",
+        "required": false
+      },
+      "type": {
+        "type": "\"tag\" | \"pill\" | null | undefined",
+        "required": false
+      },
+      "variant": {
+        "type": "\"default\" | \"secondary\" | \"destructive\" | \"outline\" | \"purple\" | \"gray\" | \"red\" | \"green\" | \"orange\" | \"outline-purple\" | \"outline-gray\" | \"outline-red\" | \"outline-green\" | \"outline-orange\" | null | undefined",
+        "required": false
+      },
+      "size": {
+        "type": "\"default\" | \"sm\" | null | undefined",
+        "required": false
+      },
+      "asChild": {
+        "type": "boolean | undefined",
+        "required": false
+      }
+    }
+  },
+  "Breadcrumb": {
+    "path": "components/ui/breadcrumb.tsx",
+    "exportName": "Breadcrumb",
+    "props": {
+      "style": {
+        "type": "React.CSSProperties | undefined",
+        "required": false
+      },
+      "children": {
+        "type": "React.ReactNode",
+        "required": false
+      }
+    }
+  },
+  "BreadcrumbList": {
+    "path": "components/ui/breadcrumb.tsx",
+    "exportName": "BreadcrumbList",
+    "props": {
+      "style": {
+        "type": "React.CSSProperties | undefined",
+        "required": false
+      },
+      "children": {
+        "type": "React.ReactNode",
+        "required": false
+      }
+    }
+  },
+  "BreadcrumbItem": {
+    "path": "components/ui/breadcrumb.tsx",
+    "exportName": "BreadcrumbItem",
+    "props": {
+      "style": {
+        "type": "React.CSSProperties | undefined",
+        "required": false
+      },
+      "children": {
+        "type": "React.ReactNode",
+        "required": false
+      }
+    }
+  },
+  "BreadcrumbLink": {
+    "path": "components/ui/breadcrumb.tsx",
+    "exportName": "BreadcrumbLink",
+    "props": {
+      "href": {
+        "type": "string | undefined",
+        "required": false
+      },
+      "target": {
+        "type": "React.HTMLAttributeAnchorTarget | undefined",
+        "required": false
+      },
+      "style": {
+        "type": "React.CSSProperties | undefined",
+        "required": false
+      },
+      "rel": {
+        "type": "string | undefined",
+        "required": false
+      },
+      "children": {
+        "type": "React.ReactNode",
+        "required": false
+      },
+      "asChild": {
+        "type": "boolean | undefined",
+        "required": false
+      }
+    }
+  },
+  "BreadcrumbPage": {
+    "path": "components/ui/breadcrumb.tsx",
+    "exportName": "BreadcrumbPage",
+    "props": {
+      "style": {
+        "type": "React.CSSProperties | undefined",
+        "required": false
+      },
+      "children": {
+        "type": "React.ReactNode",
+        "required": false
+      }
+    }
+  },
+  "BreadcrumbSeparator": {
+    "path": "components/ui/breadcrumb.tsx",
+    "exportName": "BreadcrumbSeparator",
+    "props": {
+      "style": {
+        "type": "React.CSSProperties | undefined",
+        "required": false
+      },
+      "children": {
+        "type": "React.ReactNode",
+        "required": false
+      }
+    }
+  },
+  "BreadcrumbEllipsis": {
+    "path": "components/ui/breadcrumb.tsx",
+    "exportName": "BreadcrumbEllipsis",
+    "props": {
+      "style": {
+        "type": "React.CSSProperties | undefined",
+        "required": false
+      },
+      "children": {
+        "type": "React.ReactNode",
+        "required": false
+      }
+    }
+  },
+  "ButtonGroup": {
+    "path": "components/ui/button-group.tsx",
+    "exportName": "ButtonGroup",
+    "props": {
+      "style": {
+        "type": "React.CSSProperties | undefined",
+        "required": false
+      },
+      "children": {
+        "type": "React.ReactNode",
+        "required": false
+      },
+      "orientation": {
+        "type": "\"horizontal\" | \"vertical\" | null | undefined",
+        "required": false
+      }
+    }
+  },
+  "ButtonGroupSeparator": {
+    "path": "components/ui/button-group.tsx",
+    "exportName": "ButtonGroupSeparator",
+    "props": {
+      "orientation": {
+        "type": "\"horizontal\" | \"vertical\" | undefined",
+        "required": false
+      },
+      "decorative": {
+        "type": "boolean | undefined",
+        "required": false
+      },
+      "asChild": {
+        "type": "boolean | undefined",
+        "required": false
+      },
+      "style": {
+        "type": "React.CSSProperties | undefined",
+        "required": false
+      },
+      "children": {
+        "type": "React.ReactNode",
+        "required": false
+      }
+    }
+  },
+  "ButtonGroupText": {
+    "path": "components/ui/button-group.tsx",
+    "exportName": "ButtonGroupText",
+    "props": {
+      "style": {
+        "type": "React.CSSProperties | undefined",
+        "required": false
+      },
+      "children": {
+        "type": "React.ReactNode",
+        "required": false
+      },
+      "asChild": {
+        "type": "boolean | undefined",
+        "required": false
+      }
+    }
+  },
+  "Button": {
+    "path": "components/ui/button.tsx",
+    "exportName": "Button",
+    "props": {
+      "disabled": {
+        "type": "boolean | undefined",
+        "required": false
+      },
+      "type": {
+        "type": "\"button\" | \"submit\" | \"reset\" | undefined",
+        "required": false
+      },
+      "style": {
+        "type": "React.CSSProperties | undefined",
+        "required": false
+      },
+      "children": {
+        "type": "React.ReactNode",
+        "required": false
+      },
+      "variant": {
+        "type": "\"link\" | \"default\" | \"destructive\" | \"outline\" | \"secondary\" | \"ghost\" | null | undefined",
+        "required": false
+      },
+      "size": {
+        "type": "\"default\" | \"sm\" | \"lg\" | \"xs\" | \"icon\" | \"icon-sm\" | \"icon-lg\" | null | undefined",
+        "required": false
+      },
+      "asChild": {
+        "type": "boolean | undefined",
+        "required": false
+      }
+    }
+  },
+  "Card": {
+    "path": "components/ui/card.tsx",
+    "exportName": "Card",
+    "props": {
+      "style": {
+        "type": "React.CSSProperties | undefined",
+        "required": false
+      },
+      "children": {
+        "type": "React.ReactNode",
+        "required": false
+      }
+    }
+  },
+  "CardHeader": {
+    "path": "components/ui/card.tsx",
+    "exportName": "CardHeader",
+    "props": {
+      "style": {
+        "type": "React.CSSProperties | undefined",
+        "required": false
+      },
+      "children": {
+        "type": "React.ReactNode",
+        "required": false
+      }
+    }
+  },
+  "CardFooter": {
+    "path": "components/ui/card.tsx",
+    "exportName": "CardFooter",
+    "props": {
+      "style": {
+        "type": "React.CSSProperties | undefined",
+        "required": false
+      },
+      "children": {
+        "type": "React.ReactNode",
+        "required": false
+      }
+    }
+  },
+  "CardTitle": {
+    "path": "components/ui/card.tsx",
+    "exportName": "CardTitle",
+    "props": {
+      "style": {
+        "type": "React.CSSProperties | undefined",
+        "required": false
+      },
+      "children": {
+        "type": "React.ReactNode",
+        "required": false
+      }
+    }
+  },
+  "CardAction": {
+    "path": "components/ui/card.tsx",
+    "exportName": "CardAction",
+    "props": {
+      "style": {
+        "type": "React.CSSProperties | undefined",
+        "required": false
+      },
+      "children": {
+        "type": "React.ReactNode",
+        "required": false
+      }
+    }
+  },
+  "CardDescription": {
+    "path": "components/ui/card.tsx",
+    "exportName": "CardDescription",
+    "props": {
+      "style": {
+        "type": "React.CSSProperties | undefined",
+        "required": false
+      },
+      "children": {
+        "type": "React.ReactNode",
+        "required": false
+      }
+    }
+  },
+  "CardContent": {
+    "path": "components/ui/card.tsx",
+    "exportName": "CardContent",
+    "props": {
+      "style": {
+        "type": "React.CSSProperties | undefined",
+        "required": false
+      },
+      "children": {
+        "type": "React.ReactNode",
+        "required": false
+      }
+    }
+  },
+  "ChartContainer": {
+    "path": "components/ui/chart.tsx",
+    "exportName": "ChartContainer",
+    "props": {
+      "style": {
+        "type": "React.CSSProperties | undefined",
+        "required": false
+      },
+      "children": {
+        "type": "React.ReactNode & React.ReactElement<unknown, string | React.JSXElementConstructor<any>>",
+        "required": true
+      },
+      "config": {
+        "type": "import(\"/Users/putri/code/greenboard-design/components/ui/chart\").ChartConfig",
+        "required": true
+      }
+    }
+  },
+  "ChartTooltipContent": {
+    "path": "components/ui/chart.tsx",
+    "exportName": "ChartTooltipContent",
+    "props": {
+      "active": {
+        "type": "boolean | undefined",
+        "required": false
+      },
+      "payload": {
+        "type": "import(\"/Users/putri/code/greenboard-design/node_modules/.pnpm/recharts@2.15.4_react-dom@19.2.0_react@19.2.0__react@19.2.0/node_modules/recharts/types/component/DefaultTooltipContent\").Payload<import(\"/Users/putri/code/greenboard-design/node_modules/.pnpm/recharts@2.15.4_react-dom@19.2.0_react@19.2.0__react@19.2.0/node_modules/recharts/types/component/DefaultTooltipContent\").ValueType, import(\"/Users/putri/code/greenboard-design/node_modules/.pnpm/recharts@2.15.4_react-dom@19.2.0_react@19.2.0__react@19.2.0/node_modules/recharts/types/component/DefaultTooltipContent\").NameType>[] | undefined",
+        "required": false
+      },
+      "indicator": {
+        "type": "\"line\" | \"dot\" | \"dashed\" | undefined",
+        "required": false
+      },
+      "hideLabel": {
+        "type": "boolean | undefined",
+        "required": false
+      },
+      "hideIndicator": {
+        "type": "boolean | undefined",
+        "required": false
+      },
+      "label": {
+        "type": "any",
+        "required": false
+      },
+      "labelFormatter": {
+        "type": "((label: any, payload: import(\"/Users/putri/code/greenboard-design/node_modules/.pnpm/recharts@2.15.4_react-dom@19.2.0_react@19.2.0__react@19.2.0/node_modules/recharts/types/component/DefaultTooltipContent\").Payload<import(\"/Users/putri/code/greenboard-design/node_modules/.pnpm/recharts@2.15.4_react-dom@19.2.0_react@19.2.0__react@19.2.0/node_modules/recharts/types/component/DefaultTooltipContent\").ValueType, import(\"/Users/putri/code/greenboard-design/node_modules/.pnpm/recharts@2.15.4_react-dom@19.2.0_react@19.2.0__react@19.2.0/node_modules/recharts/types/component/DefaultTooltipContent\").NameType>[]) => React.ReactNode) | undefined",
+        "required": false
+      },
+      "labelClassName": {
+        "type": "string | undefined",
+        "required": false
+      },
+      "formatter": {
+        "type": "import(\"/Users/putri/code/greenboard-design/node_modules/.pnpm/recharts@2.15.4_react-dom@19.2.0_react@19.2.0__react@19.2.0/node_modules/recharts/types/component/DefaultTooltipContent\").Formatter<import(\"/Users/putri/code/greenboard-design/node_modules/.pnpm/recharts@2.15.4_react-dom@19.2.0_react@19.2.0__react@19.2.0/node_modules/recharts/types/component/DefaultTooltipContent\").ValueType, import(\"/Users/putri/code/greenboard-design/node_modules/.pnpm/recharts@2.15.4_react-dom@19.2.0_react@19.2.0__react@19.2.0/node_modules/recharts/types/component/DefaultTooltipContent\").NameType> | undefined",
+        "required": false
+      },
+      "color": {
+        "type": "string | undefined",
+        "required": false
+      },
+      "nameKey": {
+        "type": "string | undefined",
+        "required": false
+      },
+      "labelKey": {
+        "type": "string | undefined",
+        "required": false
+      },
+      "separator": {
+        "type": "string | undefined",
+        "required": false
+      },
+      "wrapperClassName": {
+        "type": "string | undefined",
+        "required": false
+      },
+      "contentStyle": {
+        "type": "React.CSSProperties | undefined",
+        "required": false
+      },
+      "itemStyle": {
+        "type": "React.CSSProperties | undefined",
+        "required": false
+      },
+      "labelStyle": {
+        "type": "React.CSSProperties | undefined",
+        "required": false
+      },
+      "itemSorter": {
+        "type": "((item: import(\"/Users/putri/code/greenboard-design/node_modules/.pnpm/recharts@2.15.4_react-dom@19.2.0_react@19.2.0__react@19.2.0/node_modules/recharts/types/component/DefaultTooltipContent\").Payload<import(\"/Users/putri/code/greenboard-design/node_modules/.pnpm/recharts@2.15.4_react-dom@19.2.0_react@19.2.0__react@19.2.0/node_modules/recharts/types/component/DefaultTooltipContent\").ValueType, import(\"/Users/putri/code/greenboard-design/node_modules/.pnpm/recharts@2.15.4_react-dom@19.2.0_react@19.2.0__react@19.2.0/node_modules/recharts/types/component/DefaultTooltipContent\").NameType>) => string | number) | undefined",
+        "required": false
+      },
+      "accessibilityLayer": {
+        "type": "boolean | undefined",
+        "required": false
+      },
+      "includeHidden": {
+        "type": "boolean | undefined",
+        "required": false
+      },
+      "allowEscapeViewBox": {
+        "type": "import(\"/Users/putri/code/greenboard-design/node_modules/.pnpm/recharts@2.15.4_react-dom@19.2.0_react@19.2.0__react@19.2.0/node_modules/recharts/types/util/types\").AllowInDimension | undefined",
+        "required": false
+      },
+      "animationDuration": {
+        "type": "number | undefined",
+        "required": false
+      },
+      "animationEasing": {
+        "type": "import(\"/Users/putri/code/greenboard-design/node_modules/.pnpm/recharts@2.15.4_react-dom@19.2.0_react@19.2.0__react@19.2.0/node_modules/recharts/types/util/types\").AnimationTiming | undefined",
+        "required": false
+      },
+      "content": {
+        "type": "(import(\"/Users/putri/code/greenboard-design/node_modules/.pnpm/recharts@2.15.4_react-dom@19.2.0_react@19.2.0__react@19.2.0/node_modules/recharts/types/component/Tooltip\").ContentType<import(\"/Users/putri/code/greenboard-design/node_modules/.pnpm/recharts@2.15.4_react-dom@19.2.0_react@19.2.0__react@19.2.0/node_modules/recharts/types/component/DefaultTooltipContent\").ValueType, import(\"/Users/putri/code/greenboard-design/node_modules/.pnpm/recharts@2.15.4_react-dom@19.2.0_react@19.2.0__react@19.2.0/node_modules/recharts/types/component/DefaultTooltipContent\").NameType> & string) | undefined",
+        "required": false
+      },
+      "coordinate": {
+        "type": "Partial<import(\"/Users/putri/code/greenboard-design/node_modules/.pnpm/recharts@2.15.4_react-dom@19.2.0_react@19.2.0__react@19.2.0/node_modules/recharts/types/util/types\").Coordinate> | undefined",
+        "required": false
+      },
+      "cursor": {
+        "type": "boolean | React.SVGProps<SVGElement> | React.ReactElement<unknown, string | React.JSXElementConstructor<any>> | undefined",
+        "required": false
+      },
+      "filterNull": {
+        "type": "boolean | undefined",
+        "required": false
+      },
+      "defaultIndex": {
+        "type": "number | undefined",
+        "required": false
+      },
+      "isAnimationActive": {
+        "type": "boolean | undefined",
+        "required": false
+      },
+      "offset": {
+        "type": "number | undefined",
+        "required": false
+      },
+      "payloadUniqBy": {
+        "type": "import(\"/Users/putri/code/greenboard-design/node_modules/.pnpm/recharts@2.15.4_react-dom@19.2.0_react@19.2.0__react@19.2.0/node_modules/recharts/types/util/payload/getUniqPayload\").UniqueOption<import(\"/Users/putri/code/greenboard-design/node_modules/.pnpm/recharts@2.15.4_react-dom@19.2.0_react@19.2.0__react@19.2.0/node_modules/recharts/types/component/DefaultTooltipContent\").Payload<import(\"/Users/putri/code/greenboard-design/node_modules/.pnpm/recharts@2.15.4_react-dom@19.2.0_react@19.2.0__react@19.2.0/node_modules/recharts/types/component/DefaultTooltipContent\").ValueType, import(\"/Users/putri/code/greenboard-design/node_modules/.pnpm/recharts@2.15.4_react-dom@19.2.0_react@19.2.0__react@19.2.0/node_modules/recharts/types/component/DefaultTooltipContent\").NameType>> | undefined",
+        "required": false
+      },
+      "position": {
+        "type": "Partial<import(\"/Users/putri/code/greenboard-design/node_modules/.pnpm/recharts@2.15.4_react-dom@19.2.0_react@19.2.0__react@19.2.0/node_modules/recharts/types/util/types\").Coordinate> | undefined",
+        "required": false
+      },
+      "reverseDirection": {
+        "type": "import(\"/Users/putri/code/greenboard-design/node_modules/.pnpm/recharts@2.15.4_react-dom@19.2.0_react@19.2.0__react@19.2.0/node_modules/recharts/types/util/types\").AllowInDimension | undefined",
+        "required": false
+      },
+      "shared": {
+        "type": "boolean | undefined",
+        "required": false
+      },
+      "trigger": {
+        "type": "\"hover\" | \"click\" | undefined",
+        "required": false
+      },
+      "useTranslate3d": {
+        "type": "boolean | undefined",
+        "required": false
+      },
+      "viewBox": {
+        "type": "import(\"/Users/putri/code/greenboard-design/node_modules/.pnpm/recharts@2.15.4_react-dom@19.2.0_react@19.2.0__react@19.2.0/node_modules/recharts/types/util/types\").CartesianViewBox | undefined",
+        "required": false
+      },
+      "wrapperStyle": {
+        "type": "React.CSSProperties | undefined",
+        "required": false
+      },
+      "style": {
+        "type": "React.CSSProperties | undefined",
+        "required": false
+      },
+      "children": {
+        "type": "React.ReactNode",
+        "required": false
+      }
+    }
+  },
+  "ChartLegendContent": {
+    "path": "components/ui/chart.tsx",
+    "exportName": "ChartLegendContent",
+    "props": {
+      "style": {
+        "type": "React.CSSProperties | undefined",
+        "required": false
+      },
+      "children": {
+        "type": "React.ReactNode",
+        "required": false
+      },
+      "payload": {
+        "type": "import(\"/Users/putri/code/greenboard-design/node_modules/.pnpm/recharts@2.15.4_react-dom@19.2.0_react@19.2.0__react@19.2.0/node_modules/recharts/types/component/DefaultLegendContent\").Payload[] | undefined",
+        "required": false
+      },
+      "verticalAlign": {
+        "type": "import(\"/Users/putri/code/greenboard-design/node_modules/.pnpm/recharts@2.15.4_react-dom@19.2.0_react@19.2.0__react@19.2.0/node_modules/recharts/types/component/DefaultLegendContent\").VerticalAlignmentType | undefined",
+        "required": false
+      },
+      "hideIcon": {
+        "type": "boolean | undefined",
+        "required": false
+      },
+      "nameKey": {
+        "type": "string | undefined",
+        "required": false
+      }
+    }
+  },
+  "ChartStyle": {
+    "path": "components/ui/chart.tsx",
+    "exportName": "ChartStyle",
+    "props": {
+      "id": {
+        "type": "string",
+        "required": true
+      },
+      "config": {
+        "type": "import(\"/Users/putri/code/greenboard-design/components/ui/chart\").ChartConfig",
+        "required": true
+      }
+    }
+  },
+  "Checkbox": {
+    "path": "components/ui/checkbox.tsx",
+    "exportName": "Checkbox",
+    "props": {
+      "checked": {
+        "type": "import(\"/Users/putri/code/greenboard-design/node_modules/.pnpm/@radix-ui+react-checkbox@1.3.3_@types+react-dom@19.2.3_@types+react@19.2.7__@types+reac_fcb881b1e73d481c735768e58dfd4a4f/node_modules/@radix-ui/react-checkbox/dist/index\").CheckedState | undefined",
+        "required": false
+      },
+      "defaultChecked": {
+        "type": "import(\"/Users/putri/code/greenboard-design/node_modules/.pnpm/@radix-ui+react-checkbox@1.3.3_@types+react-dom@19.2.3_@types+react@19.2.7__@types+reac_fcb881b1e73d481c735768e58dfd4a4f/node_modules/@radix-ui/react-checkbox/dist/index\").CheckedState | undefined",
+        "required": false
+      },
+      "required": {
+        "type": "boolean | undefined",
+        "required": false
+      },
+      "onCheckedChange": {
+        "type": "((checked: import(\"/Users/putri/code/greenboard-design/node_modules/.pnpm/@radix-ui+react-checkbox@1.3.3_@types+react-dom@19.2.3_@types+react@19.2.7__@types+reac_fcb881b1e73d481c735768e58dfd4a4f/node_modules/@radix-ui/react-checkbox/dist/index\").CheckedState) => void) | undefined",
+        "required": false
+      },
+      "asChild": {
+        "type": "boolean | undefined",
+        "required": false
+      },
+      "style": {
+        "type": "React.CSSProperties | undefined",
+        "required": false
+      },
+      "children": {
+        "type": "React.ReactNode",
+        "required": false
+      }
+    }
+  },
+  "Command": {
+    "path": "components/ui/command.tsx",
+    "exportName": "Command",
+    "props": {
+      "children": {
+        "type": "React.ReactNode",
+        "required": false
+      },
+      "defaultValue": {
+        "type": "string | (readonly string[] & string) | undefined",
+        "required": false
+      },
+      "asChild": {
+        "type": "boolean | undefined",
+        "required": false
+      },
+      "label": {
+        "type": "string | undefined",
+        "required": false
+      },
+      "shouldFilter": {
+        "type": "boolean | undefined",
+        "required": false
+      },
+      "filter": {
+        "type": "CommandFilter | undefined",
+        "required": false
+      },
+      "value": {
+        "type": "string | undefined",
+        "required": false
+      },
+      "onValueChange": {
+        "type": "((value: string) => void) | undefined",
+        "required": false
+      },
+      "loop": {
+        "type": "boolean | undefined",
+        "required": false
+      },
+      "disablePointerSelection": {
+        "type": "boolean | undefined",
+        "required": false
+      },
+      "vimBindings": {
+        "type": "boolean | undefined",
+        "required": false
+      },
+      "style": {
+        "type": "React.CSSProperties | undefined",
+        "required": false
+      }
+    }
+  },
+  "CommandDialog": {
+    "path": "components/ui/command.tsx",
+    "exportName": "CommandDialog",
+    "props": {
+      "title": {
+        "type": "string | undefined",
+        "required": false
+      },
+      "description": {
+        "type": "string | undefined",
+        "required": false
+      },
+      "children": {
+        "type": "React.ReactNode",
+        "required": false
+      },
+      "showCloseButton": {
+        "type": "boolean | undefined",
+        "required": false
+      },
+      "className": {
+        "type": "string | undefined",
+        "required": false
+      },
+      "open": {
+        "type": "boolean | undefined",
+        "required": false
+      },
+      "defaultOpen": {
+        "type": "boolean | undefined",
+        "required": false
+      },
+      "onOpenChange": {
+        "type": "((open: boolean) => void) | undefined",
+        "required": false
+      },
+      "modal": {
+        "type": "boolean | undefined",
+        "required": false
+      }
+    }
+  },
+  "CommandInput": {
+    "path": "components/ui/command.tsx",
+    "exportName": "CommandInput",
+    "props": {
+      "asChild": {
+        "type": "boolean | undefined",
+        "required": false
+      },
+      "value": {
+        "type": "string | undefined",
+        "required": false
+      },
+      "onValueChange": {
+        "type": "((search: string) => void) | undefined",
+        "required": false
+      },
+      "style": {
+        "type": "React.CSSProperties | undefined",
+        "required": false
+      },
+      "children": {
+        "type": "React.ReactNode",
+        "required": false
+      }
+    }
+  },
+  "CommandList": {
+    "path": "components/ui/command.tsx",
+    "exportName": "CommandList",
+    "props": {
+      "children": {
+        "type": "React.ReactNode",
+        "required": false
+      },
+      "asChild": {
+        "type": "boolean | undefined",
+        "required": false
+      },
+      "label": {
+        "type": "string | undefined",
+        "required": false
+      },
+      "style": {
+        "type": "React.CSSProperties | undefined",
+        "required": false
+      }
+    }
+  },
+  "CommandEmpty": {
+    "path": "components/ui/command.tsx",
+    "exportName": "CommandEmpty",
+    "props": {
+      "children": {
+        "type": "React.ReactNode",
+        "required": false
+      },
+      "asChild": {
+        "type": "boolean | undefined",
+        "required": false
+      },
+      "style": {
+        "type": "React.CSSProperties | undefined",
+        "required": false
+      }
+    }
+  },
+  "CommandGroup": {
+    "path": "components/ui/command.tsx",
+    "exportName": "CommandGroup",
+    "props": {
+      "children": {
+        "type": "React.ReactNode",
+        "required": false
+      },
+      "asChild": {
+        "type": "boolean | undefined",
+        "required": false
+      },
+      "heading": {
+        "type": "React.ReactNode",
+        "required": false
+      },
+      "value": {
+        "type": "string | undefined",
+        "required": false
+      },
+      "forceMount": {
+        "type": "boolean | undefined",
+        "required": false
+      },
+      "style": {
+        "type": "React.CSSProperties | undefined",
+        "required": false
+      }
+    }
+  },
+  "CommandItem": {
+    "path": "components/ui/command.tsx",
+    "exportName": "CommandItem",
+    "props": {
+      "children": {
+        "type": "React.ReactNode",
+        "required": false
+      },
+      "asChild": {
+        "type": "boolean | undefined",
+        "required": false
+      },
+      "disabled": {
+        "type": "boolean | undefined",
+        "required": false
+      },
+      "onSelect": {
+        "type": "((value: string) => void) | undefined",
+        "required": false
+      },
+      "value": {
+        "type": "string | undefined",
+        "required": false
+      },
+      "keywords": {
+        "type": "string[] | undefined",
+        "required": false
+      },
+      "forceMount": {
+        "type": "boolean | undefined",
+        "required": false
+      },
+      "style": {
+        "type": "React.CSSProperties | undefined",
+        "required": false
+      }
+    }
+  },
+  "CommandShortcut": {
+    "path": "components/ui/command.tsx",
+    "exportName": "CommandShortcut",
+    "props": {
+      "style": {
+        "type": "React.CSSProperties | undefined",
+        "required": false
+      },
+      "children": {
+        "type": "React.ReactNode",
+        "required": false
+      }
+    }
+  },
+  "CommandSeparator": {
+    "path": "components/ui/command.tsx",
+    "exportName": "CommandSeparator",
+    "props": {
+      "asChild": {
+        "type": "boolean | undefined",
+        "required": false
+      },
+      "alwaysRender": {
+        "type": "boolean | undefined",
+        "required": false
+      },
+      "style": {
+        "type": "React.CSSProperties | undefined",
+        "required": false
+      },
+      "children": {
+        "type": "React.ReactNode",
+        "required": false
+      }
+    }
+  },
+  "Dialog": {
+    "path": "components/ui/dialog.tsx",
+    "exportName": "Dialog",
+    "props": {
+      "children": {
+        "type": "React.ReactNode",
+        "required": false
+      },
+      "open": {
+        "type": "boolean | undefined",
+        "required": false
+      },
+      "defaultOpen": {
+        "type": "boolean | undefined",
+        "required": false
+      },
+      "onOpenChange": {
+        "type": "((open: boolean) => void) | undefined",
+        "required": false
+      },
+      "modal": {
+        "type": "boolean | undefined",
+        "required": false
+      }
+    }
+  },
+  "DialogClose": {
+    "path": "components/ui/dialog.tsx",
+    "exportName": "DialogClose",
+    "props": {
+      "asChild": {
+        "type": "boolean | undefined",
+        "required": false
+      },
+      "style": {
+        "type": "React.CSSProperties | undefined",
+        "required": false
+      },
+      "children": {
+        "type": "React.ReactNode",
+        "required": false
+      }
+    }
+  },
+  "DialogContent": {
+    "path": "components/ui/dialog.tsx",
+    "exportName": "DialogContent",
+    "props": {
+      "children": {
+        "type": "React.ReactNode",
+        "required": false
+      },
+      "showCloseButton": {
+        "type": "boolean | undefined",
+        "required": false
+      },
+      "forceMount": {
+        "type": "true | undefined",
+        "required": false
+      },
+      "asChild": {
+        "type": "boolean | undefined",
+        "required": false
+      },
+      "onEscapeKeyDown": {
+        "type": "((event: KeyboardEvent) => void) | undefined",
+        "required": false
+      },
+      "onPointerDownOutside": {
+        "type": "((event: PointerDownOutsideEvent) => void) | undefined",
+        "required": false
+      },
+      "onFocusOutside": {
+        "type": "((event: FocusOutsideEvent) => void) | undefined",
+        "required": false
+      },
+      "onInteractOutside": {
+        "type": "((event: PointerDownOutsideEvent | FocusOutsideEvent) => void) | undefined",
+        "required": false
+      },
+      "onOpenAutoFocus": {
+        "type": "((event: Event) => void) | undefined",
+        "required": false
+      },
+      "onCloseAutoFocus": {
+        "type": "((event: Event) => void) | undefined",
+        "required": false
+      },
+      "style": {
+        "type": "React.CSSProperties | undefined",
+        "required": false
+      }
+    }
+  },
+  "DialogDescription": {
+    "path": "components/ui/dialog.tsx",
+    "exportName": "DialogDescription",
+    "props": {
+      "asChild": {
+        "type": "boolean | undefined",
+        "required": false
+      },
+      "style": {
+        "type": "React.CSSProperties | undefined",
+        "required": false
+      },
+      "children": {
+        "type": "React.ReactNode",
+        "required": false
+      }
+    }
+  },
+  "DialogFooter": {
+    "path": "components/ui/dialog.tsx",
+    "exportName": "DialogFooter",
+    "props": {
+      "style": {
+        "type": "React.CSSProperties | undefined",
+        "required": false
+      },
+      "children": {
+        "type": "React.ReactNode",
+        "required": false
+      }
+    }
+  },
+  "DialogHeader": {
+    "path": "components/ui/dialog.tsx",
+    "exportName": "DialogHeader",
+    "props": {
+      "style": {
+        "type": "React.CSSProperties | undefined",
+        "required": false
+      },
+      "children": {
+        "type": "React.ReactNode",
+        "required": false
+      }
+    }
+  },
+  "DialogOverlay": {
+    "path": "components/ui/dialog.tsx",
+    "exportName": "DialogOverlay",
+    "props": {
+      "forceMount": {
+        "type": "true | undefined",
+        "required": false
+      },
+      "asChild": {
+        "type": "boolean | undefined",
+        "required": false
+      },
+      "style": {
+        "type": "React.CSSProperties | undefined",
+        "required": false
+      },
+      "children": {
+        "type": "React.ReactNode",
+        "required": false
+      }
+    }
+  },
+  "DialogPortal": {
+    "path": "components/ui/dialog.tsx",
+    "exportName": "DialogPortal",
+    "props": {
+      "children": {
+        "type": "React.ReactNode",
+        "required": false
+      },
+      "container": {
+        "type": "Element | DocumentFragment | null | undefined",
+        "required": false
+      },
+      "forceMount": {
+        "type": "true | undefined",
+        "required": false
+      }
+    }
+  },
+  "DialogTitle": {
+    "path": "components/ui/dialog.tsx",
+    "exportName": "DialogTitle",
+    "props": {
+      "asChild": {
+        "type": "boolean | undefined",
+        "required": false
+      },
+      "style": {
+        "type": "React.CSSProperties | undefined",
+        "required": false
+      },
+      "children": {
+        "type": "React.ReactNode",
+        "required": false
+      }
+    }
+  },
+  "DialogTrigger": {
+    "path": "components/ui/dialog.tsx",
+    "exportName": "DialogTrigger",
+    "props": {
+      "asChild": {
+        "type": "boolean | undefined",
+        "required": false
+      },
+      "style": {
+        "type": "React.CSSProperties | undefined",
+        "required": false
+      },
+      "children": {
+        "type": "React.ReactNode",
+        "required": false
+      }
+    }
+  },
+  "Drawer": {
+    "path": "components/ui/drawer.tsx",
+    "exportName": "Drawer",
+    "props": {
+      "activeSnapPoint": {
+        "type": "string | number | null | undefined",
+        "required": false
+      },
+      "setActiveSnapPoint": {
+        "type": "((snapPoint: string | number | null) => void) | undefined",
+        "required": false
+      },
+      "children": {
+        "type": "React.ReactNode",
+        "required": false
+      },
+      "open": {
+        "type": "boolean | undefined",
+        "required": false
+      },
+      "closeThreshold": {
+        "type": "number | undefined",
+        "required": false
+      },
+      "noBodyStyles": {
+        "type": "boolean | undefined",
+        "required": false
+      },
+      "onOpenChange": {
+        "type": "((open: boolean) => void) | undefined",
+        "required": false
+      },
+      "shouldScaleBackground": {
+        "type": "boolean | undefined",
+        "required": false
+      },
+      "setBackgroundColorOnScale": {
+        "type": "boolean | undefined",
+        "required": false
+      },
+      "scrollLockTimeout": {
+        "type": "number | undefined",
+        "required": false
+      },
+      "fixed": {
+        "type": "boolean | undefined",
+        "required": false
+      },
+      "handleOnly": {
+        "type": "boolean | undefined",
+        "required": false
+      },
+      "dismissible": {
+        "type": "boolean | undefined",
+        "required": false
+      },
+      "onDrag": {
+        "type": "((event: React.PointerEvent<HTMLDivElement>, percentageDragged: number) => void) | undefined",
+        "required": false
+      },
+      "onRelease": {
+        "type": "((event: React.PointerEvent<HTMLDivElement>, open: boolean) => void) | undefined",
+        "required": false
+      },
+      "modal": {
+        "type": "boolean | undefined",
+        "required": false
+      },
+      "nested": {
+        "type": "boolean | undefined",
+        "required": false
+      },
+      "onClose": {
+        "type": "(() => void) | undefined",
+        "required": false
+      },
+      "direction": {
+        "type": "\"top\" | \"bottom\" | \"left\" | \"right\" | undefined",
+        "required": false
+      },
+      "defaultOpen": {
+        "type": "boolean | undefined",
+        "required": false
+      },
+      "disablePreventScroll": {
+        "type": "boolean | undefined",
+        "required": false
+      },
+      "repositionInputs": {
+        "type": "boolean | undefined",
+        "required": false
+      },
+      "snapToSequentialPoint": {
+        "type": "boolean | undefined",
+        "required": false
+      },
+      "container": {
+        "type": "HTMLElement | null | undefined",
+        "required": false
+      },
+      "onAnimationEnd": {
+        "type": "((open: boolean) => void) | undefined",
+        "required": false
+      },
+      "preventScrollRestoration": {
+        "type": "boolean | undefined",
+        "required": false
+      },
+      "autoFocus": {
+        "type": "boolean | undefined",
+        "required": false
+      },
+      "snapPoints": {
+        "type": "(string | number)[] | undefined",
+        "required": false
+      },
+      "fadeFromIndex": {
+        "type": "number | undefined",
+        "required": false
+      }
+    }
+  },
+  "DrawerPortal": {
+    "path": "components/ui/drawer.tsx",
+    "exportName": "DrawerPortal",
+    "props": {
+      "children": {
+        "type": "React.ReactNode",
+        "required": false
+      },
+      "container": {
+        "type": "Element | DocumentFragment | null | undefined",
+        "required": false
+      },
+      "forceMount": {
+        "type": "true | undefined",
+        "required": false
+      }
+    }
+  },
+  "DrawerOverlay": {
+    "path": "components/ui/drawer.tsx",
+    "exportName": "DrawerOverlay",
+    "props": {
+      "asChild": {
+        "type": "boolean | undefined",
+        "required": false
+      },
+      "forceMount": {
+        "type": "true | undefined",
+        "required": false
+      },
+      "style": {
+        "type": "React.CSSProperties | undefined",
+        "required": false
+      },
+      "children": {
+        "type": "React.ReactNode",
+        "required": false
+      }
+    }
+  },
+  "DrawerTrigger": {
+    "path": "components/ui/drawer.tsx",
+    "exportName": "DrawerTrigger",
+    "props": {
+      "asChild": {
+        "type": "boolean | undefined",
+        "required": false
+      },
+      "style": {
+        "type": "React.CSSProperties | undefined",
+        "required": false
+      },
+      "children": {
+        "type": "React.ReactNode",
+        "required": false
+      }
+    }
+  },
+  "DrawerClose": {
+    "path": "components/ui/drawer.tsx",
+    "exportName": "DrawerClose",
+    "props": {
+      "asChild": {
+        "type": "boolean | undefined",
+        "required": false
+      },
+      "style": {
+        "type": "React.CSSProperties | undefined",
+        "required": false
+      },
+      "children": {
+        "type": "React.ReactNode",
+        "required": false
+      }
+    }
+  },
+  "DrawerContent": {
+    "path": "components/ui/drawer.tsx",
+    "exportName": "DrawerContent",
+    "props": {
+      "children": {
+        "type": "React.ReactNode",
+        "required": false
+      },
+      "asChild": {
+        "type": "boolean | undefined",
+        "required": false
+      },
+      "forceMount": {
+        "type": "true | undefined",
+        "required": false
+      },
+      "onEscapeKeyDown": {
+        "type": "((event: KeyboardEvent) => void) | undefined",
+        "required": false
+      },
+      "onPointerDownOutside": {
+        "type": "((event: PointerDownOutsideEvent) => void) | undefined",
+        "required": false
+      },
+      "onFocusOutside": {
+        "type": "((event: FocusOutsideEvent) => void) | undefined",
+        "required": false
+      },
+      "onInteractOutside": {
+        "type": "((event: PointerDownOutsideEvent | FocusOutsideEvent) => void) | undefined",
+        "required": false
+      },
+      "onOpenAutoFocus": {
+        "type": "((event: Event) => void) | undefined",
+        "required": false
+      },
+      "onCloseAutoFocus": {
+        "type": "((event: Event) => void) | undefined",
+        "required": false
+      },
+      "style": {
+        "type": "React.CSSProperties | undefined",
+        "required": false
+      }
+    }
+  },
+  "DrawerHeader": {
+    "path": "components/ui/drawer.tsx",
+    "exportName": "DrawerHeader",
+    "props": {
+      "style": {
+        "type": "React.CSSProperties | undefined",
+        "required": false
+      },
+      "children": {
+        "type": "React.ReactNode",
+        "required": false
+      }
+    }
+  },
+  "DrawerFooter": {
+    "path": "components/ui/drawer.tsx",
+    "exportName": "DrawerFooter",
+    "props": {
+      "style": {
+        "type": "React.CSSProperties | undefined",
+        "required": false
+      },
+      "children": {
+        "type": "React.ReactNode",
+        "required": false
+      }
+    }
+  },
+  "DrawerTitle": {
+    "path": "components/ui/drawer.tsx",
+    "exportName": "DrawerTitle",
+    "props": {
+      "asChild": {
+        "type": "boolean | undefined",
+        "required": false
+      },
+      "style": {
+        "type": "React.CSSProperties | undefined",
+        "required": false
+      },
+      "children": {
+        "type": "React.ReactNode",
+        "required": false
+      }
+    }
+  },
+  "DrawerDescription": {
+    "path": "components/ui/drawer.tsx",
+    "exportName": "DrawerDescription",
+    "props": {
+      "asChild": {
+        "type": "boolean | undefined",
+        "required": false
+      },
+      "style": {
+        "type": "React.CSSProperties | undefined",
+        "required": false
+      },
+      "children": {
+        "type": "React.ReactNode",
+        "required": false
+      }
+    }
+  },
+  "DropdownMenu": {
+    "path": "components/ui/dropdown-menu.tsx",
+    "exportName": "DropdownMenu",
+    "props": {
+      "children": {
+        "type": "React.ReactNode",
+        "required": false
+      },
+      "dir": {
+        "type": "Direction | undefined",
+        "required": false
+      },
+      "open": {
+        "type": "boolean | undefined",
+        "required": false
+      },
+      "defaultOpen": {
+        "type": "boolean | undefined",
+        "required": false
+      },
+      "onOpenChange": {
+        "type": "((open: boolean) => void) | undefined",
+        "required": false
+      },
+      "modal": {
+        "type": "boolean | undefined",
+        "required": false
+      }
+    }
+  },
+  "DropdownMenuPortal": {
+    "path": "components/ui/dropdown-menu.tsx",
+    "exportName": "DropdownMenuPortal",
+    "props": {
+      "children": {
+        "type": "React.ReactNode",
+        "required": false
+      },
+      "container": {
+        "type": "Element | DocumentFragment | null | undefined",
+        "required": false
+      },
+      "forceMount": {
+        "type": "true | undefined",
+        "required": false
+      }
+    }
+  },
+  "DropdownMenuTrigger": {
+    "path": "components/ui/dropdown-menu.tsx",
+    "exportName": "DropdownMenuTrigger",
+    "props": {
+      "asChild": {
+        "type": "boolean | undefined",
+        "required": false
+      },
+      "style": {
+        "type": "React.CSSProperties | undefined",
+        "required": false
+      },
+      "children": {
+        "type": "React.ReactNode",
+        "required": false
+      }
+    }
+  },
+  "DropdownMenuContent": {
+    "path": "components/ui/dropdown-menu.tsx",
+    "exportName": "DropdownMenuContent",
+    "props": {
+      "sideOffset": {
+        "type": "number | undefined",
+        "required": false
+      },
+      "asChild": {
+        "type": "boolean | undefined",
+        "required": false
+      },
+      "forceMount": {
+        "type": "true | undefined",
+        "required": false
+      },
+      "side": {
+        "type": "\"top\" | \"right\" | \"bottom\" | \"left\" | undefined",
+        "required": false
+      },
+      "align": {
+        "type": "\"center\" | \"start\" | \"end\" | undefined",
+        "required": false
+      },
+      "alignOffset": {
+        "type": "number | undefined",
+        "required": false
+      },
+      "arrowPadding": {
+        "type": "number | undefined",
+        "required": false
+      },
+      "avoidCollisions": {
+        "type": "boolean | undefined",
+        "required": false
+      },
+      "collisionBoundary": {
+        "type": "Boundary | Boundary[] | undefined",
+        "required": false
+      },
+      "collisionPadding": {
+        "type": "number | Partial<Record<\"top\" | \"right\" | \"bottom\" | \"left\", number>> | undefined",
+        "required": false
+      },
+      "sticky": {
+        "type": "\"partial\" | \"always\" | undefined",
+        "required": false
+      },
+      "hideWhenDetached": {
+        "type": "boolean | undefined",
+        "required": false
+      },
+      "updatePositionStrategy": {
+        "type": "\"always\" | \"optimized\" | undefined",
+        "required": false
+      },
+      "onCloseAutoFocus": {
+        "type": "((event: Event) => void) | undefined",
+        "required": false
+      },
+      "loop": {
+        "type": "boolean | undefined",
+        "required": false
+      },
+      "onEscapeKeyDown": {
+        "type": "((event: KeyboardEvent) => void) | undefined",
+        "required": false
+      },
+      "onPointerDownOutside": {
+        "type": "((event: PointerDownOutsideEvent) => void) | undefined",
+        "required": false
+      },
+      "onFocusOutside": {
+        "type": "((event: FocusOutsideEvent) => void) | undefined",
+        "required": false
+      },
+      "onInteractOutside": {
+        "type": "((event: PointerDownOutsideEvent | FocusOutsideEvent) => void) | undefined",
+        "required": false
+      },
+      "style": {
+        "type": "React.CSSProperties | undefined",
+        "required": false
+      },
+      "children": {
+        "type": "React.ReactNode",
+        "required": false
+      }
+    }
+  },
+  "DropdownMenuGroup": {
+    "path": "components/ui/dropdown-menu.tsx",
+    "exportName": "DropdownMenuGroup",
+    "props": {
+      "asChild": {
+        "type": "boolean | undefined",
+        "required": false
+      },
+      "style": {
+        "type": "React.CSSProperties | undefined",
+        "required": false
+      },
+      "children": {
+        "type": "React.ReactNode",
+        "required": false
+      }
+    }
+  },
+  "DropdownMenuLabel": {
+    "path": "components/ui/dropdown-menu.tsx",
+    "exportName": "DropdownMenuLabel",
+    "props": {
+      "inset": {
+        "type": "boolean | undefined",
+        "required": false
+      },
+      "asChild": {
+        "type": "boolean | undefined",
+        "required": false
+      },
+      "style": {
+        "type": "React.CSSProperties | undefined",
+        "required": false
+      },
+      "children": {
+        "type": "React.ReactNode",
+        "required": false
+      }
+    }
+  },
+  "DropdownMenuItem": {
+    "path": "components/ui/dropdown-menu.tsx",
+    "exportName": "DropdownMenuItem",
+    "props": {
+      "inset": {
+        "type": "boolean | undefined",
+        "required": false
+      },
+      "variant": {
+        "type": "\"default\" | \"destructive\" | undefined",
+        "required": false
+      },
+      "onSelect": {
+        "type": "((event: Event) => void) | undefined",
+        "required": false
+      },
+      "asChild": {
+        "type": "boolean | undefined",
+        "required": false
+      },
+      "disabled": {
+        "type": "boolean | undefined",
+        "required": false
+      },
+      "textValue": {
+        "type": "string | undefined",
+        "required": false
+      },
+      "style": {
+        "type": "React.CSSProperties | undefined",
+        "required": false
+      },
+      "children": {
+        "type": "React.ReactNode",
+        "required": false
+      }
+    }
+  },
+  "DropdownMenuCheckboxItem": {
+    "path": "components/ui/dropdown-menu.tsx",
+    "exportName": "DropdownMenuCheckboxItem",
+    "props": {
+      "children": {
+        "type": "React.ReactNode",
+        "required": false
+      },
+      "checked": {
+        "type": "CheckedState | undefined",
+        "required": false
+      },
+      "onSelect": {
+        "type": "((event: Event) => void) | undefined",
+        "required": false
+      },
+      "asChild": {
+        "type": "boolean | undefined",
+        "required": false
+      },
+      "disabled": {
+        "type": "boolean | undefined",
+        "required": false
+      },
+      "textValue": {
+        "type": "string | undefined",
+        "required": false
+      },
+      "onCheckedChange": {
+        "type": "((checked: boolean) => void) | undefined",
+        "required": false
+      },
+      "style": {
+        "type": "React.CSSProperties | undefined",
+        "required": false
+      }
+    }
+  },
+  "DropdownMenuRadioGroup": {
+    "path": "components/ui/dropdown-menu.tsx",
+    "exportName": "DropdownMenuRadioGroup",
+    "props": {
+      "asChild": {
+        "type": "boolean | undefined",
+        "required": false
+      },
+      "value": {
+        "type": "string | undefined",
+        "required": false
+      },
+      "onValueChange": {
+        "type": "((value: string) => void) | undefined",
+        "required": false
+      },
+      "style": {
+        "type": "React.CSSProperties | undefined",
+        "required": false
+      },
+      "children": {
+        "type": "React.ReactNode",
+        "required": false
+      }
+    }
+  },
+  "DropdownMenuRadioItem": {
+    "path": "components/ui/dropdown-menu.tsx",
+    "exportName": "DropdownMenuRadioItem",
+    "props": {
+      "children": {
+        "type": "React.ReactNode",
+        "required": false
+      },
+      "onSelect": {
+        "type": "((event: Event) => void) | undefined",
+        "required": false
+      },
+      "asChild": {
+        "type": "boolean | undefined",
+        "required": false
+      },
+      "disabled": {
+        "type": "boolean | undefined",
+        "required": false
+      },
+      "value": {
+        "type": "string",
+        "required": true
+      },
+      "textValue": {
+        "type": "string | undefined",
+        "required": false
+      },
+      "style": {
+        "type": "React.CSSProperties | undefined",
+        "required": false
+      }
+    }
+  },
+  "DropdownMenuSeparator": {
+    "path": "components/ui/dropdown-menu.tsx",
+    "exportName": "DropdownMenuSeparator",
+    "props": {
+      "asChild": {
+        "type": "boolean | undefined",
+        "required": false
+      },
+      "style": {
+        "type": "React.CSSProperties | undefined",
+        "required": false
+      },
+      "children": {
+        "type": "React.ReactNode",
+        "required": false
+      }
+    }
+  },
+  "DropdownMenuShortcut": {
+    "path": "components/ui/dropdown-menu.tsx",
+    "exportName": "DropdownMenuShortcut",
+    "props": {
+      "style": {
+        "type": "React.CSSProperties | undefined",
+        "required": false
+      },
+      "children": {
+        "type": "React.ReactNode",
+        "required": false
+      }
+    }
+  },
+  "DropdownMenuSub": {
+    "path": "components/ui/dropdown-menu.tsx",
+    "exportName": "DropdownMenuSub",
+    "props": {
+      "children": {
+        "type": "React.ReactNode",
+        "required": false
+      },
+      "open": {
+        "type": "boolean | undefined",
+        "required": false
+      },
+      "defaultOpen": {
+        "type": "boolean | undefined",
+        "required": false
+      },
+      "onOpenChange": {
+        "type": "((open: boolean) => void) | undefined",
+        "required": false
+      }
+    }
+  },
+  "DropdownMenuSubTrigger": {
+    "path": "components/ui/dropdown-menu.tsx",
+    "exportName": "DropdownMenuSubTrigger",
+    "props": {
+      "inset": {
+        "type": "boolean | undefined",
+        "required": false
+      },
+      "children": {
+        "type": "React.ReactNode",
+        "required": false
+      },
+      "asChild": {
+        "type": "boolean | undefined",
+        "required": false
+      },
+      "disabled": {
+        "type": "boolean | undefined",
+        "required": false
+      },
+      "textValue": {
+        "type": "string | undefined",
+        "required": false
+      },
+      "style": {
+        "type": "React.CSSProperties | undefined",
+        "required": false
+      }
+    }
+  },
+  "DropdownMenuSubContent": {
+    "path": "components/ui/dropdown-menu.tsx",
+    "exportName": "DropdownMenuSubContent",
+    "props": {
+      "asChild": {
+        "type": "boolean | undefined",
+        "required": false
+      },
+      "sideOffset": {
+        "type": "number | undefined",
+        "required": false
+      },
+      "alignOffset": {
+        "type": "number | undefined",
+        "required": false
+      },
+      "arrowPadding": {
+        "type": "number | undefined",
+        "required": false
+      },
+      "avoidCollisions": {
+        "type": "boolean | undefined",
+        "required": false
+      },
+      "collisionBoundary": {
+        "type": "Boundary | Boundary[] | undefined",
+        "required": false
+      },
+      "collisionPadding": {
+        "type": "number | Partial<Record<\"top\" | \"right\" | \"bottom\" | \"left\", number>> | undefined",
+        "required": false
+      },
+      "sticky": {
+        "type": "\"partial\" | \"always\" | undefined",
+        "required": false
+      },
+      "hideWhenDetached": {
+        "type": "boolean | undefined",
+        "required": false
+      },
+      "updatePositionStrategy": {
+        "type": "\"always\" | \"optimized\" | undefined",
+        "required": false
+      },
+      "loop": {
+        "type": "boolean | undefined",
+        "required": false
+      },
+      "onEscapeKeyDown": {
+        "type": "((event: KeyboardEvent) => void) | undefined",
+        "required": false
+      },
+      "onPointerDownOutside": {
+        "type": "((event: PointerDownOutsideEvent) => void) | undefined",
+        "required": false
+      },
+      "onFocusOutside": {
+        "type": "((event: FocusOutsideEvent) => void) | undefined",
+        "required": false
+      },
+      "onInteractOutside": {
+        "type": "((event: PointerDownOutsideEvent | FocusOutsideEvent) => void) | undefined",
+        "required": false
+      },
+      "forceMount": {
+        "type": "true | undefined",
+        "required": false
+      },
+      "style": {
+        "type": "React.CSSProperties | undefined",
+        "required": false
+      },
+      "children": {
+        "type": "React.ReactNode",
+        "required": false
+      }
+    }
+  },
+  "InputGroup": {
+    "path": "components/ui/input-group.tsx",
+    "exportName": "InputGroup",
+    "props": {
+      "style": {
+        "type": "React.CSSProperties | undefined",
+        "required": false
+      },
+      "children": {
+        "type": "React.ReactNode",
+        "required": false
+      }
+    }
+  },
+  "InputGroupAddon": {
+    "path": "components/ui/input-group.tsx",
+    "exportName": "InputGroupAddon",
+    "props": {
+      "style": {
+        "type": "React.CSSProperties | undefined",
+        "required": false
+      },
+      "children": {
+        "type": "React.ReactNode",
+        "required": false
+      },
+      "align": {
+        "type": "\"inline-start\" | \"inline-end\" | \"block-start\" | \"block-end\" | null | undefined",
+        "required": false
+      }
+    }
+  },
+  "InputGroupButton": {
+    "path": "components/ui/input-group.tsx",
+    "exportName": "InputGroupButton",
+    "props": {
+      "type": {
+        "type": "\"button\" | \"submit\" | \"reset\" | undefined",
+        "required": false
+      },
+      "variant": {
+        "type": "\"link\" | \"default\" | \"destructive\" | \"outline\" | \"secondary\" | \"ghost\" | null | undefined",
+        "required": false
+      },
+      "size": {
+        "type": "\"sm\" | \"xs\" | \"icon-sm\" | \"icon-xs\" | null | undefined",
+        "required": false
+      },
+      "asChild": {
+        "type": "boolean | undefined",
+        "required": false
+      },
+      "style": {
+        "type": "React.CSSProperties | undefined",
+        "required": false
+      },
+      "children": {
+        "type": "React.ReactNode",
+        "required": false
+      }
+    }
+  },
+  "InputGroupText": {
+    "path": "components/ui/input-group.tsx",
+    "exportName": "InputGroupText",
+    "props": {
+      "style": {
+        "type": "React.CSSProperties | undefined",
+        "required": false
+      },
+      "children": {
+        "type": "React.ReactNode",
+        "required": false
+      }
+    }
+  },
+  "InputGroupInput": {
+    "path": "components/ui/input-group.tsx",
+    "exportName": "InputGroupInput",
+    "props": {
+      "autoComplete": {
+        "type": "React.HTMLInputAutoCompleteAttribute | undefined",
+        "required": false
+      },
+      "disabled": {
+        "type": "boolean | undefined",
+        "required": false
+      },
+      "name": {
+        "type": "string | undefined",
+        "required": false
+      },
+      "placeholder": {
+        "type": "string | undefined",
+        "required": false
+      },
+      "readOnly": {
+        "type": "boolean | undefined",
+        "required": false
+      },
+      "required": {
+        "type": "boolean | undefined",
+        "required": false
+      },
+      "type": {
+        "type": "React.HTMLInputTypeAttribute | undefined",
+        "required": false
+      },
+      "value": {
+        "type": "string | number | readonly string[] | undefined",
+        "required": false
+      },
+      "defaultValue": {
+        "type": "string | number | readonly string[] | undefined",
+        "required": false
+      },
+      "autoFocus": {
+        "type": "boolean | undefined",
+        "required": false
+      },
+      "style": {
+        "type": "React.CSSProperties | undefined",
+        "required": false
+      },
+      "children": {
+        "type": "React.ReactNode",
+        "required": false
+      }
+    }
+  },
+  "InputGroupTextarea": {
+    "path": "components/ui/input-group.tsx",
+    "exportName": "InputGroupTextarea",
+    "props": {
+      "cols": {
+        "type": "number | undefined",
+        "required": false
+      },
+      "disabled": {
+        "type": "boolean | undefined",
+        "required": false
+      },
+      "name": {
+        "type": "string | undefined",
+        "required": false
+      },
+      "placeholder": {
+        "type": "string | undefined",
+        "required": false
+      },
+      "readOnly": {
+        "type": "boolean | undefined",
+        "required": false
+      },
+      "required": {
+        "type": "boolean | undefined",
+        "required": false
+      },
+      "rows": {
+        "type": "number | undefined",
+        "required": false
+      },
+      "value": {
+        "type": "string | number | readonly string[] | undefined",
+        "required": false
+      },
+      "defaultValue": {
+        "type": "string | number | readonly string[] | undefined",
+        "required": false
+      },
+      "autoFocus": {
+        "type": "boolean | undefined",
+        "required": false
+      },
+      "style": {
+        "type": "React.CSSProperties | undefined",
+        "required": false
+      },
+      "children": {
+        "type": "React.ReactNode",
+        "required": false
+      }
+    }
+  },
+  "Input": {
+    "path": "components/ui/input.tsx",
+    "exportName": "Input",
+    "props": {
+      "autoComplete": {
+        "type": "React.HTMLInputAutoCompleteAttribute | undefined",
+        "required": false
+      },
+      "disabled": {
+        "type": "boolean | undefined",
+        "required": false
+      },
+      "name": {
+        "type": "string | undefined",
+        "required": false
+      },
+      "placeholder": {
+        "type": "string | undefined",
+        "required": false
+      },
+      "readOnly": {
+        "type": "boolean | undefined",
+        "required": false
+      },
+      "required": {
+        "type": "boolean | undefined",
+        "required": false
+      },
+      "type": {
+        "type": "React.HTMLInputTypeAttribute | undefined",
+        "required": false
+      },
+      "value": {
+        "type": "string | number | readonly string[] | undefined",
+        "required": false
+      },
+      "defaultValue": {
+        "type": "string | number | readonly string[] | undefined",
+        "required": false
+      },
+      "autoFocus": {
+        "type": "boolean | undefined",
+        "required": false
+      },
+      "style": {
+        "type": "React.CSSProperties | undefined",
+        "required": false
+      },
+      "children": {
+        "type": "React.ReactNode",
+        "required": false
+      }
+    }
+  },
+  "Label": {
+    "path": "components/ui/label.tsx",
+    "exportName": "Label",
+    "props": {
+      "asChild": {
+        "type": "boolean | undefined",
+        "required": false
+      },
+      "style": {
+        "type": "React.CSSProperties | undefined",
+        "required": false
+      },
+      "children": {
+        "type": "React.ReactNode",
+        "required": false
+      }
+    }
+  },
+  "Popover": {
+    "path": "components/ui/popover.tsx",
+    "exportName": "Popover",
+    "props": {
+      "children": {
+        "type": "React.ReactNode",
+        "required": false
+      },
+      "open": {
+        "type": "boolean | undefined",
+        "required": false
+      },
+      "defaultOpen": {
+        "type": "boolean | undefined",
+        "required": false
+      },
+      "onOpenChange": {
+        "type": "((open: boolean) => void) | undefined",
+        "required": false
+      },
+      "modal": {
+        "type": "boolean | undefined",
+        "required": false
+      }
+    }
+  },
+  "PopoverTrigger": {
+    "path": "components/ui/popover.tsx",
+    "exportName": "PopoverTrigger",
+    "props": {
+      "asChild": {
+        "type": "boolean | undefined",
+        "required": false
+      },
+      "style": {
+        "type": "React.CSSProperties | undefined",
+        "required": false
+      },
+      "children": {
+        "type": "React.ReactNode",
+        "required": false
+      }
+    }
+  },
+  "PopoverContent": {
+    "path": "components/ui/popover.tsx",
+    "exportName": "PopoverContent",
+    "props": {
+      "align": {
+        "type": "\"center\" | \"start\" | \"end\" | undefined",
+        "required": false
+      },
+      "sideOffset": {
+        "type": "number | undefined",
+        "required": false
+      },
+      "forceMount": {
+        "type": "true | undefined",
+        "required": false
+      },
+      "asChild": {
+        "type": "boolean | undefined",
+        "required": false
+      },
+      "side": {
+        "type": "\"top\" | \"right\" | \"bottom\" | \"left\" | undefined",
+        "required": false
+      },
+      "alignOffset": {
+        "type": "number | undefined",
+        "required": false
+      },
+      "arrowPadding": {
+        "type": "number | undefined",
+        "required": false
+      },
+      "avoidCollisions": {
+        "type": "boolean | undefined",
+        "required": false
+      },
+      "collisionBoundary": {
+        "type": "Boundary | Boundary[] | undefined",
+        "required": false
+      },
+      "collisionPadding": {
+        "type": "number | Partial<Record<\"top\" | \"right\" | \"bottom\" | \"left\", number>> | undefined",
+        "required": false
+      },
+      "sticky": {
+        "type": "\"partial\" | \"always\" | undefined",
+        "required": false
+      },
+      "hideWhenDetached": {
+        "type": "boolean | undefined",
+        "required": false
+      },
+      "updatePositionStrategy": {
+        "type": "\"always\" | \"optimized\" | undefined",
+        "required": false
+      },
+      "onEscapeKeyDown": {
+        "type": "((event: KeyboardEvent) => void) | undefined",
+        "required": false
+      },
+      "onPointerDownOutside": {
+        "type": "((event: PointerDownOutsideEvent) => void) | undefined",
+        "required": false
+      },
+      "onFocusOutside": {
+        "type": "((event: FocusOutsideEvent) => void) | undefined",
+        "required": false
+      },
+      "onInteractOutside": {
+        "type": "((event: PointerDownOutsideEvent | FocusOutsideEvent) => void) | undefined",
+        "required": false
+      },
+      "onOpenAutoFocus": {
+        "type": "((event: Event) => void) | undefined",
+        "required": false
+      },
+      "onCloseAutoFocus": {
+        "type": "((event: Event) => void) | undefined",
+        "required": false
+      },
+      "style": {
+        "type": "React.CSSProperties | undefined",
+        "required": false
+      },
+      "children": {
+        "type": "React.ReactNode",
+        "required": false
+      }
+    }
+  },
+  "PopoverAnchor": {
+    "path": "components/ui/popover.tsx",
+    "exportName": "PopoverAnchor",
+    "props": {
+      "asChild": {
+        "type": "boolean | undefined",
+        "required": false
+      },
+      "virtualRef": {
+        "type": "React.RefObject<import(\"/Users/putri/code/greenboard-design/node_modules/.pnpm/@radix-ui+rect@1.1.1/node_modules/@radix-ui/rect/dist/index\").Measurable> | undefined",
+        "required": false
+      },
+      "style": {
+        "type": "React.CSSProperties | undefined",
+        "required": false
+      },
+      "children": {
+        "type": "React.ReactNode",
+        "required": false
+      }
+    }
+  },
+  "Progress": {
+    "path": "components/ui/progress.tsx",
+    "exportName": "Progress",
+    "props": {
+      "value": {
+        "type": "number | null | undefined",
+        "required": false
+      },
+      "max": {
+        "type": "number | undefined",
+        "required": false
+      },
+      "getValueLabel": {
+        "type": "((value: number, max: number) => string) | undefined",
+        "required": false
+      },
+      "asChild": {
+        "type": "boolean | undefined",
+        "required": false
+      },
+      "style": {
+        "type": "React.CSSProperties | undefined",
+        "required": false
+      },
+      "children": {
+        "type": "React.ReactNode",
+        "required": false
+      }
+    }
+  },
+  "Select": {
+    "path": "components/ui/select.tsx",
+    "exportName": "Select",
+    "props": {
+      "children": {
+        "type": "React.ReactNode",
+        "required": false
+      },
+      "open": {
+        "type": "boolean | undefined",
+        "required": false
+      },
+      "defaultOpen": {
+        "type": "boolean | undefined",
+        "required": false
+      },
+      "onOpenChange": {
+        "type": "((open: boolean) => void) | undefined",
+        "required": false
+      },
+      "dir": {
+        "type": "Direction | undefined",
+        "required": false
+      },
+      "name": {
+        "type": "string | undefined",
+        "required": false
+      },
+      "autoComplete": {
+        "type": "string | undefined",
+        "required": false
+      },
+      "disabled": {
+        "type": "boolean | undefined",
+        "required": false
+      },
+      "required": {
+        "type": "boolean | undefined",
+        "required": false
+      },
+      "form": {
+        "type": "string | undefined",
+        "required": false
+      },
+      "value": {
+        "type": "string | undefined",
+        "required": false
+      },
+      "defaultValue": {
+        "type": "string | undefined",
+        "required": false
+      },
+      "onValueChange": {
+        "type": "((value: string) => void) | undefined",
+        "required": false
+      }
+    }
+  },
+  "SelectContent": {
+    "path": "components/ui/select.tsx",
+    "exportName": "SelectContent",
+    "props": {
+      "children": {
+        "type": "React.ReactNode",
+        "required": false
+      },
+      "position": {
+        "type": "\"item-aligned\" | \"popper\" | undefined",
+        "required": false
+      },
+      "align": {
+        "type": "\"center\" | \"start\" | \"end\" | undefined",
+        "required": false
+      },
+      "onCloseAutoFocus": {
+        "type": "((event: Event) => void) | undefined",
+        "required": false
+      },
+      "onEscapeKeyDown": {
+        "type": "((event: KeyboardEvent) => void) | undefined",
+        "required": false
+      },
+      "onPointerDownOutside": {
+        "type": "((event: PointerDownOutsideEvent) => void) | undefined",
+        "required": false
+      },
+      "asChild": {
+        "type": "boolean | undefined",
+        "required": false
+      },
+      "side": {
+        "type": "\"top\" | \"right\" | \"bottom\" | \"left\" | undefined",
+        "required": false
+      },
+      "sideOffset": {
+        "type": "number | undefined",
+        "required": false
+      },
+      "alignOffset": {
+        "type": "number | undefined",
+        "required": false
+      },
+      "arrowPadding": {
+        "type": "number | undefined",
+        "required": false
+      },
+      "avoidCollisions": {
+        "type": "boolean | undefined",
+        "required": false
+      },
+      "collisionBoundary": {
+        "type": "Boundary | Boundary[] | undefined",
+        "required": false
+      },
+      "collisionPadding": {
+        "type": "number | Partial<Record<\"top\" | \"right\" | \"bottom\" | \"left\", number>> | undefined",
+        "required": false
+      },
+      "sticky": {
+        "type": "\"partial\" | \"always\" | undefined",
+        "required": false
+      },
+      "hideWhenDetached": {
+        "type": "boolean | undefined",
+        "required": false
+      },
+      "updatePositionStrategy": {
+        "type": "\"always\" | \"optimized\" | undefined",
+        "required": false
+      },
+      "style": {
+        "type": "React.CSSProperties | undefined",
+        "required": false
+      }
+    }
+  },
+  "SelectGroup": {
+    "path": "components/ui/select.tsx",
+    "exportName": "SelectGroup",
+    "props": {
+      "asChild": {
+        "type": "boolean | undefined",
+        "required": false
+      },
+      "style": {
+        "type": "React.CSSProperties | undefined",
+        "required": false
+      },
+      "children": {
+        "type": "React.ReactNode",
+        "required": false
+      }
+    }
+  },
+  "SelectItem": {
+    "path": "components/ui/select.tsx",
+    "exportName": "SelectItem",
+    "props": {
+      "children": {
+        "type": "React.ReactNode",
+        "required": false
+      },
+      "value": {
+        "type": "string",
+        "required": true
+      },
+      "disabled": {
+        "type": "boolean | undefined",
+        "required": false
+      },
+      "textValue": {
+        "type": "string | undefined",
+        "required": false
+      },
+      "asChild": {
+        "type": "boolean | undefined",
+        "required": false
+      },
+      "style": {
+        "type": "React.CSSProperties | undefined",
+        "required": false
+      }
+    }
+  },
+  "SelectLabel": {
+    "path": "components/ui/select.tsx",
+    "exportName": "SelectLabel",
+    "props": {
+      "asChild": {
+        "type": "boolean | undefined",
+        "required": false
+      },
+      "style": {
+        "type": "React.CSSProperties | undefined",
+        "required": false
+      },
+      "children": {
+        "type": "React.ReactNode",
+        "required": false
+      }
+    }
+  },
+  "SelectScrollDownButton": {
+    "path": "components/ui/select.tsx",
+    "exportName": "SelectScrollDownButton",
+    "props": {
+      "asChild": {
+        "type": "boolean | undefined",
+        "required": false
+      },
+      "style": {
+        "type": "React.CSSProperties | undefined",
+        "required": false
+      },
+      "children": {
+        "type": "React.ReactNode",
+        "required": false
+      }
+    }
+  },
+  "SelectScrollUpButton": {
+    "path": "components/ui/select.tsx",
+    "exportName": "SelectScrollUpButton",
+    "props": {
+      "asChild": {
+        "type": "boolean | undefined",
+        "required": false
+      },
+      "style": {
+        "type": "React.CSSProperties | undefined",
+        "required": false
+      },
+      "children": {
+        "type": "React.ReactNode",
+        "required": false
+      }
+    }
+  },
+  "SelectSeparator": {
+    "path": "components/ui/select.tsx",
+    "exportName": "SelectSeparator",
+    "props": {
+      "asChild": {
+        "type": "boolean | undefined",
+        "required": false
+      },
+      "style": {
+        "type": "React.CSSProperties | undefined",
+        "required": false
+      },
+      "children": {
+        "type": "React.ReactNode",
+        "required": false
+      }
+    }
+  },
+  "SelectTrigger": {
+    "path": "components/ui/select.tsx",
+    "exportName": "SelectTrigger",
+    "props": {
+      "size": {
+        "type": "\"sm\" | \"default\" | undefined",
+        "required": false
+      },
+      "children": {
+        "type": "React.ReactNode",
+        "required": false
+      },
+      "asChild": {
+        "type": "boolean | undefined",
+        "required": false
+      },
+      "style": {
+        "type": "React.CSSProperties | undefined",
+        "required": false
+      }
+    }
+  },
+  "SelectValue": {
+    "path": "components/ui/select.tsx",
+    "exportName": "SelectValue",
+    "props": {
+      "placeholder": {
+        "type": "React.ReactNode",
+        "required": false
+      },
+      "asChild": {
+        "type": "boolean | undefined",
+        "required": false
+      },
+      "style": {
+        "type": "React.CSSProperties | undefined",
+        "required": false
+      },
+      "children": {
+        "type": "React.ReactNode",
+        "required": false
+      }
+    }
+  },
+  "Separator": {
+    "path": "components/ui/separator.tsx",
+    "exportName": "Separator",
+    "props": {
+      "orientation": {
+        "type": "\"horizontal\" | \"vertical\" | undefined",
+        "required": false
+      },
+      "decorative": {
+        "type": "boolean | undefined",
+        "required": false
+      },
+      "asChild": {
+        "type": "boolean | undefined",
+        "required": false
+      },
+      "style": {
+        "type": "React.CSSProperties | undefined",
+        "required": false
+      },
+      "children": {
+        "type": "React.ReactNode",
+        "required": false
+      }
+    }
+  },
+  "Sheet": {
+    "path": "components/ui/sheet.tsx",
+    "exportName": "Sheet",
+    "props": {
+      "children": {
+        "type": "React.ReactNode",
+        "required": false
+      },
+      "open": {
+        "type": "boolean | undefined",
+        "required": false
+      },
+      "defaultOpen": {
+        "type": "boolean | undefined",
+        "required": false
+      },
+      "onOpenChange": {
+        "type": "((open: boolean) => void) | undefined",
+        "required": false
+      },
+      "modal": {
+        "type": "boolean | undefined",
+        "required": false
+      }
+    }
+  },
+  "SheetTrigger": {
+    "path": "components/ui/sheet.tsx",
+    "exportName": "SheetTrigger",
+    "props": {
+      "asChild": {
+        "type": "boolean | undefined",
+        "required": false
+      },
+      "style": {
+        "type": "React.CSSProperties | undefined",
+        "required": false
+      },
+      "children": {
+        "type": "React.ReactNode",
+        "required": false
+      }
+    }
+  },
+  "SheetClose": {
+    "path": "components/ui/sheet.tsx",
+    "exportName": "SheetClose",
+    "props": {
+      "asChild": {
+        "type": "boolean | undefined",
+        "required": false
+      },
+      "style": {
+        "type": "React.CSSProperties | undefined",
+        "required": false
+      },
+      "children": {
+        "type": "React.ReactNode",
+        "required": false
+      }
+    }
+  },
+  "SheetContent": {
+    "path": "components/ui/sheet.tsx",
+    "exportName": "SheetContent",
+    "props": {
+      "children": {
+        "type": "React.ReactNode",
+        "required": false
+      },
+      "side": {
+        "type": "\"top\" | \"right\" | \"bottom\" | \"left\" | undefined",
+        "required": false
+      },
+      "forceMount": {
+        "type": "true | undefined",
+        "required": false
+      },
+      "asChild": {
+        "type": "boolean | undefined",
+        "required": false
+      },
+      "onEscapeKeyDown": {
+        "type": "((event: KeyboardEvent) => void) | undefined",
+        "required": false
+      },
+      "onPointerDownOutside": {
+        "type": "((event: PointerDownOutsideEvent) => void) | undefined",
+        "required": false
+      },
+      "onFocusOutside": {
+        "type": "((event: FocusOutsideEvent) => void) | undefined",
+        "required": false
+      },
+      "onInteractOutside": {
+        "type": "((event: PointerDownOutsideEvent | FocusOutsideEvent) => void) | undefined",
+        "required": false
+      },
+      "onOpenAutoFocus": {
+        "type": "((event: Event) => void) | undefined",
+        "required": false
+      },
+      "onCloseAutoFocus": {
+        "type": "((event: Event) => void) | undefined",
+        "required": false
+      },
+      "style": {
+        "type": "React.CSSProperties | undefined",
+        "required": false
+      }
+    }
+  },
+  "SheetHeader": {
+    "path": "components/ui/sheet.tsx",
+    "exportName": "SheetHeader",
+    "props": {
+      "style": {
+        "type": "React.CSSProperties | undefined",
+        "required": false
+      },
+      "children": {
+        "type": "React.ReactNode",
+        "required": false
+      }
+    }
+  },
+  "SheetFooter": {
+    "path": "components/ui/sheet.tsx",
+    "exportName": "SheetFooter",
+    "props": {
+      "style": {
+        "type": "React.CSSProperties | undefined",
+        "required": false
+      },
+      "children": {
+        "type": "React.ReactNode",
+        "required": false
+      }
+    }
+  },
+  "SheetTitle": {
+    "path": "components/ui/sheet.tsx",
+    "exportName": "SheetTitle",
+    "props": {
+      "asChild": {
+        "type": "boolean | undefined",
+        "required": false
+      },
+      "style": {
+        "type": "React.CSSProperties | undefined",
+        "required": false
+      },
+      "children": {
+        "type": "React.ReactNode",
+        "required": false
+      }
+    }
+  },
+  "SheetDescription": {
+    "path": "components/ui/sheet.tsx",
+    "exportName": "SheetDescription",
+    "props": {
+      "asChild": {
+        "type": "boolean | undefined",
+        "required": false
+      },
+      "style": {
+        "type": "React.CSSProperties | undefined",
+        "required": false
+      },
+      "children": {
+        "type": "React.ReactNode",
+        "required": false
+      }
+    }
+  },
+  "Sidebar": {
+    "path": "components/ui/sidebar.tsx",
+    "exportName": "Sidebar",
+    "props": {
+      "style": {
+        "type": "React.CSSProperties | undefined",
+        "required": false
+      },
+      "children": {
+        "type": "React.ReactNode",
+        "required": false
+      },
+      "side": {
+        "type": "\"left\" | \"right\" | undefined",
+        "required": false
+      },
+      "variant": {
+        "type": "\"sidebar\" | \"floating\" | \"inset\" | undefined",
+        "required": false
+      },
+      "collapsible": {
+        "type": "\"none\" | \"offcanvas\" | \"icon\" | undefined",
+        "required": false
+      }
+    }
+  },
+  "SidebarContent": {
+    "path": "components/ui/sidebar.tsx",
+    "exportName": "SidebarContent",
+    "props": {
+      "style": {
+        "type": "React.CSSProperties | undefined",
+        "required": false
+      },
+      "children": {
+        "type": "React.ReactNode",
+        "required": false
+      }
+    }
+  },
+  "SidebarFooter": {
+    "path": "components/ui/sidebar.tsx",
+    "exportName": "SidebarFooter",
+    "props": {
+      "style": {
+        "type": "React.CSSProperties | undefined",
+        "required": false
+      },
+      "children": {
+        "type": "React.ReactNode",
+        "required": false
+      }
+    }
+  },
+  "SidebarGroup": {
+    "path": "components/ui/sidebar.tsx",
+    "exportName": "SidebarGroup",
+    "props": {
+      "style": {
+        "type": "React.CSSProperties | undefined",
+        "required": false
+      },
+      "children": {
+        "type": "React.ReactNode",
+        "required": false
+      }
+    }
+  },
+  "SidebarGroupAction": {
+    "path": "components/ui/sidebar.tsx",
+    "exportName": "SidebarGroupAction",
+    "props": {
+      "disabled": {
+        "type": "boolean | undefined",
+        "required": false
+      },
+      "type": {
+        "type": "\"button\" | \"submit\" | \"reset\" | undefined",
+        "required": false
+      },
+      "style": {
+        "type": "React.CSSProperties | undefined",
+        "required": false
+      },
+      "children": {
+        "type": "React.ReactNode",
+        "required": false
+      },
+      "asChild": {
+        "type": "boolean | undefined",
+        "required": false
+      }
+    }
+  },
+  "SidebarGroupContent": {
+    "path": "components/ui/sidebar.tsx",
+    "exportName": "SidebarGroupContent",
+    "props": {
+      "style": {
+        "type": "React.CSSProperties | undefined",
+        "required": false
+      },
+      "children": {
+        "type": "React.ReactNode",
+        "required": false
+      }
+    }
+  },
+  "SidebarGroupLabel": {
+    "path": "components/ui/sidebar.tsx",
+    "exportName": "SidebarGroupLabel",
+    "props": {
+      "style": {
+        "type": "React.CSSProperties | undefined",
+        "required": false
+      },
+      "children": {
+        "type": "React.ReactNode",
+        "required": false
+      },
+      "asChild": {
+        "type": "boolean | undefined",
+        "required": false
+      }
+    }
+  },
+  "SidebarHeader": {
+    "path": "components/ui/sidebar.tsx",
+    "exportName": "SidebarHeader",
+    "props": {
+      "style": {
+        "type": "React.CSSProperties | undefined",
+        "required": false
+      },
+      "children": {
+        "type": "React.ReactNode",
+        "required": false
+      }
+    }
+  },
+  "SidebarInput": {
+    "path": "components/ui/sidebar.tsx",
+    "exportName": "SidebarInput",
+    "props": {
+      "style": {
+        "type": "React.CSSProperties | undefined",
+        "required": false
+      },
+      "children": {
+        "type": "React.ReactNode",
+        "required": false
+      }
+    }
+  },
+  "SidebarInset": {
+    "path": "components/ui/sidebar.tsx",
+    "exportName": "SidebarInset",
+    "props": {
+      "style": {
+        "type": "React.CSSProperties | undefined",
+        "required": false
+      },
+      "children": {
+        "type": "React.ReactNode",
+        "required": false
+      }
+    }
+  },
+  "SidebarMenu": {
+    "path": "components/ui/sidebar.tsx",
+    "exportName": "SidebarMenu",
+    "props": {
+      "style": {
+        "type": "React.CSSProperties | undefined",
+        "required": false
+      },
+      "children": {
+        "type": "React.ReactNode",
+        "required": false
+      }
+    }
+  },
+  "SidebarMenuAction": {
+    "path": "components/ui/sidebar.tsx",
+    "exportName": "SidebarMenuAction",
+    "props": {
+      "disabled": {
+        "type": "boolean | undefined",
+        "required": false
+      },
+      "type": {
+        "type": "\"button\" | \"submit\" | \"reset\" | undefined",
+        "required": false
+      },
+      "style": {
+        "type": "React.CSSProperties | undefined",
+        "required": false
+      },
+      "children": {
+        "type": "React.ReactNode",
+        "required": false
+      },
+      "asChild": {
+        "type": "boolean | undefined",
+        "required": false
+      },
+      "showOnHover": {
+        "type": "boolean | undefined",
+        "required": false
+      }
+    }
+  },
+  "SidebarMenuBadge": {
+    "path": "components/ui/sidebar.tsx",
+    "exportName": "SidebarMenuBadge",
+    "props": {
+      "style": {
+        "type": "React.CSSProperties | undefined",
+        "required": false
+      },
+      "children": {
+        "type": "React.ReactNode",
+        "required": false
+      }
+    }
+  },
+  "SidebarMenuButton": {
+    "path": "components/ui/sidebar.tsx",
+    "exportName": "SidebarMenuButton",
+    "props": {
+      "asChild": {
+        "type": "boolean | undefined",
+        "required": false
+      },
+      "isActive": {
+        "type": "boolean | undefined",
+        "required": false
+      },
+      "variant": {
+        "type": "\"default\" | \"outline\" | null | undefined",
+        "required": false
+      },
+      "size": {
+        "type": "\"default\" | \"sm\" | \"lg\" | null | undefined",
+        "required": false
+      },
+      "tooltip": {
+        "type": "string | (import(\"/Users/putri/code/greenboard-design/node_modules/.pnpm/@radix-ui+react-tooltip@1.2.8_@types+react-dom@19.2.3_@types+react@19.2.7__@types+react_eed5a66450b80cb577f0d7d9f4d01cc3/node_modules/@radix-ui/react-tooltip/dist/index\").TooltipContentProps & React.RefAttributes<HTMLDivElement>) | undefined",
+        "required": false
+      },
+      "style": {
+        "type": "React.CSSProperties | undefined",
+        "required": false
+      },
+      "children": {
+        "type": "React.ReactNode",
+        "required": false
+      }
+    }
+  },
+  "SidebarMenuItem": {
+    "path": "components/ui/sidebar.tsx",
+    "exportName": "SidebarMenuItem",
+    "props": {
+      "style": {
+        "type": "React.CSSProperties | undefined",
+        "required": false
+      },
+      "children": {
+        "type": "React.ReactNode",
+        "required": false
+      }
+    }
+  },
+  "SidebarMenuSkeleton": {
+    "path": "components/ui/sidebar.tsx",
+    "exportName": "SidebarMenuSkeleton",
+    "props": {
+      "style": {
+        "type": "React.CSSProperties | undefined",
+        "required": false
+      },
+      "children": {
+        "type": "React.ReactNode",
+        "required": false
+      },
+      "showIcon": {
+        "type": "boolean | undefined",
+        "required": false
+      }
+    }
+  },
+  "SidebarMenuSub": {
+    "path": "components/ui/sidebar.tsx",
+    "exportName": "SidebarMenuSub",
+    "props": {
+      "style": {
+        "type": "React.CSSProperties | undefined",
+        "required": false
+      },
+      "children": {
+        "type": "React.ReactNode",
+        "required": false
+      }
+    }
+  },
+  "SidebarMenuSubButton": {
+    "path": "components/ui/sidebar.tsx",
+    "exportName": "SidebarMenuSubButton",
+    "props": {
+      "href": {
+        "type": "string | undefined",
+        "required": false
+      },
+      "target": {
+        "type": "React.HTMLAttributeAnchorTarget | undefined",
+        "required": false
+      },
+      "style": {
+        "type": "React.CSSProperties | undefined",
+        "required": false
+      },
+      "rel": {
+        "type": "string | undefined",
+        "required": false
+      },
+      "children": {
+        "type": "React.ReactNode",
+        "required": false
+      },
+      "asChild": {
+        "type": "boolean | undefined",
+        "required": false
+      },
+      "size": {
+        "type": "\"sm\" | \"md\" | undefined",
+        "required": false
+      },
+      "isActive": {
+        "type": "boolean | undefined",
+        "required": false
+      }
+    }
+  },
+  "SidebarMenuSubItem": {
+    "path": "components/ui/sidebar.tsx",
+    "exportName": "SidebarMenuSubItem",
+    "props": {
+      "style": {
+        "type": "React.CSSProperties | undefined",
+        "required": false
+      },
+      "children": {
+        "type": "React.ReactNode",
+        "required": false
+      }
+    }
+  },
+  "SidebarProvider": {
+    "path": "components/ui/sidebar.tsx",
+    "exportName": "SidebarProvider",
+    "props": {
+      "style": {
+        "type": "React.CSSProperties | undefined",
+        "required": false
+      },
+      "children": {
+        "type": "React.ReactNode",
+        "required": false
+      },
+      "defaultOpen": {
+        "type": "boolean | undefined",
+        "required": false
+      },
+      "open": {
+        "type": "boolean | undefined",
+        "required": false
+      },
+      "onOpenChange": {
+        "type": "((open: boolean) => void) | undefined",
+        "required": false
+      }
+    }
+  },
+  "SidebarRail": {
+    "path": "components/ui/sidebar.tsx",
+    "exportName": "SidebarRail",
+    "props": {
+      "disabled": {
+        "type": "boolean | undefined",
+        "required": false
+      },
+      "type": {
+        "type": "\"button\" | \"submit\" | \"reset\" | undefined",
+        "required": false
+      },
+      "style": {
+        "type": "React.CSSProperties | undefined",
+        "required": false
+      },
+      "children": {
+        "type": "React.ReactNode",
+        "required": false
+      }
+    }
+  },
+  "SidebarSeparator": {
+    "path": "components/ui/sidebar.tsx",
+    "exportName": "SidebarSeparator",
+    "props": {
+      "orientation": {
+        "type": "\"horizontal\" | \"vertical\" | undefined",
+        "required": false
+      },
+      "decorative": {
+        "type": "boolean | undefined",
+        "required": false
+      },
+      "asChild": {
+        "type": "boolean | undefined",
+        "required": false
+      },
+      "style": {
+        "type": "React.CSSProperties | undefined",
+        "required": false
+      },
+      "children": {
+        "type": "React.ReactNode",
+        "required": false
+      }
+    }
+  },
+  "SidebarTrigger": {
+    "path": "components/ui/sidebar.tsx",
+    "exportName": "SidebarTrigger",
+    "props": {
+      "onClick": {
+        "type": "React.MouseEventHandler<HTMLButtonElement> | undefined",
+        "required": false
+      },
+      "variant": {
+        "type": "\"link\" | \"default\" | \"destructive\" | \"outline\" | \"secondary\" | \"ghost\" | null | undefined",
+        "required": false
+      },
+      "size": {
+        "type": "\"default\" | \"sm\" | \"lg\" | \"xs\" | \"icon\" | \"icon-sm\" | \"icon-lg\" | null | undefined",
+        "required": false
+      },
+      "asChild": {
+        "type": "boolean | undefined",
+        "required": false
+      },
+      "style": {
+        "type": "React.CSSProperties | undefined",
+        "required": false
+      },
+      "children": {
+        "type": "React.ReactNode",
+        "required": false
+      }
+    }
+  },
+  "Skeleton": {
+    "path": "components/ui/skeleton.tsx",
+    "exportName": "Skeleton",
+    "props": {
+      "style": {
+        "type": "React.CSSProperties | undefined",
+        "required": false
+      },
+      "children": {
+        "type": "React.ReactNode",
+        "required": false
+      }
+    }
+  },
+  "Slider": {
+    "path": "components/ui/slider.tsx",
+    "exportName": "Slider",
+    "props": {
+      "defaultValue": {
+        "type": "number[] | undefined",
+        "required": false
+      },
+      "value": {
+        "type": "number[] | undefined",
+        "required": false
+      },
+      "min": {
+        "type": "number | undefined",
+        "required": false
+      },
+      "max": {
+        "type": "number | undefined",
+        "required": false
+      },
+      "name": {
+        "type": "string | undefined",
+        "required": false
+      },
+      "disabled": {
+        "type": "boolean | undefined",
+        "required": false
+      },
+      "orientation": {
+        "type": "\"horizontal\" | \"vertical\" | undefined",
+        "required": false
+      },
+      "dir": {
+        "type": "Direction | undefined",
+        "required": false
+      },
+      "step": {
+        "type": "number | undefined",
+        "required": false
+      },
+      "minStepsBetweenThumbs": {
+        "type": "number | undefined",
+        "required": false
+      },
+      "onValueChange": {
+        "type": "((value: number[]) => void) | undefined",
+        "required": false
+      },
+      "onValueCommit": {
+        "type": "((value: number[]) => void) | undefined",
+        "required": false
+      },
+      "inverted": {
+        "type": "boolean | undefined",
+        "required": false
+      },
+      "form": {
+        "type": "string | undefined",
+        "required": false
+      },
+      "asChild": {
+        "type": "boolean | undefined",
+        "required": false
+      },
+      "style": {
+        "type": "React.CSSProperties | undefined",
+        "required": false
+      },
+      "children": {
+        "type": "React.ReactNode",
+        "required": false
+      }
+    }
+  },
+  "Toaster": {
+    "path": "components/ui/sonner.tsx",
+    "exportName": "Toaster",
+    "props": {
+      "id": {
+        "type": "string | undefined",
+        "required": false
+      },
+      "invert": {
+        "type": "boolean | undefined",
+        "required": false
+      },
+      "theme": {
+        "type": "\"light\" | \"dark\" | \"system\" | undefined",
+        "required": false
+      },
+      "position": {
+        "type": "Position | undefined",
+        "required": false
+      },
+      "hotkey": {
+        "type": "string[] | undefined",
+        "required": false
+      },
+      "richColors": {
+        "type": "boolean | undefined",
+        "required": false
+      },
+      "expand": {
+        "type": "boolean | undefined",
+        "required": false
+      },
+      "duration": {
+        "type": "number | undefined",
+        "required": false
+      },
+      "gap": {
+        "type": "number | undefined",
+        "required": false
+      },
+      "visibleToasts": {
+        "type": "number | undefined",
+        "required": false
+      },
+      "closeButton": {
+        "type": "boolean | undefined",
+        "required": false
+      },
+      "toastOptions": {
+        "type": "ToastOptions | undefined",
+        "required": false
+      },
+      "className": {
+        "type": "string | undefined",
+        "required": false
+      },
+      "style": {
+        "type": "React.CSSProperties | undefined",
+        "required": false
+      },
+      "offset": {
+        "type": "Offset | undefined",
+        "required": false
+      },
+      "mobileOffset": {
+        "type": "Offset | undefined",
+        "required": false
+      },
+      "dir": {
+        "type": "\"auto\" | \"ltr\" | \"rtl\" | undefined",
+        "required": false
+      },
+      "swipeDirections": {
+        "type": "SwipeDirection[] | undefined",
+        "required": false
+      },
+      "icons": {
+        "type": "ToastIcons | undefined",
+        "required": false
+      },
+      "containerAriaLabel": {
+        "type": "string | undefined",
+        "required": false
+      }
+    }
+  },
+  "Spinner": {
+    "path": "components/ui/spinner.tsx",
+    "exportName": "Spinner",
+    "props": {
+      "style": {
+        "type": "React.CSSProperties | undefined",
+        "required": false
+      },
+      "children": {
+        "type": "React.ReactNode",
+        "required": false
+      }
+    }
+  },
+  "Table": {
+    "path": "components/ui/table.tsx",
+    "exportName": "Table",
+    "props": {
+      "style": {
+        "type": "React.CSSProperties | undefined",
+        "required": false
+      },
+      "children": {
+        "type": "React.ReactNode",
+        "required": false
+      }
+    }
+  },
+  "TableHeader": {
+    "path": "components/ui/table.tsx",
+    "exportName": "TableHeader",
+    "props": {
+      "style": {
+        "type": "React.CSSProperties | undefined",
+        "required": false
+      },
+      "children": {
+        "type": "React.ReactNode",
+        "required": false
+      }
+    }
+  },
+  "TableBody": {
+    "path": "components/ui/table.tsx",
+    "exportName": "TableBody",
+    "props": {
+      "style": {
+        "type": "React.CSSProperties | undefined",
+        "required": false
+      },
+      "children": {
+        "type": "React.ReactNode",
+        "required": false
+      }
+    }
+  },
+  "TableFooter": {
+    "path": "components/ui/table.tsx",
+    "exportName": "TableFooter",
+    "props": {
+      "style": {
+        "type": "React.CSSProperties | undefined",
+        "required": false
+      },
+      "children": {
+        "type": "React.ReactNode",
+        "required": false
+      }
+    }
+  },
+  "TableHead": {
+    "path": "components/ui/table.tsx",
+    "exportName": "TableHead",
+    "props": {
+      "style": {
+        "type": "React.CSSProperties | undefined",
+        "required": false
+      },
+      "children": {
+        "type": "React.ReactNode",
+        "required": false
+      }
+    }
+  },
+  "TableRow": {
+    "path": "components/ui/table.tsx",
+    "exportName": "TableRow",
+    "props": {
+      "style": {
+        "type": "React.CSSProperties | undefined",
+        "required": false
+      },
+      "children": {
+        "type": "React.ReactNode",
+        "required": false
+      }
+    }
+  },
+  "TableCell": {
+    "path": "components/ui/table.tsx",
+    "exportName": "TableCell",
+    "props": {
+      "style": {
+        "type": "React.CSSProperties | undefined",
+        "required": false
+      },
+      "children": {
+        "type": "React.ReactNode",
+        "required": false
+      }
+    }
+  },
+  "TableCaption": {
+    "path": "components/ui/table.tsx",
+    "exportName": "TableCaption",
+    "props": {
+      "style": {
+        "type": "React.CSSProperties | undefined",
+        "required": false
+      },
+      "children": {
+        "type": "React.ReactNode",
+        "required": false
+      }
+    }
+  },
+  "Tabs": {
+    "path": "components/ui/tabs.tsx",
+    "exportName": "Tabs",
+    "props": {
+      "value": {
+        "type": "string | undefined",
+        "required": false
+      },
+      "defaultValue": {
+        "type": "string | undefined",
+        "required": false
+      },
+      "onValueChange": {
+        "type": "((value: string) => void) | undefined",
+        "required": false
+      },
+      "orientation": {
+        "type": "\"horizontal\" | \"vertical\" | undefined",
+        "required": false
+      },
+      "dir": {
+        "type": "Direction | undefined",
+        "required": false
+      },
+      "activationMode": {
+        "type": "\"manual\" | \"automatic\" | undefined",
+        "required": false
+      },
+      "asChild": {
+        "type": "boolean | undefined",
+        "required": false
+      },
+      "style": {
+        "type": "React.CSSProperties | undefined",
+        "required": false
+      },
+      "children": {
+        "type": "React.ReactNode",
+        "required": false
+      }
+    }
+  },
+  "TabsList": {
+    "path": "components/ui/tabs.tsx",
+    "exportName": "TabsList",
+    "props": {
+      "loop": {
+        "type": "boolean | undefined",
+        "required": false
+      },
+      "asChild": {
+        "type": "boolean | undefined",
+        "required": false
+      },
+      "style": {
+        "type": "React.CSSProperties | undefined",
+        "required": false
+      },
+      "children": {
+        "type": "React.ReactNode",
+        "required": false
+      }
+    }
+  },
+  "TabsTrigger": {
+    "path": "components/ui/tabs.tsx",
+    "exportName": "TabsTrigger",
+    "props": {
+      "value": {
+        "type": "string",
+        "required": true
+      },
+      "asChild": {
+        "type": "boolean | undefined",
+        "required": false
+      },
+      "style": {
+        "type": "React.CSSProperties | undefined",
+        "required": false
+      },
+      "children": {
+        "type": "React.ReactNode",
+        "required": false
+      }
+    }
+  },
+  "TabsContent": {
+    "path": "components/ui/tabs.tsx",
+    "exportName": "TabsContent",
+    "props": {
+      "value": {
+        "type": "string",
+        "required": true
+      },
+      "forceMount": {
+        "type": "true | undefined",
+        "required": false
+      },
+      "asChild": {
+        "type": "boolean | undefined",
+        "required": false
+      },
+      "style": {
+        "type": "React.CSSProperties | undefined",
+        "required": false
+      },
+      "children": {
+        "type": "React.ReactNode",
+        "required": false
+      }
+    }
+  },
+  "Text": {
+    "path": "components/ui/text.tsx",
+    "exportName": "Text",
+    "props": {
+      "id": {
+        "type": "string | undefined",
+        "required": false
+      },
+      "as": {
+        "type": "string | undefined",
+        "required": false
+      },
+      "className": {
+        "type": "string | undefined",
+        "required": false
+      },
+      "style": {
+        "type": "React.CSSProperties | undefined",
+        "required": false
+      },
+      "onClick": {
+        "type": "(() => void) | undefined",
+        "required": false
+      },
+      "variant": {
+        "type": "Variants | undefined",
+        "required": false
+      },
+      "size": {
+        "type": "import(\"/Users/putri/code/greenboard-design/components/ui/text\").Sizes | undefined",
+        "required": false
+      },
+      "weight": {
+        "type": "import(\"/Users/putri/code/greenboard-design/components/ui/text\").Weights | undefined",
+        "required": false
+      },
+      "children": {
+        "type": "React.ReactNode",
+        "required": false
+      }
+    }
+  },
+  "Textarea": {
+    "path": "components/ui/textarea.tsx",
+    "exportName": "Textarea",
+    "props": {
+      "cols": {
+        "type": "number | undefined",
+        "required": false
+      },
+      "disabled": {
+        "type": "boolean | undefined",
+        "required": false
+      },
+      "name": {
+        "type": "string | undefined",
+        "required": false
+      },
+      "placeholder": {
+        "type": "string | undefined",
+        "required": false
+      },
+      "readOnly": {
+        "type": "boolean | undefined",
+        "required": false
+      },
+      "required": {
+        "type": "boolean | undefined",
+        "required": false
+      },
+      "rows": {
+        "type": "number | undefined",
+        "required": false
+      },
+      "value": {
+        "type": "string | number | readonly string[] | undefined",
+        "required": false
+      },
+      "defaultValue": {
+        "type": "string | number | readonly string[] | undefined",
+        "required": false
+      },
+      "autoFocus": {
+        "type": "boolean | undefined",
+        "required": false
+      },
+      "style": {
+        "type": "React.CSSProperties | undefined",
+        "required": false
+      },
+      "children": {
+        "type": "React.ReactNode",
+        "required": false
+      }
+    }
+  },
+  "ToggleGroup": {
+    "path": "components/ui/toggle-group.tsx",
+    "exportName": "ToggleGroup",
+    "props": {
+      "variant": {
+        "type": "\"default\" | \"outline\" | null | undefined",
+        "required": false
+      },
+      "size": {
+        "type": "\"default\" | \"sm\" | \"lg\" | null | undefined",
+        "required": false
+      },
+      "spacing": {
+        "type": "number | undefined",
+        "required": false
+      },
+      "children": {
+        "type": "React.ReactNode",
+        "required": false
+      },
+      "type": {
+        "type": "\"single\" | \"multiple\"",
+        "required": true
+      },
+      "value": {
+        "type": "string | string[] | undefined",
+        "required": false
+      },
+      "defaultValue": {
+        "type": "string | string[] | undefined",
+        "required": false
+      },
+      "onValueChange": {
+        "type": "((value: string) => void) | ((value: string[]) => void) | undefined",
+        "required": false
+      },
+      "disabled": {
+        "type": "boolean | undefined",
+        "required": false
+      },
+      "rovingFocus": {
+        "type": "boolean | undefined",
+        "required": false
+      },
+      "loop": {
+        "type": "boolean | undefined",
+        "required": false
+      },
+      "orientation": {
+        "type": "\"horizontal\" | \"vertical\" | undefined",
+        "required": false
+      },
+      "dir": {
+        "type": "Direction | undefined",
+        "required": false
+      },
+      "asChild": {
+        "type": "boolean | undefined",
+        "required": false
+      },
+      "style": {
+        "type": "React.CSSProperties | undefined",
+        "required": false
+      }
+    }
+  },
+  "ToggleGroupItem": {
+    "path": "components/ui/toggle-group.tsx",
+    "exportName": "ToggleGroupItem",
+    "props": {
+      "children": {
+        "type": "React.ReactNode",
+        "required": false
+      },
+      "variant": {
+        "type": "\"default\" | \"outline\" | null | undefined",
+        "required": false
+      },
+      "size": {
+        "type": "\"default\" | \"sm\" | \"lg\" | null | undefined",
+        "required": false
+      },
+      "asChild": {
+        "type": "boolean | undefined",
+        "required": false
+      },
+      "value": {
+        "type": "string",
+        "required": true
+      },
+      "style": {
+        "type": "React.CSSProperties | undefined",
+        "required": false
+      }
+    }
+  },
+  "Toggle": {
+    "path": "components/ui/toggle.tsx",
+    "exportName": "Toggle",
+    "props": {
+      "variant": {
+        "type": "\"default\" | \"outline\" | null | undefined",
+        "required": false
+      },
+      "size": {
+        "type": "\"default\" | \"sm\" | \"lg\" | null | undefined",
+        "required": false
+      },
+      "pressed": {
+        "type": "boolean | undefined",
+        "required": false
+      },
+      "defaultPressed": {
+        "type": "boolean | undefined",
+        "required": false
+      },
+      "onPressedChange": {
+        "type": "((pressed: boolean) => void) | undefined",
+        "required": false
+      },
+      "asChild": {
+        "type": "boolean | undefined",
+        "required": false
+      },
+      "style": {
+        "type": "React.CSSProperties | undefined",
+        "required": false
+      },
+      "children": {
+        "type": "React.ReactNode",
+        "required": false
+      }
+    }
+  },
+  "Tooltip": {
+    "path": "components/ui/tooltip.tsx",
+    "exportName": "Tooltip",
+    "props": {
+      "children": {
+        "type": "React.ReactNode",
+        "required": false
+      },
+      "open": {
+        "type": "boolean | undefined",
+        "required": false
+      },
+      "defaultOpen": {
+        "type": "boolean | undefined",
+        "required": false
+      },
+      "onOpenChange": {
+        "type": "((open: boolean) => void) | undefined",
+        "required": false
+      },
+      "delayDuration": {
+        "type": "number | undefined",
+        "required": false
+      },
+      "disableHoverableContent": {
+        "type": "boolean | undefined",
+        "required": false
+      }
+    }
+  },
+  "TooltipTrigger": {
+    "path": "components/ui/tooltip.tsx",
+    "exportName": "TooltipTrigger",
+    "props": {
+      "asChild": {
+        "type": "boolean | undefined",
+        "required": false
+      },
+      "style": {
+        "type": "React.CSSProperties | undefined",
+        "required": false
+      },
+      "children": {
+        "type": "React.ReactNode",
+        "required": false
+      }
+    }
+  },
+  "TooltipContent": {
+    "path": "components/ui/tooltip.tsx",
+    "exportName": "TooltipContent",
+    "props": {
+      "sideOffset": {
+        "type": "number | undefined",
+        "required": false
+      },
+      "children": {
+        "type": "React.ReactNode",
+        "required": false
+      },
+      "forceMount": {
+        "type": "true | undefined",
+        "required": false
+      },
+      "aria-label": {
+        "type": "string | undefined",
+        "required": false
+      },
+      "onEscapeKeyDown": {
+        "type": "((event: KeyboardEvent) => void) | undefined",
+        "required": false
+      },
+      "onPointerDownOutside": {
+        "type": "((event: PointerDownOutsideEvent) => void) | undefined",
+        "required": false
+      },
+      "asChild": {
+        "type": "boolean | undefined",
+        "required": false
+      },
+      "side": {
+        "type": "\"top\" | \"right\" | \"bottom\" | \"left\" | undefined",
+        "required": false
+      },
+      "align": {
+        "type": "\"center\" | \"start\" | \"end\" | undefined",
+        "required": false
+      },
+      "alignOffset": {
+        "type": "number | undefined",
+        "required": false
+      },
+      "arrowPadding": {
+        "type": "number | undefined",
+        "required": false
+      },
+      "avoidCollisions": {
+        "type": "boolean | undefined",
+        "required": false
+      },
+      "collisionBoundary": {
+        "type": "Boundary | Boundary[] | undefined",
+        "required": false
+      },
+      "collisionPadding": {
+        "type": "number | Partial<Record<\"top\" | \"right\" | \"bottom\" | \"left\", number>> | undefined",
+        "required": false
+      },
+      "sticky": {
+        "type": "\"partial\" | \"always\" | undefined",
+        "required": false
+      },
+      "hideWhenDetached": {
+        "type": "boolean | undefined",
+        "required": false
+      },
+      "updatePositionStrategy": {
+        "type": "\"always\" | \"optimized\" | undefined",
+        "required": false
+      },
+      "style": {
+        "type": "React.CSSProperties | undefined",
+        "required": false
+      }
+    }
+  },
+  "TooltipProvider": {
+    "path": "components/ui/tooltip.tsx",
+    "exportName": "TooltipProvider",
+    "props": {
+      "delayDuration": {
+        "type": "number | undefined",
+        "required": false
+      },
+      "children": {
+        "type": "React.ReactNode",
+        "required": true
+      },
+      "skipDelayDuration": {
+        "type": "number | undefined",
+        "required": false
+      },
+      "disableHoverableContent": {
+        "type": "boolean | undefined",
+        "required": false
+      }
+    }
+  },
+  "AddFilterButton": {
+    "path": "components/tasks-table/AddFilter/AddFilterButton.tsx",
+    "exportName": "AddFilterButton"
+  },
+  "AdvancedFilter": {
+    "path": "components/tasks-table/AdvancedFilter/AdvancedFilter.tsx",
+    "exportName": "AdvancedFilter",
+    "props": {
+      "state": {
+        "type": "\"default\" | \"drag\"",
+        "required": true
+      }
+    }
+  },
+  "AdvancedFilterButton": {
+    "path": "components/tasks-table/AdvancedFilter/AdvancedFilterButton.tsx",
+    "exportName": "AdvancedFilterButton"
+  },
+  "FilterGroup": {
+    "path": "components/tasks-table/AdvancedFilter/FilterGroup.tsx",
+    "exportName": "FilterGroup",
+    "props": {
+      "state": {
+        "type": "\"default\" | \"drag\"",
+        "required": true
+      }
+    }
+  },
+  "FilterRow": {
+    "path": "components/tasks-table/AdvancedFilter/FilterRow.tsx",
+    "exportName": "FilterRow",
+    "props": {
+      "label": {
+        "type": "string",
+        "required": true
+      },
+      "state": {
+        "type": "\"default\" | \"drag\" | undefined",
+        "required": false
+      }
+    }
+  },
+  "ExportButton": {
+    "path": "components/tasks-table/Export/ExportButton.tsx",
+    "exportName": "ExportButton"
+  },
+  "ExportProgressToast": {
+    "path": "components/tasks-table/Export/ExportProgressToast.tsx",
+    "exportName": "default",
+    "props": {
+      "value": {
+        "type": "number",
+        "required": true
+      }
+    }
+  },
+  "ViewOptions": {
+    "path": "components/tasks-table/Options/ViewOptions.tsx",
+    "exportName": "ViewOptions"
+  },
+  "ActionToolbar": {
+    "path": "components/tasks-table/RowAction/ActionToolbar.tsx",
+    "exportName": "ActionToolbar"
+  },
+  "ColumnAction": {
+    "path": "components/tasks-table/RowAction/ColumnAction.tsx",
+    "exportName": "ColumnAction",
+    "props": {
+      "label": {
+        "type": "string",
+        "required": true
+      }
+    }
+  },
+  "SimpleFilter": {
+    "path": "components/tasks-table/SimpleFilter/SimpleFilter.tsx",
+    "exportName": "SimpleFilter",
+    "props": {
+      "label": {
+        "type": "string | undefined",
+        "required": false
+      },
+      "options": {
+        "type": "{ label: string; value: string; count: number; selected: boolean; }[] | undefined",
+        "required": false
+      }
+    }
+  },
+  "SortButton": {
+    "path": "components/tasks-table/Sort/SortButton.tsx",
+    "exportName": "SortButton",
+    "props": {
+      "isEmpty": {
+        "type": "boolean",
+        "required": true
+      }
+    }
+  },
+  "SortColumnPicker": {
+    "path": "components/tasks-table/Sort/SortColumnPicker.tsx",
+    "exportName": "SortColumnPicker"
+  },
+  "SortPopoverContent": {
+    "path": "components/tasks-table/Sort/SortPopoverContent.tsx",
+    "exportName": "SortPopoverContent"
+  },
+  "SortRow": {
+    "path": "components/tasks-table/Sort/SortRow.tsx",
+    "exportName": "SortRow",
+    "props": {
+      "selectedColumn": {
+        "type": "string",
+        "required": true
+      },
+      "selectedDirection": {
+        "type": "\"desc\" | \"asc\"",
+        "required": true
+      }
+    }
+  },
+  "QuestionItem": {
+    "path": ".lunagraph/canvases/canvas-1/components/QuestionItem.tsx",
+    "exportName": "default",
+    "props": {
+      "title": {
+        "type": "string | undefined",
+        "required": false
+      },
+      "subtitle": {
+        "type": "string | undefined",
+        "required": false
+      },
+      "matchType": {
+        "type": "MatchType | undefined",
+        "required": false
+      },
+      "isEditMode": {
+        "type": "boolean | undefined",
+        "required": false
+      }
+    }
+  },
+  "QuestionItemGroup": {
+    "path": ".lunagraph/canvases/canvas-1/components/QuestionItemGroup.tsx",
+    "exportName": "default",
+    "props": {
+      "isEditMode": {
+        "type": "boolean | undefined",
+        "required": false
+      },
+      "onEditModeChange": {
+        "type": "((isEditMode: boolean) => void) | undefined",
+        "required": false
+      },
+      "questionTitle": {
+        "type": "string | undefined",
+        "required": false
+      },
+      "questions": {
+        "type": "Question[] | undefined",
+        "required": false
+      },
+      "matchType": {
+        "type": "\"exact\" | \"close\" | \"partial\" | undefined",
+        "required": false
+      }
+    }
+  },
+  "RangeFilter": {
+    "path": ".lunagraph/canvases/canvas-1/components/RangeFilter.tsx",
+    "exportName": "default"
+  },
+  "SideMenuItem": {
+    "path": ".lunagraph/canvases/canvas-1/components/SideMenuItem.tsx",
+    "exportName": "default",
+    "props": {
+      "label": {
+        "type": "string",
+        "required": true
+      },
+      "itemCount": {
+        "type": "number",
+        "required": true
+      },
+      "selected": {
+        "type": "boolean | undefined",
+        "required": false
+      },
+      "isEditMode": {
+        "type": "boolean | undefined",
+        "required": false
+      },
+      "onEditModeChange": {
+        "type": "((isEditMode: boolean) => void) | undefined",
+        "required": false
+      }
+    }
+  },
+  "SliderFilter": {
+    "path": ".lunagraph/canvases/canvas-1/components/SliderFilter.tsx",
+    "exportName": "default"
+  }
+}

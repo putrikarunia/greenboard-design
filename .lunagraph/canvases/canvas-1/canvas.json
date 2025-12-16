@@ -1,0 +1,2048 @@
+{
+  "id": "canvas-1",
+  "name": "Canvas 1",
+  "elements": [
+    {
+      "id": "html-wWIeU1TxkBOxECJAw2lmV",
+      "type": "html",
+      "tag": "div",
+      "styles": {
+        "width": "1512px",
+        "height": "982px",
+        "background": "#f3f4f6",
+        "display": "flex",
+        "flexDirection": "column",
+        "position": "relative",
+        "minHeight": "982px"
+      },
+      "canvasPosition": {
+        "x": -493.2243490351376,
+        "y": 199.26758378637848
+      },
+      "children": [
+        {
+          "id": "html-m7pOio8twv6CBUQ905XsL",
+          "type": "html",
+          "tag": "div",
+          "styles": {
+            "width": "100%",
+            "background": "#f3f4f6",
+            "display": "flex",
+            "flexDirection": "column",
+            "padding": "16px",
+            "backgroundColor": "",
+            "height": "64px",
+            "minHeight": "64px"
+          },
+          "canvasPosition": {
+            "x": -517.229920278956,
+            "y": 213.7950146957778
+          },
+          "children": [],
+          "props": {
+            "className": "bg-primary"
+          }
+        },
+        {
+          "id": "html-EYYef9MT4oNSWaN3l8Wrf",
+          "type": "html",
+          "tag": "div",
+          "styles": {
+            "width": "1200px",
+            "background": "#f3f4f6",
+            "display": "flex",
+            "flexDirection": "column",
+            "height": "auto",
+            "overflow": "hidden",
+            "paddingBottom": "32px"
+          },
+          "canvasPosition": {
+            "x": -1533.4749769372693,
+            "y": 149.38364852398524
+          },
+          "children": [
+            {
+              "id": "html-hFz8SoqXVKOKoIoFh9v9X",
+              "type": "html",
+              "tag": "div",
+              "styles": {
+                "background": "#f3f4f6",
+                "display": "flex",
+                "flexDirection": "column"
+              },
+              "canvasPosition": {
+                "x": 120,
+                "y": 120
+              },
+              "children": [
+                {
+                  "id": "component-mLleWwE2IOfBNSHaIkx1V",
+                  "type": "component",
+                  "componentName": "Breadcrumb",
+                  "props": {},
+                  "styles": {
+                    "width": "fit-content",
+                    "height": "fit-content"
+                  },
+                  "children": [
+                    {
+                      "id": "component-9izlKprTRKQsoqe03rYKd",
+                      "type": "component",
+                      "componentName": "BreadcrumbList",
+                      "props": {},
+                      "styles": {
+                        "width": "fit-content",
+                        "height": "fit-content"
+                      },
+                      "children": [
+                        {
+                          "id": "component-jpAy35hNjwfGcN-GybOI4",
+                          "type": "component",
+                          "componentName": "BreadcrumbItem",
+                          "props": {},
+                          "styles": {
+                            "width": "fit-content",
+                            "height": "fit-content"
+                          },
+                          "children": [
+                            {
+                              "id": "text-70B8nsWICuB8H0eBAoIrl",
+                              "type": "text",
+                              "tag": "span",
+                              "text": "Home",
+                              "styles": {},
+                              "canvasPosition": {
+                                "x": 100,
+                                "y": 100
+                              }
+                            }
+                          ],
+                          "canvasPosition": {
+                            "x": 120,
+                            "y": 120
+                          }
+                        },
+                        {
+                          "id": "component-mmxRIGBJiK3asEyasGMbI",
+                          "type": "component",
+                          "componentName": "BreadcrumbSeparator",
+                          "props": {},
+                          "styles": {
+                            "width": "fit-content",
+                            "height": "fit-content"
+                          },
+                          "children": [],
+                          "canvasPosition": {
+                            "x": 120,
+                            "y": 120
+                          }
+                        },
+                        {
+                          "id": "component-f7fy3hOtuXFx6d5-kXsVV",
+                          "type": "component",
+                          "componentName": "BreadcrumbItem",
+                          "props": {},
+                          "styles": {
+                            "width": "fit-content",
+                            "height": "fit-content"
+                          },
+                          "children": [
+                            {
+                              "id": "text-MDpsYgGstwytiUfAWqSKQ",
+                              "type": "text",
+                              "tag": "span",
+                              "text": "Greenboard Go",
+                              "styles": {},
+                              "canvasPosition": {
+                                "x": 100,
+                                "y": 100
+                              }
+                            }
+                          ],
+                          "canvasPosition": {
+                            "x": 140,
+                            "y": 140
+                          }
+                        },
+                        {
+                          "id": "component-c1DGJMhIakPJzRQGd0aq8",
+                          "type": "component",
+                          "componentName": "BreadcrumbSeparator",
+                          "props": {},
+                          "styles": {
+                            "width": "fit-content",
+                            "height": "fit-content"
+                          },
+                          "children": [],
+                          "canvasPosition": {
+                            "x": 140,
+                            "y": 140
+                          }
+                        },
+                        {
+                          "id": "component-J75BnCULdBdYyja2q5LQ6",
+                          "type": "component",
+                          "componentName": "BreadcrumbItem",
+                          "props": {},
+                          "styles": {
+                            "width": "fit-content",
+                            "height": "fit-content"
+                          },
+                          "children": [
+                            {
+                              "id": "text-Nc7irt3g180iOKmWKpSpJ",
+                              "type": "text",
+                              "tag": "span",
+                              "text": "Question Bank",
+                              "styles": {},
+                              "canvasPosition": {
+                                "x": 100,
+                                "y": 100
+                              }
+                            }
+                          ],
+                          "canvasPosition": {
+                            "x": 160,
+                            "y": 160
+                          }
+                        }
+                      ],
+                      "canvasPosition": {
+                        "x": 120,
+                        "y": 120
+                      }
+                    }
+                  ],
+                  "canvasPosition": {
+                    "x": 120,
+                    "y": 120
+                  }
+                },
+                {
+                  "id": "html-XzRiyrV8H-N3qISzi4hhZ",
+                  "type": "html",
+                  "tag": "div",
+                  "styles": {
+                    "background": "#f3f4f6",
+                    "display": "flex",
+                    "flexDirection": "column"
+                  },
+                  "canvasPosition": {
+                    "x": -83.49446630614534,
+                    "y": -14.44345276403567
+                  },
+                  "children": [
+                    {
+                      "id": "component-rLwfy5VjYaWaLnqtl7y3r",
+                      "type": "component",
+                      "componentName": "Text",
+                      "props": {
+                        "size": "2xl",
+                        "weight": "semibold"
+                      },
+                      "styles": {
+                        "width": "fit-content",
+                        "height": "fit-content"
+                      },
+                      "children": [
+                        {
+                          "id": "text-sHDKZr5uVcZaVxLZD8dYS",
+                          "type": "text",
+                          "tag": "span",
+                          "text": "Question Bank",
+                          "styles": {},
+                          "canvasPosition": {
+                            "x": 100,
+                            "y": 100
+                          }
+                        }
+                      ],
+                      "canvasPosition": {
+                        "x": -266.868343640543,
+                        "y": 858.6558067201524
+                      }
+                    },
+                    {
+                      "id": "component-iNk7l6r74RWGjoWFQ4zRO",
+                      "type": "component",
+                      "componentName": "Text",
+                      "props": {
+                        "size": "sm",
+                        "weight": "regular",
+                        "variant": "muted"
+                      },
+                      "styles": {
+                        "width": "fit-content",
+                        "height": "fit-content"
+                      },
+                      "children": [
+                        {
+                          "id": "text-OsPOW2VcXIjlWl_Wk1H1B",
+                          "type": "text",
+                          "tag": "span",
+                          "text": "Manage all questions that are allowed to be answered by Greenboard Go here.",
+                          "styles": {},
+                          "canvasPosition": {
+                            "x": 100,
+                            "y": 100
+                          }
+                        }
+                      ],
+                      "canvasPosition": {
+                        "x": 140,
+                        "y": 140
+                      }
+                    }
+                  ],
+                  "props": {
+                    "className": "gap-2"
+                  }
+                }
+              ],
+              "props": {
+                "className": "py-8 gap-8"
+              }
+            },
+            {
+              "id": "html-5GEdvw2UQ5JqpJTNy2Bkq",
+              "type": "html",
+              "tag": "div",
+              "styles": {
+                "background": "#f3f4f6",
+                "display": "flex",
+                "flexDirection": "column",
+                "padding": "24px",
+                "backgroundColor": "",
+                "gap": "24px"
+              },
+              "canvasPosition": {
+                "x": 161.21188793179323,
+                "y": 1430.1441257940385
+              },
+              "children": [
+                {
+                  "id": "html-5pJbrr_drY3LyNiAMVMP3",
+                  "type": "html",
+                  "tag": "div",
+                  "styles": {
+                    "display": "flex",
+                    "flexDirection": "column",
+                    "gap": 8
+                  },
+                  "children": [
+                    {
+                      "id": "component-gvT_Mp1gaR4RXe3iOCneD",
+                      "type": "component",
+                      "componentName": "Text",
+                      "props": {
+                        "size": "",
+                        "weight": "semibold"
+                      },
+                      "styles": {
+                        "width": "fit-content",
+                        "height": "fit-content"
+                      },
+                      "children": [
+                        {
+                          "id": "text-M137T-j6AAGs8yEbQ5pvu",
+                          "type": "text",
+                          "tag": "span",
+                          "text": "Allowed Questions",
+                          "styles": {},
+                          "canvasPosition": {
+                            "x": 100,
+                            "y": 100
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "component-K4XsKJThf5qDT5MIy0cYZ",
+                      "type": "component",
+                      "componentName": "Text",
+                      "props": {
+                        "size": "sm",
+                        "weight": "regular",
+                        "variant": "muted"
+                      },
+                      "styles": {
+                        "width": "fit-content",
+                        "height": "fit-content"
+                      },
+                      "children": [
+                        {
+                          "id": "text-qT9mTV1uyEUKhVvicwXd6",
+                          "type": "text",
+                          "tag": "span",
+                          "text": "A list of questions that Greenboard Go is allowed to answer. Anything outside this bank routes users to their compliance team.",
+                          "styles": {},
+                          "canvasPosition": {
+                            "x": 100,
+                            "y": 100
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "html-qs3wLKwHMiSkYKWaJ9dO0",
+                  "type": "html",
+                  "tag": "div",
+                  "styles": {
+                    "background": "#f3f4f6",
+                    "display": "flex",
+                    "flexDirection": "row",
+                    "backgroundColor": "",
+                    "gap": "0"
+                  },
+                  "canvasPosition": {
+                    "x": 181.21188793179323,
+                    "y": 1450.1441257940385
+                  },
+                  "children": [
+                    {
+                      "id": "html-PL6v3P8_JRzENiRg50mRf",
+                      "type": "html",
+                      "tag": "div",
+                      "styles": {
+                        "background": "#f3f4f6",
+                        "display": "flex",
+                        "flexDirection": "column",
+                        "padding": "16px",
+                        "backgroundColor": "",
+                        "width": "300px",
+                        "gap": "16px"
+                      },
+                      "canvasPosition": {
+                        "x": 201.21188793179323,
+                        "y": 1470.1441257940385
+                      },
+                      "children": [
+                        {
+                          "id": "html-YtuBS4uxtAtoWxisUl-jz",
+                          "type": "html",
+                          "tag": "div",
+                          "styles": {
+                            "display": "flex",
+                            "flexDirection": "row",
+                            "gap": 8
+                          },
+                          "children": [
+                            {
+                              "id": "component-alnVxrH-LNMTJp3ygbYIy",
+                              "type": "component",
+                              "componentName": "Text",
+                              "props": {
+                                "size": "",
+                                "weight": "semibold",
+                                "className": "flex-1"
+                              },
+                              "styles": {
+                                "width": "fit-content",
+                                "height": "fit-content"
+                              },
+                              "children": [
+                                {
+                                  "id": "text-UUozW8NVs4HzNvOtmYNfy",
+                                  "type": "text",
+                                  "tag": "span",
+                                  "text": "Categories",
+                                  "styles": {},
+                                  "canvasPosition": {
+                                    "x": 100,
+                                    "y": 100
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "id": "component-ewRQ2OYS8V9ZixG65CW5X",
+                              "type": "component",
+                              "componentName": "Button",
+                              "props": {
+                                "variant": "secondary",
+                                "size": "icon-sm",
+                                "className": "size-7"
+                              },
+                              "styles": {},
+                              "children": [
+                                {
+                                  "id": "icon-Ww6DozFnFyhbADirWrOUd",
+                                  "type": "icon",
+                                  "library": "lucide-react",
+                                  "iconName": "Plus",
+                                  "props": {
+                                    "size": 24
+                                  },
+                                  "styles": {},
+                                  "canvasPosition": {
+                                    "x": -478.90025575447567,
+                                    "y": 392.6598434253117
+                                  }
+                                }
+                              ]
+                            }
+                          ],
+                          "props": {
+                            "className": "items-center"
+                          }
+                        },
+                        {
+                          "id": "html-vl1k_xmKURCLAqJwJ1qOm",
+                          "type": "html",
+                          "tag": "div",
+                          "styles": {
+                            "display": "flex",
+                            "flexDirection": "column",
+                            "gap": "4px"
+                          },
+                          "children": [
+                            {
+                              "id": "component-DdFTN030F_l1-_obNWeL3",
+                              "type": "component",
+                              "componentName": "SideMenuItem",
+                              "props": {
+                                "label": "Personal Trading",
+                                "itemCount": 12,
+                                "selected": true
+                              },
+                              "children": []
+                            },
+                            {
+                              "id": "component-LOvWTJo0SRd0A7Vkp1Sol",
+                              "type": "component",
+                              "componentName": "SideMenuItem",
+                              "props": {
+                                "label": "Gifts & Entertainment",
+                                "itemCount": 8
+                              },
+                              "children": []
+                            },
+                            {
+                              "id": "component-uqnvSLjXHw2Ho-weEpxkf",
+                              "type": "component",
+                              "componentName": "SideMenuItem",
+                              "props": {
+                                "label": "Outside Activities",
+                                "itemCount": 5
+                              },
+                              "children": []
+                            },
+                            {
+                              "id": "component-CFYLpv84K00PK5uN1ouUU",
+                              "type": "component",
+                              "componentName": "SideMenuItem",
+                              "props": {
+                                "label": "Conflicts of Interest",
+                                "itemCount": 7
+                              },
+                              "children": []
+                            },
+                            {
+                              "id": "component-7syF60swrJRO__sjL8Dk6",
+                              "type": "component",
+                              "componentName": "SideMenuItem",
+                              "props": {
+                                "label": "Political Contributions",
+                                "itemCount": 3
+                              },
+                              "children": []
+                            },
+                            {
+                              "id": "component-N8hD9yg_diVl-ahE3PzPL",
+                              "type": "component",
+                              "componentName": "SideMenuItem",
+                              "props": {
+                                "label": "Private Investments",
+                                "itemCount": 6
+                              },
+                              "children": []
+                            }
+                          ]
+                        }
+                      ],
+                      "props": {
+                        "className": "bg-background gap-2 border-border border-solid rounded-none border-r-border border-r"
+                      }
+                    },
+                    {
+                      "id": "html---icSxpyD-6VQH83zxF-4",
+                      "type": "html",
+                      "tag": "div",
+                      "styles": {
+                        "background": "#f3f4f6",
+                        "display": "flex",
+                        "flexDirection": "column",
+                        "padding": "16px",
+                        "backgroundColor": "",
+                        "overflow": "auto",
+                        "gap": "16px"
+                      },
+                      "canvasPosition": {
+                        "x": 221.21188793179323,
+                        "y": 1490.1441257940385
+                      },
+                      "children": [
+                        {
+                          "id": "html-t0ybJpukGLKpezQwTrvyz",
+                          "type": "html",
+                          "tag": "div",
+                          "styles": {
+                            "display": "flex",
+                            "flexDirection": "column",
+                            "gap": 8
+                          },
+                          "children": [
+                            {
+                              "id": "component-AIj_b-zP2q52EvrBhiyk_",
+                              "type": "component",
+                              "componentName": "Text",
+                              "props": {
+                                "size": "md",
+                                "weight": "semibold"
+                              },
+                              "styles": {
+                                "width": "fit-content",
+                                "height": "fit-content"
+                              },
+                              "children": [
+                                {
+                                  "id": "text-2flLr9D0XMg4ZqcDpsW9S",
+                                  "type": "text",
+                                  "tag": "span",
+                                  "text": "Personal Trading",
+                                  "styles": {},
+                                  "canvasPosition": {
+                                    "x": 100,
+                                    "y": 100
+                                  }
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "id": "html-9rjNTT0uv7IbJplhKE64R",
+                          "type": "html",
+                          "tag": "div",
+                          "styles": {
+                            "display": "flex",
+                            "flexDirection": "column",
+                            "gap": 8
+                          },
+                          "children": [
+                            {
+                              "id": "component-a6bREM9hj6GTJT6qRx-a8",
+                              "type": "component",
+                              "componentName": "QuestionItem",
+                              "props": {
+                                "title": "Do I need to submit a preclearance request before doing a trade?",
+                                "subtitle": "Q: Must I request preclearance prior to trading? A: Yes, all trades require prior approval.",
+                                "matchType": "exact"
+                              },
+                              "styles": {
+                                "width": "fit-content",
+                                "height": "fit-content"
+                              },
+                              "children": []
+                            },
+                            {
+                              "id": "component-OhS6Ra_dZ0AM55a1O0WJc",
+                              "type": "component",
+                              "componentName": "QuestionItem",
+                              "props": {
+                                "title": "What is the holding period for securities I purchase?",
+                                "subtitle": "Q: How long must I hold stocks? A: Minimum 30-day holding period for all securities.",
+                                "matchType": "close",
+                                "isEditMode": true
+                              },
+                              "styles": {
+                                "width": "fit-content",
+                                "height": "fit-content"
+                              },
+                              "children": []
+                            },
+                            {
+                              "id": "component-zVQf6li_LBfkeuKz667Fx",
+                              "type": "component",
+                              "componentName": "QuestionItem",
+                              "props": {
+                                "title": "Can I trade securities on the restricted list?",
+                                "subtitle": "Q: Am I allowed to buy restricted stocks? A: No, restricted securities are prohibited.",
+                                "matchType": "partial"
+                              },
+                              "styles": {
+                                "width": "fit-content",
+                                "height": "fit-content"
+                              },
+                              "children": []
+                            },
+                            {
+                              "id": "component-an6Fj__fGNcQ3NXyeicmH",
+                              "type": "component",
+                              "componentName": "QuestionItem",
+                              "props": {
+                                "title": "Do I need to report trades made by my spouse?",
+                                "subtitle": "Q: Are spousal trades reportable? A: Yes, all household member trades must be disclosed.",
+                                "matchType": "exact"
+                              },
+                              "styles": {
+                                "width": "fit-content",
+                                "height": "fit-content"
+                              },
+                              "children": []
+                            }
+                          ],
+                          "props": {
+                            "className": "flex-col"
+                          }
+                        }
+                      ],
+                      "props": {
+                        "className": "bg-background gap-2 border-border rounded-md border-solid flex-1"
+                      }
+                    }
+                  ],
+                  "props": {
+                    "className": "bg-background gap-2 rounded-md border-solid overflow-hidden border border-border flex-1"
+                  }
+                }
+              ],
+              "props": {
+                "className": "bg-background gap-2 flex-1 overflow-y-auto"
+              }
+            }
+          ],
+          "props": {
+            "className": "justify-start flex-1"
+          }
+        }
+      ],
+      "props": {
+        "className": "items-center overflow-hidden"
+      }
+    },
+    {
+      "id": "html-X1SJeXgxdpA23t0Z9tdAz",
+      "type": "html",
+      "tag": "div",
+      "styles": {
+        "width": "1512px",
+        "height": "982px",
+        "background": "#f3f4f6",
+        "display": "flex",
+        "flexDirection": "column",
+        "position": "relative",
+        "minHeight": "982px"
+      },
+      "canvasPosition": {
+        "x": 1091.6971724580749,
+        "y": 192.0652365013106
+      },
+      "children": [
+        {
+          "id": "html-h--i6nN_w5Z5z6kS9b2wS",
+          "type": "html",
+          "tag": "div",
+          "styles": {
+            "width": "100%",
+            "background": "#f3f4f6",
+            "display": "flex",
+            "flexDirection": "column",
+            "padding": "16px",
+            "backgroundColor": "",
+            "height": "64px",
+            "minHeight": "64px"
+          },
+          "canvasPosition": {
+            "x": -497.229920278956,
+            "y": 233.7950146957778
+          },
+          "children": [],
+          "props": {
+            "className": "bg-primary"
+          }
+        },
+        {
+          "id": "html-dgA51GGO3CynQqBsqLqu1",
+          "type": "html",
+          "tag": "div",
+          "styles": {
+            "width": "1200px",
+            "background": "#f3f4f6",
+            "display": "flex",
+            "flexDirection": "column",
+            "height": "auto",
+            "overflow": "hidden",
+            "paddingBottom": "32px"
+          },
+          "canvasPosition": {
+            "x": -1513.4749769372693,
+            "y": 169.38364852398524
+          },
+          "children": [
+            {
+              "id": "html-oQFHTq5nB2bCh3jMWeyOy",
+              "type": "html",
+              "tag": "div",
+              "styles": {
+                "background": "#f3f4f6",
+                "display": "flex",
+                "flexDirection": "column"
+              },
+              "canvasPosition": {
+                "x": 140,
+                "y": 140
+              },
+              "children": [
+                {
+                  "id": "component-DC3s8a_1XeAjoZHwWreRy",
+                  "type": "component",
+                  "componentName": "Breadcrumb",
+                  "props": {},
+                  "styles": {
+                    "width": "fit-content",
+                    "height": "fit-content"
+                  },
+                  "children": [
+                    {
+                      "id": "component-c-xLQIEtAHJj9Ylb5xisS",
+                      "type": "component",
+                      "componentName": "BreadcrumbList",
+                      "props": {},
+                      "styles": {
+                        "width": "fit-content",
+                        "height": "fit-content"
+                      },
+                      "children": [
+                        {
+                          "id": "component-_R_jtihOWJH8ZTDHFzE42",
+                          "type": "component",
+                          "componentName": "BreadcrumbItem",
+                          "props": {},
+                          "styles": {
+                            "width": "fit-content",
+                            "height": "fit-content"
+                          },
+                          "children": [
+                            {
+                              "id": "text-PordUQMX2Z6JP3oGOCOET",
+                              "type": "text",
+                              "tag": "span",
+                              "text": "Home",
+                              "styles": {},
+                              "canvasPosition": {
+                                "x": 100,
+                                "y": 100
+                              }
+                            }
+                          ],
+                          "canvasPosition": {
+                            "x": 140,
+                            "y": 140
+                          }
+                        },
+                        {
+                          "id": "component-br2JL-quK3wE-htFniebO",
+                          "type": "component",
+                          "componentName": "BreadcrumbSeparator",
+                          "props": {},
+                          "styles": {
+                            "width": "fit-content",
+                            "height": "fit-content"
+                          },
+                          "children": [],
+                          "canvasPosition": {
+                            "x": 140,
+                            "y": 140
+                          }
+                        },
+                        {
+                          "id": "component-w7f1Ezm0cTv6TPGNr-vrx",
+                          "type": "component",
+                          "componentName": "BreadcrumbItem",
+                          "props": {},
+                          "styles": {
+                            "width": "fit-content",
+                            "height": "fit-content"
+                          },
+                          "children": [
+                            {
+                              "id": "text-Sg7zrsAnT4y-ej2ctIN-s",
+                              "type": "text",
+                              "tag": "span",
+                              "text": "Greenboard Go",
+                              "styles": {},
+                              "canvasPosition": {
+                                "x": 100,
+                                "y": 100
+                              }
+                            }
+                          ],
+                          "canvasPosition": {
+                            "x": 160,
+                            "y": 160
+                          }
+                        },
+                        {
+                          "id": "component-he0IcqBySOkdwLM2IJ9rs",
+                          "type": "component",
+                          "componentName": "BreadcrumbSeparator",
+                          "props": {},
+                          "styles": {
+                            "width": "fit-content",
+                            "height": "fit-content"
+                          },
+                          "children": [],
+                          "canvasPosition": {
+                            "x": 160,
+                            "y": 160
+                          }
+                        },
+                        {
+                          "id": "component-3WYZ_WFeKTN1Poro0t4IV",
+                          "type": "component",
+                          "componentName": "BreadcrumbItem",
+                          "props": {},
+                          "styles": {
+                            "width": "fit-content",
+                            "height": "fit-content"
+                          },
+                          "children": [
+                            {
+                              "id": "text-7727oPl0THW8zshuYkOBi",
+                              "type": "text",
+                              "tag": "span",
+                              "text": "Question Bank",
+                              "styles": {},
+                              "canvasPosition": {
+                                "x": 100,
+                                "y": 100
+                              }
+                            }
+                          ],
+                          "canvasPosition": {
+                            "x": 180,
+                            "y": 180
+                          }
+                        }
+                      ],
+                      "canvasPosition": {
+                        "x": 140,
+                        "y": 140
+                      }
+                    }
+                  ],
+                  "canvasPosition": {
+                    "x": 140,
+                    "y": 140
+                  }
+                },
+                {
+                  "id": "html-7GCKh_PYOq6wjlg-z3V-s",
+                  "type": "html",
+                  "tag": "div",
+                  "styles": {
+                    "background": "#f3f4f6",
+                    "display": "flex",
+                    "flexDirection": "column"
+                  },
+                  "canvasPosition": {
+                    "x": -63.49446630614534,
+                    "y": 5.556547235964331
+                  },
+                  "children": [
+                    {
+                      "id": "component-SMCThcrHhdGUFAbX5xoTg",
+                      "type": "component",
+                      "componentName": "Text",
+                      "props": {
+                        "size": "2xl",
+                        "weight": "semibold"
+                      },
+                      "styles": {
+                        "width": "fit-content",
+                        "height": "fit-content"
+                      },
+                      "children": [
+                        {
+                          "id": "text-Ho-gGkRN2mEUFT7cTS2sQ",
+                          "type": "text",
+                          "tag": "span",
+                          "text": "Question Bank",
+                          "styles": {},
+                          "canvasPosition": {
+                            "x": 100,
+                            "y": 100
+                          }
+                        }
+                      ],
+                      "canvasPosition": {
+                        "x": -246.868343640543,
+                        "y": 878.6558067201524
+                      }
+                    },
+                    {
+                      "id": "component-pZqe3-OBIMPV9xVmsx069",
+                      "type": "component",
+                      "componentName": "Text",
+                      "props": {
+                        "size": "sm",
+                        "weight": "regular",
+                        "variant": "muted"
+                      },
+                      "styles": {
+                        "width": "fit-content",
+                        "height": "fit-content"
+                      },
+                      "children": [
+                        {
+                          "id": "text-k1GbjFMhsYTvRF7u5azrv",
+                          "type": "text",
+                          "tag": "span",
+                          "text": "Manage all questions that are allowed to be answered by Greenboard Go here.",
+                          "styles": {},
+                          "canvasPosition": {
+                            "x": 100,
+                            "y": 100
+                          }
+                        }
+                      ],
+                      "canvasPosition": {
+                        "x": 160,
+                        "y": 160
+                      }
+                    }
+                  ],
+                  "props": {
+                    "className": "gap-2"
+                  }
+                }
+              ],
+              "props": {
+                "className": "py-8 gap-8"
+              }
+            },
+            {
+              "id": "html-UCGJm9dgeB-Onm8EznpZl",
+              "type": "html",
+              "tag": "div",
+              "styles": {
+                "background": "#f3f4f6",
+                "display": "flex",
+                "flexDirection": "column",
+                "padding": "24px",
+                "backgroundColor": "",
+                "gap": "24px"
+              },
+              "canvasPosition": {
+                "x": 181.21188793179323,
+                "y": 1450.1441257940385
+              },
+              "children": [
+                {
+                  "id": "html-DpTURjHHmCPWzAvvMOKrc",
+                  "type": "html",
+                  "tag": "div",
+                  "styles": {
+                    "display": "flex",
+                    "flexDirection": "column",
+                    "gap": 8
+                  },
+                  "children": [
+                    {
+                      "id": "component-l7NsotprqO8jFdFFEEPcY",
+                      "type": "component",
+                      "componentName": "Text",
+                      "props": {
+                        "size": "",
+                        "weight": "semibold"
+                      },
+                      "styles": {
+                        "width": "fit-content",
+                        "height": "fit-content"
+                      },
+                      "children": [
+                        {
+                          "id": "text-dNFRUBdQct0_0XDO0UJmd",
+                          "type": "text",
+                          "tag": "span",
+                          "text": "Allowed Questions",
+                          "styles": {},
+                          "canvasPosition": {
+                            "x": 100,
+                            "y": 100
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "component-i79iTOWTsn6zOtsHxxjqF",
+                      "type": "component",
+                      "componentName": "Text",
+                      "props": {
+                        "size": "sm",
+                        "weight": "regular",
+                        "variant": "muted"
+                      },
+                      "styles": {
+                        "width": "fit-content",
+                        "height": "fit-content"
+                      },
+                      "children": [
+                        {
+                          "id": "text-m7O6oCpp89X61-GWEuSCg",
+                          "type": "text",
+                          "tag": "span",
+                          "text": "A list of questions that Greenboard Go is allowed to answer. Anything outside this bank routes users to their compliance team.",
+                          "styles": {},
+                          "canvasPosition": {
+                            "x": 100,
+                            "y": 100
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "html-V2DI25YANZNN-Mk5AUr_m",
+                  "type": "html",
+                  "tag": "div",
+                  "styles": {
+                    "display": "flex",
+                    "flexDirection": "column",
+                    "gap": 8
+                  },
+                  "children": [
+                    {
+                      "id": "component-ZRATn02i94fv50NXFeoFp",
+                      "type": "component",
+                      "componentName": "InputGroup",
+                      "props": {},
+                      "styles": {
+                        "width": "400px",
+                        "height": "fit-content"
+                      },
+                      "children": [
+                        {
+                          "id": "component-8yMPQ9_vHKXBz5FpqVLLY",
+                          "type": "component",
+                          "componentName": "InputGroupAddon",
+                          "props": {},
+                          "styles": {
+                            "width": "fit-content",
+                            "height": "fit-content"
+                          },
+                          "children": [
+                            {
+                              "id": "icon-II2vyARz5iLOdGh-3dzxG",
+                              "type": "icon",
+                              "library": "lucide-react",
+                              "iconName": "Search",
+                              "props": {
+                                "size": 16
+                              },
+                              "styles": {},
+                              "canvasPosition": {
+                                "x": 1257.354494125124,
+                                "y": 518.2804228767516
+                              }
+                            }
+                          ],
+                          "canvasPosition": {
+                            "x": 1277.354494125124,
+                            "y": 538.2804228767516
+                          }
+                        },
+                        {
+                          "id": "component-ejNHkUFTzbTqbFdjX-Keb",
+                          "type": "component",
+                          "componentName": "InputGroupInput",
+                          "props": {
+                            "placeholder": "Search questions and categories..."
+                          },
+                          "styles": {
+                            "width": "fit-content",
+                            "height": "fit-content"
+                          },
+                          "children": [],
+                          "canvasPosition": {
+                            "x": 1277.354494125124,
+                            "y": 538.2804228767516
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "html-veDElcCByn46OcLXT83Ck",
+                      "type": "html",
+                      "tag": "div",
+                      "styles": {
+                        "background": "#f3f4f6",
+                        "display": "flex",
+                        "flexDirection": "row",
+                        "backgroundColor": "",
+                        "gap": "0"
+                      },
+                      "children": [
+                        {
+                          "id": "html-3ZPIrGu8fFiQWGm9Sebe-",
+                          "type": "html",
+                          "tag": "div",
+                          "styles": {
+                            "background": "#f3f4f6",
+                            "display": "flex",
+                            "flexDirection": "column",
+                            "padding": "16px",
+                            "backgroundColor": "",
+                            "width": "300px",
+                            "gap": "16px"
+                          },
+                          "canvasPosition": {
+                            "x": 221.21188793179323,
+                            "y": 1490.1441257940385
+                          },
+                          "children": [
+                            {
+                              "id": "html-mBbyDLP7O2nmK4e3DfysE",
+                              "type": "html",
+                              "tag": "div",
+                              "styles": {
+                                "display": "flex",
+                                "flexDirection": "row",
+                                "gap": 8
+                              },
+                              "children": [
+                                {
+                                  "id": "component-c7czrarDDM8hCiQCFw16A",
+                                  "type": "component",
+                                  "componentName": "Text",
+                                  "props": {
+                                    "size": "",
+                                    "weight": "semibold",
+                                    "className": "flex-1"
+                                  },
+                                  "styles": {
+                                    "width": "fit-content",
+                                    "height": "fit-content"
+                                  },
+                                  "children": [
+                                    {
+                                      "id": "text-t-4CSrlQBk0cJ3w4S7MHt",
+                                      "type": "text",
+                                      "tag": "span",
+                                      "text": "Categories",
+                                      "styles": {},
+                                      "canvasPosition": {
+                                        "x": 100,
+                                        "y": 100
+                                      }
+                                    }
+                                  ]
+                                },
+                                {
+                                  "id": "component-V6G_hw8PFYRCePIX0uY6q",
+                                  "type": "component",
+                                  "componentName": "Button",
+                                  "props": {
+                                    "variant": "secondary",
+                                    "size": "icon-sm",
+                                    "className": "size-7"
+                                  },
+                                  "styles": {},
+                                  "children": [
+                                    {
+                                      "id": "icon-tE-w0HMgE4wVjes_7LT8K",
+                                      "type": "icon",
+                                      "library": "lucide-react",
+                                      "iconName": "Plus",
+                                      "props": {
+                                        "size": 24
+                                      },
+                                      "styles": {},
+                                      "canvasPosition": {
+                                        "x": -478.90025575447567,
+                                        "y": 392.6598434253117
+                                      }
+                                    }
+                                  ]
+                                }
+                              ],
+                              "props": {
+                                "className": "items-center"
+                              }
+                            },
+                            {
+                              "id": "html-QZIzC4jaeg_KuzDrsDYZe",
+                              "type": "html",
+                              "tag": "div",
+                              "styles": {
+                                "display": "flex",
+                                "flexDirection": "column",
+                                "gap": "4px"
+                              },
+                              "children": [
+                                {
+                                  "id": "component-jPh1ZUUnyjU-oyFjPCObh",
+                                  "type": "component",
+                                  "componentName": "SideMenuItem",
+                                  "props": {
+                                    "label": "Personal Trading",
+                                    "itemCount": 12,
+                                    "selected": true
+                                  },
+                                  "children": []
+                                },
+                                {
+                                  "id": "component-B68aLHx79qMFmTfR_L7je",
+                                  "type": "component",
+                                  "componentName": "SideMenuItem",
+                                  "props": {
+                                    "label": "Gifts & Entertainment",
+                                    "itemCount": 8
+                                  },
+                                  "children": []
+                                },
+                                {
+                                  "id": "component-bqL0D4JHaoqjZ3i6PEYVK",
+                                  "type": "component",
+                                  "componentName": "SideMenuItem",
+                                  "props": {
+                                    "label": "Outside Activities",
+                                    "itemCount": 5
+                                  },
+                                  "children": []
+                                },
+                                {
+                                  "id": "component-yLo9f0jfMmW4ysUrBiLyH",
+                                  "type": "component",
+                                  "componentName": "SideMenuItem",
+                                  "props": {
+                                    "label": "Conflicts of Interest",
+                                    "itemCount": 7
+                                  },
+                                  "children": []
+                                },
+                                {
+                                  "id": "component-xmu0-AOFqA_okt7FtoCFk",
+                                  "type": "component",
+                                  "componentName": "SideMenuItem",
+                                  "props": {
+                                    "label": "Political Contributions",
+                                    "itemCount": 3
+                                  },
+                                  "children": []
+                                },
+                                {
+                                  "id": "component-cX7e6Pj1TfK7Y1m5PsqON",
+                                  "type": "component",
+                                  "componentName": "SideMenuItem",
+                                  "props": {
+                                    "label": "",
+                                    "itemCount": 6,
+                                    "isEditMode": true,
+                                    "selected": ""
+                                  },
+                                  "children": []
+                                }
+                              ]
+                            }
+                          ],
+                          "props": {
+                            "className": "bg-background gap-2 border-border border-solid rounded-none border-r-border border-r"
+                          }
+                        },
+                        {
+                          "id": "html-Za52BEkM0YZt6eaFDSnNW",
+                          "type": "html",
+                          "tag": "div",
+                          "styles": {
+                            "background": "#f3f4f6",
+                            "display": "flex",
+                            "flexDirection": "column",
+                            "padding": "16px",
+                            "backgroundColor": "",
+                            "overflow": "auto",
+                            "gap": "16px"
+                          },
+                          "canvasPosition": {
+                            "x": 241.21188793179323,
+                            "y": 1510.1441257940385
+                          },
+                          "children": [
+                            {
+                              "id": "html-Q2F4L58nLaXNGAee9rIG9",
+                              "type": "html",
+                              "tag": "div",
+                              "styles": {
+                                "display": "flex",
+                                "flexDirection": "column",
+                                "gap": 8
+                              },
+                              "children": [
+                                {
+                                  "id": "component-GB7x2paLVJHd23X7lhmQt",
+                                  "type": "component",
+                                  "componentName": "Text",
+                                  "props": {
+                                    "size": "md",
+                                    "weight": "semibold"
+                                  },
+                                  "styles": {
+                                    "width": "fit-content",
+                                    "height": "fit-content"
+                                  },
+                                  "children": [
+                                    {
+                                      "id": "text-wBl_raAmQMGObLq02JHGQ",
+                                      "type": "text",
+                                      "tag": "span",
+                                      "text": "Personal Trading",
+                                      "styles": {},
+                                      "canvasPosition": {
+                                        "x": 100,
+                                        "y": 100
+                                      }
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "id": "html-UY1x8IVa05TBf2iscwh_f",
+                              "type": "html",
+                              "tag": "div",
+                              "styles": {
+                                "display": "flex",
+                                "flexDirection": "column",
+                                "gap": 8
+                              },
+                              "children": [
+                                {
+                                  "id": "component-gbdYf9dLvHh5EyEDyt_xu",
+                                  "type": "component",
+                                  "componentName": "QuestionItemGroup",
+                                  "props": {
+                                    "questions": [
+                                      {
+                                        "text": "Do I need to submit a preclearance request before doing a trade?",
+                                        "answer": "yes"
+                                      },
+                                      {
+                                        "text": "Can I trade restricted securities?",
+                                        "answer": "no"
+                                      }
+                                    ],
+                                    "matchType": "close"
+                                  },
+                                  "styles": {
+                                    "width": "600px",
+                                    "height": 334.841628959276
+                                  },
+                                  "children": [],
+                                  "canvasPosition": {
+                                    "x": -371.33270401760467,
+                                    "y": -353.136356405543
+                                  }
+                                },
+                                {
+                                  "id": "component-zgSf_ff__qLok97cabRHJ",
+                                  "type": "component",
+                                  "componentName": "QuestionItemGroup",
+                                  "props": {
+                                    "isEditMode": true,
+                                    "questionTitle": "Questions about what equities an employee can trade",
+                                    "questions": [
+                                      {
+                                        "text": "Do I need to submit a preclearance request before doing a trade?",
+                                        "answer": "yes"
+                                      },
+                                      {
+                                        "text": "Can I trade restricted securities?",
+                                        "answer": "no"
+                                      }
+                                    ],
+                                    "matchType": "exact"
+                                  },
+                                  "styles": {
+                                    "width": "600px",
+                                    "height": 334.841628959276
+                                  },
+                                  "canvasPosition": {
+                                    "x": -351.33270401760467,
+                                    "y": -333.136356405543
+                                  },
+                                  "children": []
+                                },
+                                {
+                                  "id": "component-BPl0kTCzCwHbfDmpsw3dE",
+                                  "type": "component",
+                                  "componentName": "QuestionItemGroup",
+                                  "props": {},
+                                  "styles": {
+                                    "width": "600px",
+                                    "height": 334.841628959276
+                                  },
+                                  "canvasPosition": {
+                                    "x": -351.33270401760467,
+                                    "y": -333.136356405543
+                                  },
+                                  "children": []
+                                }
+                              ],
+                              "props": {
+                                "className": "flex-col"
+                              }
+                            }
+                          ],
+                          "props": {
+                            "className": "bg-background gap-2 border-border rounded-md border-solid flex-1"
+                          }
+                        }
+                      ],
+                      "props": {
+                        "className": "bg-background gap-2 rounded-md border-solid overflow-hidden border border-border flex-1"
+                      }
+                    }
+                  ],
+                  "props": {
+                    "className": "flex-col flex-1 overflow-hidden"
+                  }
+                }
+              ],
+              "props": {
+                "className": "bg-background gap-2 flex-1 overflow-y-auto"
+              }
+            }
+          ],
+          "props": {
+            "className": "justify-start flex-1"
+          }
+        }
+      ],
+      "props": {
+        "className": "items-center overflow-hidden"
+      }
+    },
+    {
+      "id": "component--QF0Vl_KXEi88ZMzdmH_d",
+      "type": "component",
+      "componentName": "Card",
+      "props": {
+        "className": "w-[600px] py-6 px-0 shadow-none hover:shadow-sm"
+      },
+      "children": [
+        {
+          "id": "component-o3CU7c3C1GPcaNGCJcpl3",
+          "type": "component",
+          "componentName": "CardContent",
+          "props": {
+            "className": "h-fit flex flex-col gap-6"
+          },
+          "children": [
+            {
+              "id": "html-I7DJAHSz96RkbRJdusg88",
+              "type": "html",
+              "tag": "div",
+              "props": {
+                "className": "flex flex-col gap-1.5"
+              },
+              "children": [
+                {
+                  "id": "component-lO_MvuaOaO7AZReYjNXEs",
+                  "type": "component",
+                  "componentName": "Label",
+                  "props": {
+                    "className": "w-fit h-fit"
+                  },
+                  "children": [
+                    {
+                      "id": "text-mcOlSRH26Tl7rlI2n0H-8",
+                      "type": "text",
+                      "tag": "span",
+                      "text": "Question Group"
+                    }
+                  ],
+                  "isRegistered": true
+                },
+                {
+                  "id": "component-b_yIBvChdNRCLdrS3LqQM",
+                  "type": "component",
+                  "componentName": "Input",
+                  "props": {
+                    "placeholder": "Questions about what equities an employee can trade",
+                    "defaultValue": "Questions about what equities an employee can trade",
+                    "className": "h-fit"
+                  },
+                  "isRegistered": true,
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "html-NB3t2J6tQrMvcwg2JhTbz",
+              "type": "html",
+              "tag": "div",
+              "props": {
+                "className": "flex flex-col gap-1.5"
+              },
+              "children": [
+                {
+                  "id": "component-GYwb-Qdh0sGMkPWF9gMkt",
+                  "type": "component",
+                  "componentName": "Label",
+                  "props": {
+                    "className": "w-fit h-fit"
+                  },
+                  "children": [
+                    {
+                      "id": "text-S_cxZtosEXen0GhkamDCa",
+                      "type": "text",
+                      "tag": "span",
+                      "text": "Questions the AI can answer"
+                    }
+                  ],
+                  "isRegistered": true
+                },
+                {
+                  "id": "html-xAGig7QYm6i10A8iL60CU",
+                  "type": "html",
+                  "tag": "div",
+                  "styles": {
+                    "display": "flex",
+                    "gap": "4px",
+                    "alignItems": "stretch"
+                  },
+                  "children": [
+                    {
+                      "id": "component-y3z2YQghhpOjt1yxPsJGR",
+                      "type": "component",
+                      "componentName": "Input",
+                      "props": {
+                        "placeholder": "Do I need to submit a preclearance request before doing a trade?",
+                        "defaultValue": "Do I need to submit a preclearance request before doing a trade?",
+                        "className": "h-fit"
+                      },
+                      "isRegistered": true,
+                      "children": []
+                    },
+                    {
+                      "id": "component-4k3xbxK0PSFzrJ1QrFwCR",
+                      "type": "component",
+                      "componentName": "Tabs",
+                      "props": {
+                        "defaultValue": "yes",
+                        "value": "yes"
+                      },
+                      "styles": {
+                        "width": "fit-content"
+                      },
+                      "children": [
+                        {
+                          "id": "component-XI_8QUQQhxGKfoKuk40yX",
+                          "type": "component",
+                          "componentName": "TabsList",
+                          "props": {},
+                          "styles": {
+                            "height": "100%"
+                          },
+                          "children": [
+                            {
+                              "id": "component-fCSW8arbYSg-GPKrN1QFO",
+                              "type": "component",
+                              "componentName": "TabsTrigger",
+                              "props": {
+                                "value": "yes"
+                              },
+                              "styles": {
+                                "width": "fit-content"
+                              },
+                              "children": [
+                                {
+                                  "id": "icon-2d0P661Jr8F2uHIY0Y6f3",
+                                  "type": "icon",
+                                  "library": "lucide-react",
+                                  "iconName": "Check",
+                                  "props": {
+                                    "size": 24,
+                                    "className": "text-primary"
+                                  },
+                                  "styles": {},
+                                  "canvasPosition": {
+                                    "x": 360.8240582098674,
+                                    "y": -292.24944592584217
+                                  }
+                                }
+                              ],
+                              "canvasPosition": {
+                                "x": 380.8240582098674,
+                                "y": -272.24944592584217
+                              }
+                            },
+                            {
+                              "id": "component-ip0yRH5zP2xJob7wlmoJX",
+                              "type": "component",
+                              "componentName": "TabsTrigger",
+                              "props": {
+                                "value": "no"
+                              },
+                              "styles": {
+                                "width": "fit-content"
+                              },
+                              "children": [
+                                {
+                                  "id": "icon-GVtZI5Evlmld6E3IrDi9L",
+                                  "type": "icon",
+                                  "library": "lucide-react",
+                                  "iconName": "X",
+                                  "props": {
+                                    "size": 24,
+                                    "className": "text-muted-foreground"
+                                  },
+                                  "styles": {},
+                                  "canvasPosition": {
+                                    "x": 360.8240582098674,
+                                    "y": -292.24944592584217
+                                  }
+                                }
+                              ],
+                              "canvasPosition": {
+                                "x": 400.8240582098674,
+                                "y": -252.24944592584217
+                              }
+                            }
+                          ],
+                          "canvasPosition": {
+                            "x": 380.8240582098674,
+                            "y": -272.24944592584217
+                          }
+                        }
+                      ],
+                      "canvasPosition": {
+                        "x": 380.8240582098674,
+                        "y": -272.24944592584217
+                      }
+                    }
+                  ],
+                  "props": {
+                    "className": "flex-row items-center"
+                  }
+                },
+                {
+                  "id": "html-qnGqDsyoLGwXP5V5DoeKM",
+                  "type": "html",
+                  "tag": "div",
+                  "styles": {
+                    "display": "flex",
+                    "gap": "4px",
+                    "alignItems": "stretch"
+                  },
+                  "children": [
+                    {
+                      "id": "component-uNYBH5lqURR5FRnV4_TMz",
+                      "type": "component",
+                      "componentName": "Input",
+                      "props": {
+                        "placeholder": "Do I need to submit a preclearance request before doing a trade?",
+                        "defaultValue": "Do I need to submit a preclearance request before doing a trade?",
+                        "className": "h-fit"
+                      },
+                      "isRegistered": true,
+                      "children": []
+                    },
+                    {
+                      "id": "component-VIEHKo2fDsbLst3BHXwkV",
+                      "type": "component",
+                      "componentName": "Tabs",
+                      "props": {
+                        "defaultValue": "yes",
+                        "value": "no"
+                      },
+                      "styles": {
+                        "width": "fit-content"
+                      },
+                      "children": [
+                        {
+                          "id": "component-SWZFZCwOcVjZJicL7phZ0",
+                          "type": "component",
+                          "componentName": "TabsList",
+                          "props": {},
+                          "styles": {
+                            "height": "100%"
+                          },
+                          "children": [
+                            {
+                              "id": "component-NGgi7BOLWEmp32s_5uU-S",
+                              "type": "component",
+                              "componentName": "TabsTrigger",
+                              "props": {
+                                "value": "yes"
+                              },
+                              "styles": {
+                                "width": "fit-content"
+                              },
+                              "children": [
+                                {
+                                  "id": "icon-xoO4ZYuXoupYf-nOhOhuF",
+                                  "type": "icon",
+                                  "library": "lucide-react",
+                                  "iconName": "Check",
+                                  "props": {
+                                    "size": 24,
+                                    "className": "text-primary"
+                                  },
+                                  "styles": {},
+                                  "canvasPosition": {
+                                    "x": 360.8240582098674,
+                                    "y": -292.24944592584217
+                                  }
+                                }
+                              ],
+                              "canvasPosition": {
+                                "x": 400.8240582098674,
+                                "y": -252.24944592584217
+                              }
+                            },
+                            {
+                              "id": "component-TOV90GbZc23PYNROr_xgm",
+                              "type": "component",
+                              "componentName": "TabsTrigger",
+                              "props": {
+                                "value": "no"
+                              },
+                              "styles": {
+                                "width": "fit-content"
+                              },
+                              "children": [
+                                {
+                                  "id": "icon-wjzrlXedCmgI9Rbeja8Uc",
+                                  "type": "icon",
+                                  "library": "lucide-react",
+                                  "iconName": "X",
+                                  "props": {
+                                    "size": 24,
+                                    "className": "text-muted-foreground"
+                                  },
+                                  "styles": {},
+                                  "canvasPosition": {
+                                    "x": 360.8240582098674,
+                                    "y": -292.24944592584217
+                                  }
+                                }
+                              ],
+                              "canvasPosition": {
+                                "x": 420.8240582098674,
+                                "y": -232.24944592584217
+                              }
+                            }
+                          ],
+                          "canvasPosition": {
+                            "x": 400.8240582098674,
+                            "y": -252.24944592584217
+                          }
+                        }
+                      ],
+                      "canvasPosition": {
+                        "x": 400.8240582098674,
+                        "y": -252.24944592584217
+                      }
+                    }
+                  ],
+                  "props": {
+                    "className": "flex-row items-center"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "html-VKqIY13iYcnV-m2AkqYAx",
+              "type": "html",
+              "tag": "div",
+              "props": {
+                "className": "flex flex-col gap-1.5"
+              },
+              "children": [
+                {
+                  "id": "component-eHfAf1LB-cPXTkOMDhs9Z",
+                  "type": "component",
+                  "componentName": "Label",
+                  "props": {
+                    "className": "w-fit h-fit"
+                  },
+                  "children": [
+                    {
+                      "id": "text-Mgy8fEXmsUugRrMveud9T",
+                      "type": "text",
+                      "tag": "span",
+                      "text": "How similar must the question be?"
+                    }
+                  ],
+                  "isRegistered": true
+                },
+                {
+                  "id": "component-t9nUBo6Z1vpwON-qVNx5L",
+                  "type": "component",
+                  "componentName": "ToggleGroup",
+                  "props": {
+                    "type": "single",
+                    "variant": "outline",
+                    "defaultValue": "",
+                    "value": "exact"
+                  },
+                  "children": [
+                    {
+                      "id": "component-wGNK2_Fa_1Rv1oiIXTpR2",
+                      "type": "component",
+                      "componentName": "ToggleGroupItem",
+                      "props": {
+                        "value": "exact",
+                        "aria-label": "Toggle bold",
+                        "className": "text-tag-text-purple data-[state=on]:text-tag-text-purple data-[state=on]:bg-tag-bg-purple"
+                      },
+                      "children": [
+                        {
+                          "id": "icon-TtWBoGWKGT1WbOqgw-zdC",
+                          "type": "icon",
+                          "library": "lucide-react",
+                          "iconName": "LucideSignalHigh",
+                          "props": {
+                            "size": 24
+                          }
+                        },
+                        {
+                          "id": "text-p4PZtPzYVbMQDgUQYLzN3",
+                          "type": "text",
+                          "tag": "span",
+                          "text": "Exact match"
+                        }
+                      ],
+                      "isRegistered": true
+                    },
+                    {
+                      "id": "component-82Jbgny46oyNa9zJJ4aO4",
+                      "type": "component",
+                      "componentName": "ToggleGroupItem",
+                      "props": {
+                        "value": "close",
+                        "aria-label": "Toggle italic",
+                        "className": "text-tag-text-green data-[state=on]:text-tag-text-green"
+                      },
+                      "children": [
+                        {
+                          "id": "icon-pvc_2eBp9seWLM1AiWYgZ",
+                          "type": "icon",
+                          "library": "lucide-react",
+                          "iconName": "LucideSignalMedium",
+                          "props": {
+                            "size": 24
+                          }
+                        },
+                        {
+                          "id": "text-J4O65IJRswW0AqRU1fbg8",
+                          "type": "text",
+                          "tag": "span",
+                          "text": "Close match"
+                        }
+                      ],
+                      "isRegistered": true
+                    },
+                    {
+                      "id": "component-6qluezf_mDynmRJyhfrjh",
+                      "type": "component",
+                      "componentName": "ToggleGroupItem",
+                      "props": {
+                        "value": "partial",
+                        "aria-label": "Toggle strikethrough",
+                        "className": "text-tag-text-orange data-[state=on]:text-tag-text-orange"
+                      },
+                      "children": [
+                        {
+                          "id": "icon-fIRGB7lgoI6kD9sI0YXXr",
+                          "type": "icon",
+                          "library": "lucide-react",
+                          "iconName": "LucideSignalLow",
+                          "props": {
+                            "size": 24
+                          }
+                        },
+                        {
+                          "id": "text-HuCo6fJHzdmugNvpbiNu6",
+                          "type": "text",
+                          "tag": "span",
+                          "text": "Partial match"
+                        }
+                      ],
+                      "isRegistered": true
+                    }
+                  ],
+                  "isRegistered": true
+                }
+              ]
+            }
+          ],
+          "isRegistered": true
+        },
+        {
+          "id": "component-i6stikLrq2ed2iE0ZObNA",
+          "type": "component",
+          "componentName": "CardFooter",
+          "props": {
+            "className": "justify-end"
+          },
+          "children": [
+            {
+              "id": "component-rkH-995OeuImYb-vHQwXy",
+              "type": "component",
+              "componentName": "Button",
+              "props": {
+                "size": "sm",
+                "variant": "ghost",
+                "className": "ml-auto text-muted-foreground"
+              },
+              "children": [
+                {
+                  "id": "text-xsx9bsnfNBGPXJ9USgNSe",
+                  "type": "text",
+                  "tag": "span",
+                  "text": "Cancel"
+                }
+              ],
+              "isRegistered": true
+            },
+            {
+              "id": "component-QvquWAw4en_lmI-R_mPhw",
+              "type": "component",
+              "componentName": "Button",
+              "props": {
+                "size": "sm"
+              },
+              "children": [
+                {
+                  "id": "text-rjcjc9X3--2IEngsyBZHe",
+                  "type": "text",
+                  "tag": "span",
+                  "text": "Save"
+                }
+              ],
+              "isRegistered": true
+            }
+          ],
+          "isRegistered": true
+        }
+      ],
+      "isRegistered": true,
+      "canvasPosition": {
+        "x": 319.85698221049785,
+        "y": -349.12439651819534
+      },
+      "styles": {
+        "width": "600px"
+      }
+    }
+  ],
+  "createdAt": "2025-11-28T11:47:17.836Z",
+  "updatedAt": "2025-12-16T02:36:00.884Z",
+  "zoom": 0.654
+}

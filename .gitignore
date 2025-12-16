@@ -45,6 +45,6 @@ next-env.d.ts
 yalc.lock
 
 # lunagraph (local dev only)
-.lunagraph/
 app/editor/
 package.local.json
+package.prod.json

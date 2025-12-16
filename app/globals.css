@@ -1,6 +1,8 @@
 @import "tailwindcss";
 @import "tw-animate-css";
 
+@source "../.lunagraph";
+
 @custom-variant dark (&:is(.dark *));
 
 :root {
@@ -99,6 +101,27 @@
   --color-chart-3: var(--chart-3);
   --color-chart-2: var(--chart-2);
   --color-chart-1: var(--chart-1);
+
+  /* Tag colors */
+  --color-tag-bg-red: var(--tag-bg-red);
+  --color-tag-text-red: var(--tag-text-red);
+  --color-tag-bg-green: var(--tag-bg-green);
+  --color-tag-text-green: var(--tag-text-green);
+  --color-tag-bg-rose: var(--tag-bg-rose);
+  --color-tag-text-rose: var(--tag-text-rose);
+  --color-tag-bg-indigo: var(--tag-bg-indigo);
+  --color-tag-text-indigo: var(--tag-text-indigo);
+  --color-tag-bg-yellow: var(--tag-bg-yellow);
+  --color-tag-text-yellow: var(--tag-text-yellow);
+  --color-tag-bg-blue: var(--tag-bg-blue);
+  --color-tag-text-blue: var(--tag-text-blue);
+  --color-tag-bg-purple: var(--tag-bg-purple);
+  --color-tag-text-purple: var(--tag-text-purple);
+  --color-tag-bg-orange: var(--tag-bg-orange);
+  --color-tag-text-orange: var(--tag-text-orange);
+  --color-tag-bg-gray: var(--tag-bg-gray);
+  --color-tag-text-gray: var(--tag-text-gray);
+
   --radius-sm: calc(var(--radius) - 4px);
   --radius-md: calc(var(--radius) - 2px);
   --radius-lg: var(--radius);
