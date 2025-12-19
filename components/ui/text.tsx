@@ -31,10 +31,10 @@ const sizeClasses: Record<Sizes, string> = {
   md: 'text-base leading-6 tracking-[-0.02em]',
   lg: 'text-lg leading-7 tracking-[-0.02em]',
   xl: 'text-xl leading-7 tracking-[-0.02em]',
-  '2xl': 'text-2xl leading-9 tracking-[-0.02em] font-lora',
-  '2.5xl': 'text-[28px] leading-10 tracking-[-0.02em] font-lora',
-  '3xl': 'text-3xl leading-10 tracking-[-0.02em] font-lora',
-  '3.5xl': 'text-[32px] leading-10 tracking-[-0.02em] font-lora',
+  '2xl': 'text-2xl leading-9 tracking-[-0.02em]',
+  '2.5xl': 'text-[28px] leading-10 tracking-[-0.02em]',
+  '3xl': 'text-3xl leading-10 tracking-[-0.02em]',
+  '3.5xl': 'text-[32px] leading-10 tracking-[-0.02em]',
 };
 
 const weightClasses: Record<Weights, string> = {

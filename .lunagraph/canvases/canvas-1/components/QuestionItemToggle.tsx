@@ -44,7 +44,7 @@ export default function QuestionItemToggle({
     return (
       <div className="flex flex-col gap-2">
         <div className="flex flex-row gap-2 items-start">
-          <Card className="w-full min-w-[600px] py-6 px-0 shadow-none hover:shadow-sm">
+          <Card className="w-full min-w-[600px] shadow-none hover:shadow-sm p-6">
             <CardContent className="h-fit flex flex-col gap-6">
               <div className="flex flex-col gap-1.5">
                 <Label className="w-fit h-fit">Question</Label>
@@ -52,7 +52,7 @@ export default function QuestionItemToggle({
                   placeholder="Do I need to submit a preclearance request before doing a trade?"
                   defaultValue={question}
                   onChange={(e) => onQuestionChange?.(e.target.value)}
-                  className="h-fit"
+                  className="h-fit px-3.5 py-2.5"
                 />
               </div>
               <div className="flex flex-col gap-1.5">

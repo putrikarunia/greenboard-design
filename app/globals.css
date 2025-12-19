@@ -1,9 +1,12 @@
 @import "tailwindcss";
 @import "tw-animate-css";
+@import "@lunagraph/editor/styles.css" layer(lunagraph);
 
 @source "../.lunagraph";
 
 @custom-variant dark (&:is(.dark *));
+
+@layer lunagraph, base, components, utilities;
 
 :root {
   --background: #ffffff;

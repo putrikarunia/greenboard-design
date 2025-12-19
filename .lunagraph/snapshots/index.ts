@@ -2,15 +2,19 @@
 // This file is updated when snapshots are created or modified
 
 import type { ComponentType } from 'react'
+import ExportButtonSnapshot from './ExportButton.snapshot'
+import ExportProgressToastSnapshot from './ExportProgressToast.snapshot'
 import QuestionItemToggleSnapshot from './QuestionItemToggle.snapshot'
 
 // Version timestamp - changes on each update to trigger hot reload
-export const snapshotsVersion = 1765859980748
+export const snapshotsVersion = 1766113154981
 
 // Export all snapshots
-export { QuestionItemToggleSnapshot }
+export { ExportButtonSnapshot, ExportProgressToastSnapshot, QuestionItemToggleSnapshot }
 
 // Export as snapshots object (for passing to LunagraphEditor)
 export const snapshots: Record<string, ComponentType<any>> = {
+  ExportButtonSnapshot,
+  ExportProgressToastSnapshot,
   QuestionItemToggleSnapshot
 }
