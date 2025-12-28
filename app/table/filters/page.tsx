@@ -30,7 +30,7 @@ const statusOptionsWithSelected = [
 export default function FiltersPage() {
   return (
     <div className="flex flex-col gap-4 p-4 md:gap-6 md:p-6">
-      <div className="flex flex-col gap-16 bg-gray-100 p-16">
+      <div className="flex flex-col gap-16 bg-zinc-100 p-16">
         <div className="flex flex-col gap-4">
           <h3 className="text-xl font-bold text-gray-900">Advanced Filter Dropdown</h3>
           <div className="bg-popover text-popover-foreground rounded-md border p-4 shadow-md">

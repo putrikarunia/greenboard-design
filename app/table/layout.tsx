@@ -25,11 +25,10 @@ export default function TableLayout({ children }: { children: React.ReactNode })
               <Link
                 key={item.href}
                 href={item.href}
-                className={`flex items-center gap-2 px-3 py-2 text-sm rounded-md transition-colors ${
-                  pathname === item.href
+                className={`flex items-center gap-2 px-3 py-2 text-sm rounded-md transition-colors ${pathname === item.href
                     ? "bg-accent text-accent-foreground font-medium"
                     : "text-muted-foreground hover:bg-accent hover:text-accent-foreground"
-                }`}
+                  }`}
               >
                 <item.icon className="size-4" />
                 <span>{item.label}</span>

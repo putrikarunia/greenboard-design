@@ -1,3 +1,5 @@
+@layer lunagraph, base, components, utilities;
+
 @import "tailwindcss";
 @import "tw-animate-css";
 @import "@lunagraph/editor/styles.css" layer(lunagraph);
@@ -5,8 +7,6 @@
 @source "../.lunagraph";
 
 @custom-variant dark (&:is(.dark *));
-
-@layer lunagraph, base, components, utilities;
 
 :root {
   --background: #ffffff;
@@ -69,6 +69,12 @@
 }
 
 @theme inline {
+  /* Spacing scale */
+  --spacing-16: 4rem;
+  --spacing-8: 2rem;
+  --spacing-6: 1.5rem;
+  --spacing-4: 1rem;
+
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --color-card: var(--card);

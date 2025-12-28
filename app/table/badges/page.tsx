@@ -4,7 +4,7 @@ import { Circle, Clock, AlertCircle, CheckCircle, PlayCircle } from "lucide-reac
 export default function BadgesPage() {
   return (
     <div className="flex flex-col gap-4 p-4 md:gap-6 md:p-6">
-      <div className="flex flex-col gap-16 bg-gray-100 p-16">
+      <div className="flex flex-col gap-16 bg-zinc-100 p-16">
         <div className="flex flex-col gap-8">
           <h2 className="text-2xl font-bold text-gray-900">Badge Variants</h2>
 
